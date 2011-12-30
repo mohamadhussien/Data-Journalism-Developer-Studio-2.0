@@ -8,7 +8,6 @@ install.packages(c(
   'tkrplot',
   'odfWeave',
   'brew',
-  'edtdbg',
   'reshape',
   'ggplot2',
   'SoDA',
