@@ -18,4 +18,4 @@ cp ~/.cpan/CPAN/MyConfig.pm .
 sed "s:/root/:/${HOME}/:" MyConfig.pm > ~/.cpan/CPAN/MyConfig.pm
 rm MyConfig.pm
 
-cpan < upgrade.cpan
+cpan < upgrade.cpan 2>&1 | tee upgrade.log
