@@ -11,6 +11,12 @@ then
   ./install-RStudio-Desktop.bash 2>&1 | tee install-RStudio-Desktop.log
 fi
 
+# install Perl packages
+pushd Perl*
+./install-dependencies.bash
+./install-all.bash
+popd
+
 # install R libraries
 pushd R-libraries
 ./install-dependencies.bash
@@ -23,4 +29,5 @@ pushd Rcmdr
 ./install-all.bash
 popd
 
+# make archives
 ./make-archives.bash 2>&1 | tee make-archives.log
