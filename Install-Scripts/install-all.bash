@@ -7,6 +7,8 @@ source ~/.bashrc
 if [ "$1" != "--appliance" ]
 then
   ./install-dependencies.bash 2>&1 | tee install-dependencies.log # my additions
+  ./install-R.bash 2>&1 | tee install-R.log
+  ./install-RStudio-Desktop.bash 2>&1 | tee install-RStudio-Desktop.log
 fi
 
 # install R libraries
