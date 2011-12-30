@@ -1,3 +1,3 @@
 #! /bin/bash -v
 
-sudo zypper install -y gsl gsl-devel
+sudo zypper install -y gsl gsl-devel cmake
