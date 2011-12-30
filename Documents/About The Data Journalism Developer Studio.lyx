@@ -1,0 +1,1190 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{Montpellier}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Project Kipling: Real-Time Data Journalism Tools"
+\pdf_author "M. Edward (Ed) Borasky"
+\pdf_subject "Real-Time Data Journalism"
+\pdf_keywords "data journalism,real-time journalism,Twitter"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_pagemode FullScreen
+\pdf_quoted_options "urlcolor=red"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Data Journalism Developer Studio 2.0 Overview
+\end_layout
+
+\begin_layout Subtitle
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "Download Data Journalism Developer Studio 2.0"
+target "http://susestudio.com/a/RQrRBY/data-journalism-developer-studio-20"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+
+\emph on
+\begin_inset CommandInset href
+LatexCommand href
+name "Borasky Research Journal"
+target "http://borasky-research.net"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+M.
+ Edward (Ed) Borasky
+\end_layout
+
+\begin_layout BeginFrame
+I Keep Six Honest Serving Men
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "I Keep Six Honest Serving Men"
+target "http://c2.com/cgi/wiki?SixHonestServingMen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+I keep six honest serving-men
+\end_layout
+
+\begin_layout Verse
+(They taught me all I knew); 
+\end_layout
+
+\begin_layout Verse
+Their names are What and Why and When
+\end_layout
+
+\begin_layout Verse
+And How and Where and Who.
+\end_layout
+
+\begin_layout BeginFrame
+Why A Data Journalism Developer Studio?
+\end_layout
+
+\begin_layout FrameSubtitle
+Hint: journalists today work in a world dominated by two trends
+\end_layout
+
+\begin_layout Itemize
+Real-time many-to-many communications platforms
+\end_layout
+
+\begin_layout Itemize
+Large sets of complex data with stories waiting to be told
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Communications of the ACM, October 2011: \"Computational Journalism\""
+target "http://cacm.acm.org/magazines/2011/10/131400-computational-journalism/fulltext"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Real-time Many-to-Many Communications Platforms
+\end_layout
+
+\begin_layout Itemize
+Hundreds of millions of Twitter accounts almost everywhere in the world
+\end_layout
+
+\begin_layout Itemize
+Millions of active Twitter users
+\end_layout
+
+\begin_layout Itemize
+Complex patterns of interactions around people, places and events
+\end_layout
+
+\begin_layout Itemize
+Intricate and changing connection patterns between people
+\end_layout
+
+\begin_layout Itemize
+People break and discuss the news in real time on Twitter.
+\end_layout
+
+\begin_layout BeginFrame
+Large Sets of Complex Data with Stories Waiting to be Told
+\end_layout
+
+\begin_layout Itemize
+Government data - national, regional, and local
+\end_layout
+
+\begin_layout Itemize
+Business and financial data
+\end_layout
+
+\begin_layout Itemize
+Political fundraising and vote tabulation data
+\end_layout
+
+\begin_layout Itemize
+Environmental and climate data
+\end_layout
+
+\begin_layout Itemize
+Social network data
+\end_layout
+
+\begin_layout Itemize
+And yes - traffic and sports data too
+\end_layout
+
+\begin_layout BeginFrame
+What Is The Data Journalism Developer Studio?
+\end_layout
+
+\begin_layout Itemize
+100 percent open source technologies!
+\end_layout
+
+\begin_layout Itemize
+A complete Linux appliance, plus
+\end_layout
+
+\begin_layout Itemize
+Tools for collecting, managing, analyzing and presenting data, plus
+\end_layout
+
+\begin_layout Itemize
+Optional tools for
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+productivity
+\end_layout
+
+\begin_layout Itemize
+creating, editing and producing digital media
+\end_layout
+
+\begin_layout Itemize
+advanced numerical data visualization / exploration / presentation
+\end_layout
+
+\begin_layout Itemize
+advanced data collection / extraction / parsing / scraping
+\end_layout
+
+\begin_layout Itemize
+advanced finance / econometric / time series analysis
+\end_layout
+
+\begin_layout Itemize
+advanced server frameworks
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Who Is It For?
+\end_layout
+
+\begin_layout FrameSubtitle
+Hint: the next generation of journalists
+\end_layout
+
+\begin_layout Itemize
+Data journalism hackers and their friends
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Journalism students -- high school, community college and beyond
+\end_layout
+
+\begin_layout Itemize
+Freelance journalists, researchers, reporters, editors, publishers
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Why 100 Percent Open Source?
+\end_layout
+
+\begin_layout Itemize
+Open source software is robust
+\end_layout
+
+\begin_layout Itemize
+Open source software is low cost
+\end_layout
+
+\begin_layout BeginFrame
+Robustness
+\end_layout
+
+\begin_layout FrameSubtitle
+Proven technologies in wide use.
+ 
+\end_layout
+
+\begin_layout Itemize
+Crafted by highly-motivated self-regulated communities of experts
+\end_layout
+
+\begin_layout Itemize
+Security flaws, functionality defects and performance issues are rapidly
+ found and fixed
+\end_layout
+
+\begin_layout Itemize
+Peer review process yields software that is usually more efficient than
+ commercial counterparts
+\end_layout
+
+\begin_layout BeginFrame
+Low Cost
+\end_layout
+
+\begin_layout Itemize
+The software in the Data Journalism Developer Studio is freely downloadable
+ without legal restrictions
+\end_layout
+
+\begin_layout Itemize
+Much of the documentation and training material in the Data Journalism Developer
+ Studio is also free to download
+\end_layout
+
+\begin_layout Itemize
+Functionality that would cost thousands of dollars in commercial licenses
+ is available for the cost of a download
+\end_layout
+
+\begin_layout BeginFrame
+Base Workstation / Server
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "openSUSE 12.1 Linux operating system"
+target "http://software.opensuse.org/121/en"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "Firefox"
+target "http://www.mozilla.com/en-US/firefox/firefox.html"
+
+\end_inset
+
+ browser
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "The R Project for Statistical Computing"
+target "http://www.r-project.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "RStudio"
+target "http://rstudio.org/"
+
+\end_inset
+
+ Integrated Development Environment
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Perl"
+target "http://www.perl.org/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Python"
+target "http://www.python.org/"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Ruby"
+target "http://www.ruby-lang.org/en/"
+
+\end_inset
+
+ Scripting Languages
+\end_layout
+
+\begin_layout BeginFrame
+The Data Journalism Developer Studio Is Modular
+\end_layout
+
+\begin_layout Itemize
+The base appliance provides developer-level tools for building desktop or
+ server applications
+\end_layout
+
+\begin_layout Itemize
+The base appliance provides a browser-based desktop interface to cloud-based
+ collaboration suites
+\end_layout
+
+\begin_layout Itemize
+Add-on installation scripts provide end-user desktop and advanced specialized
+ analysis tools
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Productivity Suite Option
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "LibreOffice Productivity Suite"
+target "http://www.libreoffice.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "PostgreSQL Advanced Open Source Database"
+target "http://www.postgresql.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Evolution Email, Address Book and Calendaring"
+target "http://projects.gnome.org/evolution/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Ekiga Voice and Video Conferencing"
+target "http://ekiga.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Empathy Instant Messaging"
+target "http://live.gnome.org/Empathy"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Data Journalism Tools
+\end_layout
+
+\begin_layout Itemize
+Digital media creation and editing
+\end_layout
+
+\begin_layout Itemize
+Data collection, management and analysis
+\end_layout
+
+\begin_layout Itemize
+Numerical data / visualization / exploration
+\end_layout
+
+\begin_layout Itemize
+Financial and economic analysis
+\end_layout
+
+\begin_layout Itemize
+Geospatial / mapping
+\end_layout
+
+\begin_layout Itemize
+Natural language processing and text mining
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Digital Media Creation / Editing / Production
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Blender 3D Content Creation Suite"
+target "http://www.blender.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The GIMP GNU Image Manipulation Program"
+target "http://www.gimp.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Scribus Open Source Desktop Publishing"
+target "http://www.scribus.net/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Inkscape Vector Graphics Editor"
+target "http://inkscape.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Audacity Free Audio Editor and Recorder"
+target "http://audacity.sourceforge.net/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "PiTiVi Video Editor"
+target "http://www.pitivi.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Calibre eBook Library Manager"
+target "http://calibre-ebook.com/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Sigil WYSIWYG eBook Editor"
+target "http://code.google.com/p/sigil/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Data Collection and Management
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Nokogiri HTML, XML, SAX, and Reader parser"
+target "http://nokogiri.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Google Refine"
+target "http://code.google.com/p/google-refine/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Google Tesseract OCR Optical Character Recognition Engine"
+target "http://code.google.com/p/tesseract-ocr/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Perl Real-Time Internet Data Collection Libraries
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "WebService::Bitly"
+target "http://search.cpan.org/~shibazaki/WebService-Bitly-0.05/lib/WebService/Bitly.pm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Email::Send"
+target "http://search.cpan.org/~rjbs/Email-Send-2.198/lib/Email/Send.pm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Net::Google::Spreadsheets"
+target "http://search.cpan.org/~danjou/Net-Google-Spreadsheets-0.14/lib/Net/Google/Spreadsheets.pm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Net::Twitter"
+target "http://search.cpan.org/~mmims/Net-Twitter-3.14002/lib/Net/Twitter.pod"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "WWW::Mechanize"
+target "http://search.cpan.org/~petdance/WWW-Mechanize-1.66/lib/WWW/Mechanize.pm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "AnyEvent::Twitter::Stream"
+target "http://search.cpan.org/~miyagawa/AnyEvent-Twitter-Stream-0.20/lib/AnyEvent/Twitter/Stream.pm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Google::Voice"
+target "http://search.cpan.org/~tempire/Google-Voice-0.0101/lib/Google/Voice.pm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Numerical Data Visualization / Exploration / Presentation
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "GGobi Exploration / Visualization System"
+target "http://ggobi.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Mondrian Interactive Statistical Visualization System"
+target "http://rosuda.org/mondrian/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "ggplot2"
+target "http://had.co.nz/ggplot2/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The R Commander: A Basic-Statistics GUI for R"
+target "http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Rattle: Gnome Cross Platform GUI for Data Mining using R"
+target "http://rattle.togaware.com/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Machine Learning Task View"
+target "http://cran.cnr.berkeley.edu/web/views/MachineLearning.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Financial and Economic Analysis
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "QuantLib free/open-source library for quantitative finance"
+target "http://quantlib.org/index.shtml"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Empirical Finance Task View"
+target "http://cran.cnr.berkeley.edu/web/views/Finance.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Computational Econometrics Task View"
+target "http://cran.cnr.berkeley.edu/web/views/Econometrics.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Time Series Analysis Task View"
+target "http://cran.cnr.berkeley.edu/web/views/TimeSeries.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Geospatial / Mapping
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "PostGIS Geospatial Information System / Database"
+target "http://postgis.refractions.net/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "GRASS Geospatial Information System"
+target "http://grass.fbk.eu/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "GDAL Geospatial Data Abstraction Library"
+target "http://www.gdal.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "PROJ.4 Cartographic Projections Library"
+target "http://trac.osgeo.org/proj/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Spatial Data Analysis Task View"
+target "http://cran.cnr.berkeley.edu/web/views/Spatial.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Natural Language Processing / Text Mining
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "WordNet English Lexical Database"
+target "http://wordnet.princeton.edu/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Python Natural Language Toolkit"
+target "http://www.nltk.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "MALLET MAchine Learning for LanguagE Toolkit"
+target "http://mallet.cs.umass.edu/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Natural Language Processing Task View"
+target "http://cran.cnr.berkeley.edu/web/views/NaturalLanguageProcessing.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Add-On Server Construction Frameworks
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Node.js Scalable Network I/O Platform"
+target "http://nodejs.org/"
+
+\end_inset
+
+ / 
+\begin_inset CommandInset href
+LatexCommand href
+name "NowJS Real-Time Web Application Framework"
+target "http://nowjs.com/"
+
+\end_inset
+
+ / 
+\begin_inset CommandInset href
+LatexCommand href
+name "CoffeeScript"
+target "http://jashkenas.github.com/coffee-script/"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+NoSQL Databases
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "CouchDB"
+target "http://couchdb.apache.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "MongoDB"
+target "http://www.mongodb.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Riak"
+target "http://wiki.basho.com/Riak.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Redis"
+target "http://redis.io/"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Django"
+target "https://www.djangoproject.com/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+I Keep Six Honest Serving Men
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "I Keep Six Honest Serving Men"
+target "http://c2.com/cgi/wiki?SixHonestServingMen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+I keep six honest serving-men
+\end_layout
+
+\begin_layout Verse
+(They taught me all I knew); 
+\end_layout
+
+\begin_layout Verse
+Their names are What and Why and When
+\end_layout
+
+\begin_layout Verse
+And How and Where and Who.
+ 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout FrameSubtitle
+Did you know there was more?
+\end_layout
+
+\begin_layout Verse
+I send them over land and sea,
+\end_layout
+
+\begin_layout Verse
+I send them east and west; 
+\end_layout
+
+\begin_layout Verse
+But after they have worked for me,
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+I
+\series default
+ give them all a rest.
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+I
+\series default
+ let them rest from nine till five,
+\end_layout
+
+\begin_layout Verse
+For I am busy then, 
+\end_layout
+
+\begin_layout Verse
+As well as breakfast, lunch, and tea,
+\end_layout
+
+\begin_layout Verse
+For they are hungry men; 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+But different folk have different views:
+\end_layout
+
+\begin_layout Verse
+I know a person small - 
+\end_layout
+
+\begin_layout Verse
+She keeps ten million serving-men,
+\end_layout
+
+\begin_layout Verse
+Who get no rest at all! 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+She sends 'em abroad on her own affairs.
+\end_layout
+
+\begin_layout Verse
+From the second she opens her eyes - 
+\end_layout
+
+\begin_layout Verse
+One million Hows, two million Wheres,
+\end_layout
+
+\begin_layout Verse
+And seven million Whys!
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document

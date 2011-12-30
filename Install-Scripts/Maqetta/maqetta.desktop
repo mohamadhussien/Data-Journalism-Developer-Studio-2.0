@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Value=1.0
+Type=Application
+Terminal=true
+Categories=Office;
+Icon[en_US]=HOME/local/maqetta/Maqetta_Logo_250x76.png
+Name[en_US]=Maqetta
+Exec=HOME/local/maqetta/maqetta.local.unix.sh
+Name=Maqetta
+Icon=HOME/local/maqetta/Maqetta_Logo_250x76.png

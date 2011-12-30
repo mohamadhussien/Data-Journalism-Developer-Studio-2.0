@@ -1,0 +1,10 @@
+install.packages(c(
+  'rgl',
+  'audio',
+  'seewave',
+  'sound',
+  'tuneR'),
+  repos=c(
+    'http://cran.cnr.berkeley.edu'
+  )
+)

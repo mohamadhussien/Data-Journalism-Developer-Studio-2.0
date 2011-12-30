@@ -1,0 +1,1 @@
+../common/install-task-view.bash

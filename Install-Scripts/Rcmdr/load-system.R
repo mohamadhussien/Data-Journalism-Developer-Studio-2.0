@@ -1,0 +1,17 @@
+source("http://bioconductor.org/biocLite.R", echo=TRUE)
+biocLite('Rgraphviz')
+install.packages(c(
+  'rgl',
+  'e1071',
+  'relimp',
+  'multcomp',
+  'leaps',
+  'aplpack',
+  'effects',
+  'lmtest',
+  'tm',
+  'tm.plugin.mail',
+  'Rcmdr',
+  'RcmdrPlugin.Export',
+  'RcmdrPlugin.TextMining'),
+  repos='http://cran.cnr.berkeley.edu')

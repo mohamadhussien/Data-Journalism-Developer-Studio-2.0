@@ -1,0 +1,27 @@
+update.packages(ask=FALSE, 
+  repos=c(
+    'http://cran.cnr.berkeley.edu'
+  )
+)
+
+install.packages(c(
+  'Rook',
+  'websockets',
+  'googleVis',
+  'gooJSON',
+  'R.rsp',
+  'sm',
+  'tkrplot',
+  'odfWeave',
+  'brew',
+  'edtdbg',
+  'reshape',
+  'ggplot2',
+  'SoDA',
+  'rJava',
+  'filehashSQLite',
+  'ctv'),
+  repos=c(
+    'http://cran.cnr.berkeley.edu'
+  )
+)
