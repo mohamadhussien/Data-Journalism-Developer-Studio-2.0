@@ -1,7 +1,11 @@
 #! /bin/bash -v
 
 sudo R CMD javareconf
-mkdir -p ~/R/i586-suse-linux-gnu-library/2.14
+if [ `uname -m` != 'x86_64' ]
+then
+  mkdir -p ~/R/i586-suse-linux-gnu-library/2.14
+else
+fi
 
 for i in system
 do
