@@ -1,3 +1,3 @@
 #! /bin/bash -v
 ../common/base-cleanup.bash
-rm *.nohup
+rm -f *.nohup
