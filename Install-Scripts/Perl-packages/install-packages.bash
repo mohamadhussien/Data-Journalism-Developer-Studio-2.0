@@ -9,7 +9,6 @@ for i in \
   AnyEvent::IRC::Connection \
   AnyEvent::IRC::Client \
   AnyEvent::IRC::Util \
-  AnyEvent::Intro \
   Browser::Open \
   DBD::SQLite \
   Facebook \
@@ -17,7 +16,6 @@ for i in \
   JSON::XS \
   Net::Twitter \
   Statistics::R \
-  Statistics::R::Bridge::Linux \
   WWW::Mechanize \
   YAML::Syck \
   Data::Dumper \
