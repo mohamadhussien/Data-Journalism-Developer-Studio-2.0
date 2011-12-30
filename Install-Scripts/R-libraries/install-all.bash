@@ -1,6 +1,8 @@
 #! /bin/bash -v
 
 sudo R CMD javareconf
+pushd ../common; sudo ./update-libraries.bash; popd
+
 if [ `uname -m` != 'x86_64' ]
 then
   mkdir -p ~/R/i586-suse-linux-gnu-library/2.14
