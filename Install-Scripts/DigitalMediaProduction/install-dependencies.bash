@@ -19,11 +19,6 @@ sudo zypper install -y flac
 sudo zypper install -y blender blender-doc
 sudo zypper install -y pitivi
 
-# Algorithmic composition and synthesis
-sudo zypper install -y qjackctl csound cecilia hydrogen \
-  ZynAddSubFX fluidsynth-dssi xsynth-dssi fluidsynth jamin \
-  perl-XML-Twig sox resample
-
 # document creation
 sudo zypper install -y scribus
 sudo zypper install -y inkscape

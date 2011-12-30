@@ -1,21 +1,21 @@
 #! /bin/bash -v
 
-mkdir -p /usr/local/src
+sudo mkdir -p /usr/local/src
 cd /usr/local/src
 export DIR=WordNet-3.0
 export WHAT=${DIR}.tar.bz2
 export WHERE=http://wordnetcode.princeton.edu/3.0
-rm -fr ${WHAT} ${DIR}
-wget ${WHERE}/${WHAT}
-tar xf ${WHAT}
+sudo rm -fr ${WHAT} ${DIR}
+sudo wget ${WHERE}/${WHAT}
+sudo tar xf ${WHAT}
 cd ${DIR}
-./configure
-make
-make install
+sudo ./configure
+sudo make
+sudo make install
 cd ..
 
-/sbin/ldconfig
-/sbin/SuSEconfig
+sudo /sbin/ldconfig
+sudo /sbin/SuSEconfig
 
 # clean up
-rm -fr ${WHAT} ${DIR}
+sudo rm -fr ${WHAT} ${DIR}

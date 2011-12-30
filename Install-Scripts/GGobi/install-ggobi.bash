@@ -1,30 +1,30 @@
 #! /bin/bash -v
 
-mkdir -p /usr/local/src
+sudo mkdir -p /usr/local/src
 pushd /usr/local/src
 export DIR=ggobi-2.1.9
 export WHAT=${DIR}.tar.bz2
 export WHERE=http://ggobi.org/downloads
-rm -fr ${WHAT} ${DIR}
-wget ${WHERE}/${WHAT}
-tar xf ${WHAT}
+sudo rm -fr ${WHAT} ${DIR}
+sudo wget ${WHERE}/${WHAT}
+sudo tar xf ${WHAT}
 pushd ${DIR}
 
 # the GGobi build croaks if graphviz-devel is installed
-zypper remove -y graphviz-devel
-./configure --with-all-plugins
-make 
-make install
-make ggobirc
-mkdir -p /etc/xdg/ggobi
-cp ggobirc /etc/xdg/ggobi/ggobirc
-/sbin/ldconfig
-/sbin/SuSEconfig
+sudo zypper remove -y graphviz-devel
+sudo ./configure --with-all-plugins
+sudo make 
+sudo make install
+sudo make ggobirc
+sudo mkdir -p /etc/xdg/ggobi
+sudo cp ggobirc /etc/xdg/ggobi/ggobirc
+sudo /sbin/ldconfig
+sudo /sbin/SuSEconfig
 
 # put graphviz-devel back - we need it for Rgraphviz
-zypper install -y graphviz-devel
+sudo zypper install -y graphviz-devel
 popd
 
 # clean up
-rm -fr ${WHAT} ${DIR}
+sudo rm -fr ${WHAT} ${DIR}
 popd

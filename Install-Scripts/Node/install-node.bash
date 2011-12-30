@@ -1,26 +1,24 @@
 #! /bin/bash -v
 
-export PATH=$PATH:/usr/local/bin
-
-mkdir -p /usr/local/src
+sudo mkdir -p /usr/local/src
 pushd /usr/local/src
 export DIR=`curl -s nodejs.org/ | grep '.tar.gz' | head -n 1 | \
   sed 's/^.*href=.*node/node/' | sed 's/.tar.gz.*$//'`
 export WHAT=${DIR}.tar.gz
 export WHERE=http://nodejs.org/dist/latest
-rm -fr ${WHAT} ${DIR}
-wget ${WHERE}/${WHAT}
-tar xf ${WHAT}
+sudo rm -fr ${WHAT} ${DIR}
+sudo wget ${WHERE}/${WHAT}
+sudo tar xf ${WHAT}
 
 pushd ${DIR}
-./configure
-make 
-make install
+sudo ./configure
+sudo make 
+sudo make install
 
-/sbin/ldconfig
-/sbin/SuSEconfig
+sudo /sbin/ldconfig
+sudo /sbin/SuSEconfig
 popd
 
 # clean up
-rm -fr ${WHAT} ${DIR}
+sudo rm -fr ${WHAT} ${DIR}
 popd

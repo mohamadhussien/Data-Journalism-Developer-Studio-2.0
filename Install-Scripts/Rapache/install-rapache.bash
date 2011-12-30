@@ -1,20 +1,20 @@
 #! /bin/bash -v
 
 export PATH=/usr/local/bin:$PATH
-mkdir -p /usr/local/src
+sudo mkdir -p /usr/local/src
 pushd /usr/local/src
 export WHERE=http://biostat.mc.vanderbilt.edu/rapache/files
 export DIR=rapache-1.1.14
 export WHAT=${DIR}.tar.gz
-rm -fr ${WHAT} ${DIR}
-wget ${WHERE}/${WHAT}
-tar xf ${WHAT}
+sudo rm -fr ${WHAT} ${DIR}
+sudo wget ${WHERE}/${WHAT}
+sudo tar xf ${WHAT}
 pushd ${DIR}
-./configure --with-apache2-apxs=/usr/sbin/apxs2
-make
-make install
-/sbin/ldconfig
-/sbin/SuSEconfig
+sudo ./configure --with-apache2-apxs=/usr/sbin/apxs2
+sudo make
+sudo make install
+sudo /sbin/ldconfig
+sudo /sbin/SuSEconfig
 popd
-rm -fr ${WHAT} ${DIR} # clean up
+sudo rm -fr ${WHAT} ${DIR} # clean up
 popd
