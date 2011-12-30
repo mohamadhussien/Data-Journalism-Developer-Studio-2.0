@@ -10,14 +10,9 @@ for i in \
   AnyEvent::IRC::Client \
   AnyEvent::IRC::Util \
   Browser::Open \
-  DBD::SQLite \
   Facebook \
   Hash::Flatten \
-  JSON::XS \
-  Net::Twitter \
   Statistics::R \
-  WWW::Mechanize \
-  YAML::Syck \
   Data::Dumper \
   Email::Send::Gmail \
   Email::Send \
@@ -26,7 +21,6 @@ for i in \
   Email::Simple \
   HTTP::Client::Parallel \
   Net::Google::Spreadsheets \
-  Try::Tiny \
   WebService::Bitly \
   Google::Voice
 do
