@@ -1,7 +1,6 @@
 #! /bin/bash -v
 
 sudo R CMD javareconf
-pushd ../common; sudo ./update-libraries.bash; popd
 
 if [ `uname -m` != 'x86_64' ]
 then
