@@ -1,6 +1,8 @@
 source("http://bioconductor.org/biocLite.R", echo=TRUE)
 biocLite('Rgraphviz')
 install.packages(c(
+  'sem',
+  'abind',
   'rgl',
   'e1071',
   'relimp',
