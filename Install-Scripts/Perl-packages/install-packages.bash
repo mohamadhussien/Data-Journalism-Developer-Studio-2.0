@@ -10,7 +10,7 @@ for i in \
   AnyEvent::IRC::Client \
   AnyEvent::IRC::Util \
   Browser::Open \
-  DBD::SQLite
+  DBD::SQLite \
   Facebook \
   Hash::Flatten \
   Net::Twitter \
