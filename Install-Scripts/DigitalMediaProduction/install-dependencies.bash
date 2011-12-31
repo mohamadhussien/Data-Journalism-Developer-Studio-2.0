@@ -39,4 +39,4 @@ sudo zypper install -y gutenprint-gimpplugin
 sudo zypper install -y calibre
 
 # needed for Sigil
-sudo zypper install -y cmake
+sudo zypper install -y cmake libqt4-devel
