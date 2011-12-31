@@ -15,3 +15,6 @@ sudo zypper install -y sudo ntp yast2-sudo yast2-ntp-client
 # Just in case there's no browser
 sudo zypper install -y MozillaFirefox icedtea-web chromium-desktop-gnome \
   vpx-tools
+
+# desktop goodies
+sudo zypper install -y nautilus-evince nautilus-open-terminal nautilus-terminal
