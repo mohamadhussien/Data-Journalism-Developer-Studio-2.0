@@ -12,7 +12,7 @@ then
 fi
 
 # install Perl packages
-pushd Perl*
+pushd Perl-packages
 ./install-dependencies.bash
 ./install-all.bash
 popd
