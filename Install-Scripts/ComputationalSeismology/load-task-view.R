@@ -1,4 +1,3 @@
-update.packages(ask=FALSE, repos='http://cran.cnr.berkeley.edu')
 install.packages(c(
   'RSEIS',
   'GEOmap',
