@@ -10,9 +10,12 @@ for i in \
   AnyEvent::IRC::Client \
   AnyEvent::IRC::Util \
   Browser::Open \
+  DBD::SQLite
   Facebook \
   Hash::Flatten \
+  Net::Twitter \
   Statistics::R \
+  WWW::Mechanize \
   Data::Dumper \
   Email::Send::Gmail \
   Email::Send \
@@ -21,8 +24,9 @@ for i in \
   Email::Simple \
   HTTP::Client::Parallel \
   Net::Google::Spreadsheets \
+  Try::Tiny \
   WebService::Bitly \
   Google::Voice
 do
-  echo "notest install $i" | cpan 2>&1 | tee $i.log
+  echo "install $i" | cpan 2>&1 | tee $i.log
 done
