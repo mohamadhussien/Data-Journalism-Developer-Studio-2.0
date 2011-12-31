@@ -24,7 +24,6 @@ for i in \
   Email::Simple \
   HTTP::Client::Parallel \
   Net::Google::Spreadsheets \
-  Try::Tiny \
   WebService::Bitly \
   Google::Voice
 do
