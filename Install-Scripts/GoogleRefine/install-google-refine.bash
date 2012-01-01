@@ -11,5 +11,6 @@ tar xf ${WHAT}
 rm ${WHAT}
 popd
 
+mkdir -p ~/.local/share/applications
 sed s:HOME:$HOME: google-refine.desktop > \
   ~/.local/share/applications/google-refine.desktop

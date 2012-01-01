@@ -16,4 +16,5 @@ rm -fr ${WHAT}
 popd
 
 cp Maqetta_Logo_250x76.png ~/local/maqetta
+mkdir -p ~/.local/share/applications
 sed s:HOME:$HOME: maqetta.desktop > ~/.local/share/applications/maqetta.desktop
