@@ -1,0 +1,3 @@
+#! /bin/bash
+unset JAVA_HOME
+/usr/lib/rstudio/bin/rstudio.exe
