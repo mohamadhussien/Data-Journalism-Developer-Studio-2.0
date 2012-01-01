@@ -17,4 +17,4 @@ sudo zypper install -y MozillaFirefox icedtea-web chromium-desktop-gnome \
   vpx-tools
 
 # desktop goodies
-sudo zypper install -y nautilus-evince nautilus-open-terminal
+sudo zypper install -y nautilus-evince nautilus-open-terminal libgnome
