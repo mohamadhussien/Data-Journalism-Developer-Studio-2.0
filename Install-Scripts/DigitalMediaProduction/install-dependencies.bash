@@ -1,5 +1,10 @@
 #! /bin/bash -v
 
+# needed for desktop recorder
+sudo zypper addrepo -cf \
+  http://download.opensuse.org/repositories/openSUSE:/Factory:/Contrib/openSUSE_12.1/openSUSE:Factory:Contrib.repo
+sudo zypper refresh
+
 # needed for R audio  packages
 sudo zypper install -y fftw3 fftw3-devel fftw3-threads fftw3-threads-devel
 
@@ -40,3 +45,6 @@ sudo zypper install -y calibre
 
 # needed for Sigil
 sudo zypper install -y cmake libqt4-devel
+
+# desktop recorder
+sudo zypper install -y gtk-recordMyDesktop
