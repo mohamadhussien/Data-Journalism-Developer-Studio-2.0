@@ -1,6 +1,6 @@
 #! /bin/bash -v
 
-cp bashrc ~/.bashrc # define the ls conveniences
+cat bashrc >> ~/.bashrc # define the ls conveniences
 source ~/.bashrc
 
 # install Linux dependencies
@@ -11,16 +11,13 @@ then
   ./install-RStudio-Desktop.bash 2>&1 | tee install-RStudio-Desktop.log
 fi
 
-# R should be here now - run R CMD javareconf as root
-sudo R CMD javareconf
-
-# install Perl packages
-pushd Perl-packages
-./install-dependencies.bash
-./install-all.bash
+# R should be here now - update system packages and install rJava
+pushd common
+sudo ./update-libraries.bash 2>&1 | tee ../update-libraries.log
+sudo ./install-rJava.bash 2>&1 | tee ../install-rJava.log
 popd
 
-# install R libraries
+# install local R libraries
 pushd R-libraries
 ./install-dependencies.bash
 ./install-all.bash
@@ -28,6 +25,12 @@ popd
 
 # install R Commander
 pushd Rcmdr
+./install-dependencies.bash
+./install-all.bash
+popd
+
+# install Perl packages
+pushd Perl-packages
 ./install-dependencies.bash
 ./install-all.bash
 popd
