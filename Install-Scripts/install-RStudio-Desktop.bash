@@ -8,10 +8,10 @@ else
 fi
 
 # hack rstudio executable to unset JAVA_HOME
-if [ ! -e "/usr/lib/rstudio/bin/rstudio.exe" ]
-then
-  pushd /usr/lib/rstudio/bin
-  sudo mv rstudio rstudio.exe
-  popd
-  sudo cp rstudio /usr/lib/rstudio/bin
-fi
+#if [ ! -e "/usr/lib/rstudio/bin/rstudio.exe" ]
+#then
+  #pushd /usr/lib/rstudio/bin
+  #sudo mv rstudio rstudio.exe
+  #popd
+  #sudo cp rstudio /usr/lib/rstudio/bin
+#fi
