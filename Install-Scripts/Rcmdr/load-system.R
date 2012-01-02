@@ -13,5 +13,5 @@ install.packages(c(
   'lmtest',
   'tm',
   'tm.plugin.mail',
-  'Rcmdr')
+  'Rcmdr'),
   repos='http://cran.cnr.berkeley.edu')
