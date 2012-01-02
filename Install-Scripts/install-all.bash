@@ -11,6 +11,9 @@ then
   ./install-RStudio-Desktop.bash 2>&1 | tee install-RStudio-Desktop.log
 fi
 
+# R should be here now - run R CMD javareconf as root
+sudo R CMD javareconf
+
 # install Perl packages
 pushd Perl-packages
 ./install-dependencies.bash
