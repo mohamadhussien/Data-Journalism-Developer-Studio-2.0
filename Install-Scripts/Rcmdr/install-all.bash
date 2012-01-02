@@ -1,6 +1,5 @@
 #! /bin/bash -v
 
-for i in system
-do
-  sudo ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+xhost +
+sudo ./install-system.bash 2>&1 | tee system.log
+./install-plugins.bash 2>&1 | tee plugins.log

@@ -13,7 +13,5 @@ install.packages(c(
   'lmtest',
   'tm',
   'tm.plugin.mail',
-  'Rcmdr',
-  'RcmdrPlugin.Export',
-  'RcmdrPlugin.TextMining'),
+  'Rcmdr')
   repos='http://cran.cnr.berkeley.edu')
