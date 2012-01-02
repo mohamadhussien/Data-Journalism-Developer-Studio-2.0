@@ -1,7 +1,5 @@
 #! /bin/bash -v
 
-sudo R CMD javareconf
-
 rm -fr ~/R # start with a clean slate
 if [ `uname -m` != 'x86_64' ]
 then
