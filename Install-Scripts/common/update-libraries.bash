@@ -1,3 +1,3 @@
 #! /bin/bash -v
 
-R --vanilla --slave < update-libraries.R
+R --no-save --no-restore < update-libraries.R

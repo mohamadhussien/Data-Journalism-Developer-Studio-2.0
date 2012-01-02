@@ -1,4 +1,4 @@
 #! /bin/bash -v
 
 R CMD javareconf
-R --vanilla --slave < install-rJava.R
+R --no-save --no-restore < install-rJava.R

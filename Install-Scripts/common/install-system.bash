@@ -1,4 +1,4 @@
 #! /bin/bash -v
 
 pushd ../common/; sudo ./update-libraries.bash; popd
-R --vanilla --slave < load-system.R 2>&1 | tee load-system.log
+R --no-save --no-restore < load-system.R 2>&1 | tee load-system.log
