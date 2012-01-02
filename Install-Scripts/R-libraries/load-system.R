@@ -11,7 +11,6 @@ install.packages(c(
   'reshape',
   'ggplot2',
   'SoDA',
-  'rJava',
   'filehashSQLite',
   'ctv'),
   repos=c(
