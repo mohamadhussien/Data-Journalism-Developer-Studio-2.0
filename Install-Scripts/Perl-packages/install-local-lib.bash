@@ -9,7 +9,6 @@ make test
 make install
 echo 'eval $(perl -I${HOME}/perl5/lib/perl5 -Mlocal::lib)' >> ~/.bashrc
 echo 'export MANPATH=${MANPATH}:${HOME}/perl5/man' >>~/.bashrc
-vim ~/.bashrc
 popd
 
 # hack the configuration so installs work!
