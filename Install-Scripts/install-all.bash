@@ -1,5 +1,11 @@
 #! /bin/bash -v
 
+# if the znmeb repository is here, drop it
+if [ `zypper -n lr|grep znmeb|wc -l` eq "1" ]
+then
+  sudo zypper -n rr znmeb_openSUSE_12.1
+fi
+
 cat bashrc >> ~/.bashrc # define the ls conveniences
 source ~/.bashrc
 
