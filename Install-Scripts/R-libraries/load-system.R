@@ -1,4 +1,5 @@
 install.packages(c(
+  'rJava',
   'Rook',
   'websockets',
   'googleVis',

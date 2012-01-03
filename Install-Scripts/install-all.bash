@@ -17,12 +17,6 @@ then
   ./install-RStudio-Desktop.bash 2>&1 | tee install-RStudio-Desktop.log
 fi
 
-# R should be here now - update system packages and install rJava
-pushd common
-sudo ./update-libraries.bash 2>&1 | tee ../update-libraries.log
-sudo ./install-rJava.bash 2>&1 | tee ../install-rJava.log
-popd
-
 # install local R libraries
 pushd R-libraries
 ./install-dependencies.bash
