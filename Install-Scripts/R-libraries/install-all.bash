@@ -8,6 +8,8 @@ else
   mkdir -p ~/R/x86_64-suse-linux-gnu-library/2.14
 fi
 
+sudo R CMD javareconf
+unset JAVA_HOME
 for i in system
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
