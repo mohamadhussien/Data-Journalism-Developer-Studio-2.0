@@ -6,13 +6,10 @@ install.packages(c(
   'gooJSON',
   'R.rsp',
   'sm',
-  'tkrplot',
   'odfWeave',
   'brew',
   'reshape',
   'ggplot2',
-  'SoDA',
-  'filehashSQLite',
   'ctv'),
   repos=c(
     'http://cran.cnr.berkeley.edu'
