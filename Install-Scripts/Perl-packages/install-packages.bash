@@ -1,5 +1,6 @@
 #! /bin/bash -v
 
+vim ~/.bashrc
 . ~/.bashrc
 
 for i in \
@@ -29,3 +30,5 @@ for i in \
 do
   echo "install $i" | cpan 2>&1 | tee $i.log
 done
+
+vim ~/.bashrc

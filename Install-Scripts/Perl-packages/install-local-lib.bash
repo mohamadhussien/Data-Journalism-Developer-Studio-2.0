@@ -16,5 +16,6 @@ vim ~/.bashrc
 popd
 
 # configure / update cpan
-source ~/.bashrc
+. ~/.bashrc
 cpan < prep1.cpan
+vim ~/.bashrc
