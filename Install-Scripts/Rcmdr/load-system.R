@@ -11,5 +11,6 @@ install.packages(c(
   'aplpack',
   'effects',
   'lmtest',
+  'Hmisc',
   'Rcmdr'),
   repos='http://cran.cnr.berkeley.edu')
