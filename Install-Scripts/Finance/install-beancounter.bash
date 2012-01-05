@@ -1,5 +1,6 @@
 #! /bin/bash -v
 
+. ~/.bashrc
 cpan Finance::BeanCounter
 
 # edit the setup script
