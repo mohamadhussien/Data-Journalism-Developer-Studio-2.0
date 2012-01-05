@@ -1,4 +1,5 @@
 install.packages(c(
-  'RcmdrPlugin.Export',
+  'tm',
+  'tm.plugin.mail',
   'RcmdrPlugin.TextMining'),
   repos='http://cran.cnr.berkeley.edu')

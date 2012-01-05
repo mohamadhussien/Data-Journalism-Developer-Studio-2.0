@@ -11,7 +11,5 @@ install.packages(c(
   'aplpack',
   'effects',
   'lmtest',
-  'tm',
-  'tm.plugin.mail',
   'Rcmdr'),
   repos='http://cran.cnr.berkeley.edu')
