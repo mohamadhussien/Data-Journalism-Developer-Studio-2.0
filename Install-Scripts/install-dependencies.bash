@@ -3,9 +3,10 @@
 # needed for tesseract
 sudo zypper addrepo -cf \
   http://download.opensuse.org/repositories/openSUSE:/Factory:/Contrib/openSUSE_12.1/openSUSE:Factory:Contrib.repo
+sudo zypper refresh
 
 # wget and git may not be there in appliances
-sudo zypper install -y wget git-core
+sudo zypper install -y wget
 
 # vim
 sudo zypper install -y vim
