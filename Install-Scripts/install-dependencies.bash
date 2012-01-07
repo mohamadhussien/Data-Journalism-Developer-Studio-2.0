@@ -12,7 +12,7 @@ sudo zypper install -y wget
 sudo zypper install -y vim
 
 # command line conveniences
-sudo zypper install -y command-not-found findutils-locate
+sudo zypper install -y command-not-found findutils-locate bash-completion
 
 # system admin
 sudo zypper install -y sudo ntp yast2-sudo yast2-ntp-client
