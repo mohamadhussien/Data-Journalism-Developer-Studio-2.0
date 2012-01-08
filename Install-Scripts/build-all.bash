@@ -21,9 +21,6 @@ do
   elif [ "${i}" == "Rcmdr/cleanup.bash" ]
   then
     echo "skipped"
-  elif [ "${i}" == "Maqetta/cleanup.bash" ]
-  then
-    echo "skipped"
   elif [ "${i}" == "GoogleRefine/cleanup.bash" ]
   then
     echo "skipped"
