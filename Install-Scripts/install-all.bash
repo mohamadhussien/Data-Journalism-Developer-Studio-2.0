@@ -35,13 +35,9 @@ pushd Perl-packages
 ./install-all.bash
 popd
 
-# install Google Refine and Maqetta
+# install Google Refine
 rm -fr ~/local
 pushd GoogleRefine
-./install-dependencies.bash
-./install-all.bash
-popd
-pushd Maqetta
 ./install-dependencies.bash
 ./install-all.bash
 popd
