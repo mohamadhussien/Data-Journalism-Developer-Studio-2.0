@@ -7,7 +7,6 @@ sudo zypper install -y libreoffice \
   libreoffice-base \
   libreoffice-base-drivers-postgresql \
   libreoffice-base-extensions \
-  libreoffice-branding-openSUSE \
   libreoffice-calc \
   libreoffice-calc-extensions \
   libreoffice-converter \

@@ -28,7 +28,6 @@ sudo zypper install -y inkscape-extensions-fig
 sudo zypper install -y inkscape-extensions-gimp
 sudo zypper install -y inkscape-extensions-skencil
 sudo zypper install -y gimp
-sudo zypper install -y gimp-branding-openSUSE
 sudo zypper install -y gimp-gap
 sudo zypper install -y gimp-help
 sudo zypper install -y gimp-plugin-lqr
