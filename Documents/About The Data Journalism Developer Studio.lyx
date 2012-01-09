@@ -456,17 +456,6 @@ target "http://code.google.com/p/tesseract-ocr/"
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Maqetta WYSIWYG HTML5 User Interface Authoring Tool"
-target "http://maqetta.org/"
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout BeginFrame
 Base Workstation Perl Real-Time Internet Data Collection Libraries
 \end_layout
@@ -742,6 +731,17 @@ target "http://calibre-ebook.com/"
 LatexCommand href
 name "Sigil WYSIWYG eBook Editor"
 target "http://code.google.com/p/sigil/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Maqetta WYSIWYG HTML5 User Interface Authoring Tool"
+target "http://maqetta.org/"
 
 \end_inset
 
