@@ -1,6 +1,6 @@
 #! /bin/bash -v
 
-. ~/.bashrc
+source ~/.bashrc
 
 for i in \
   Sys::Statistics::Linux \

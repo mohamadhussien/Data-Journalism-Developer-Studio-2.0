@@ -14,5 +14,5 @@ echo 'export MANPATH=${MANPATH}:${HOME}/perl5/man' >>~/.bashrc
 popd
 
 # configure / update cpan
-. ~/.bashrc
+source ~/.bashrc
 cpan < prep1.cpan
