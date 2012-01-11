@@ -4,6 +4,7 @@
 grep -h addrepo */install-dependencies.bash > addrepos.bash
 bash addrepos.bash
 sudo zypper refresh
+rm addrepos.bash
 
 # do all the dependencies first - minimizes babysitting
 for i in */cleanup.bash
