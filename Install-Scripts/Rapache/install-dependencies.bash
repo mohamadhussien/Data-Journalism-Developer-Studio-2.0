@@ -1,7 +1,6 @@
 #! /bin/bash -v
 
-sudo zypper addrepo -cf \
-  http://download.opensuse.org/repositories/network:/utilities/openSUSE_12.1/network:utilities.repo
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/network:/utilities/openSUSE_12.1/network:utilities.repo
 sudo zypper refresh
 
 sudo zypper install -y apache2 apache2-devel apache2-doc apache2-prefork \

@@ -4,10 +4,8 @@
 ../common/install-postgresql.bash
 
 # Geospatial / Mapping
-sudo zypper addrepo -cf \
-  http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.1/Application:Geo.repo
-sudo zypper addrepo -cf \
-  http://download.opensuse.org/repositories/science/openSUSE_12.1/science.repo
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.1/Application:Geo.repo
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/science/openSUSE_12.1/science.repo
 sudo zypper refresh
 
 sudo zypper install -y gdal libgdal-devel perl-gdal
