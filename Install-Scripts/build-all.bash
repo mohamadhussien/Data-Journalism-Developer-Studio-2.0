@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# do the addrepos up front
+grep -h addrepo */install-dependencies.bash > addrepos.bash
+bash addrepos.bash
+sudo zypper refresh
+
 # do all the dependencies first - minimizes babysitting
 for i in */cleanup.bash
 do
