@@ -10,6 +10,7 @@ install.packages(c(
   'brew',
   'reshape',
   'ggplot2',
+  'textir',
   'ctv'),
   repos=c(
     'http://cran.cnr.berkeley.edu'
