@@ -1,7 +1,7 @@
 #! /bin/bash -v
 
 # needed for tesseract
-sudo zypper addrepo -cf http://download.opensuse.org/repositories/openSUSE:/Factory:/Contrib/openSUSE_12.1/openSUSE:Factory:Contrib.repo
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.1/Documentation:Tools.repo
 sudo zypper refresh
 
 # Google Tesseract optical character recognition engine
