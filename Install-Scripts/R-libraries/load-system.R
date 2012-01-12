@@ -9,6 +9,8 @@ install.packages(c(
   'odfWeave',
   'brew',
   'reshape',
+  'reshape2',
+  'reshapeGUI',
   'ggplot2',
   'textir',
   'ctv'),
