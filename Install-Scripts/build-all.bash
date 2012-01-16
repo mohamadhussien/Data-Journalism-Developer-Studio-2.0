@@ -16,9 +16,16 @@ do
   popd
 done
 
+pushd ReproducibleResearch # only one that needs babysitting
+  .install-all.bash
+popd
+
 for i in */cleanup.bash
 do
   if [ "${i}" == "Perl-packages/cleanup.bash" ]
+  then
+    echo "skipped"
+  elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ]
   then
     echo "skipped"
   elif [ "${i}" == "R-libraries/cleanup.bash" ]
