@@ -14,3 +14,6 @@ sudo zypper install -y MozillaFirefox icedtea-web
 
 # desktop goodies
 sudo zypper install -y nautilus-evince libgnome nautilus-open-terminal
+
+# Ruby
+sudo zypper install -y ruby
