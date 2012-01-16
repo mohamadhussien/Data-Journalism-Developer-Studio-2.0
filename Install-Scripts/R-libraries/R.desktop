@@ -8,6 +8,6 @@ Terminal=true
 Categories=Development;
 Icon[en_US]=HOME/local/R-logo.jpg
 Name[en_US]=R Console
-Exec=R
+Exec=R -g Tk
 Name=R Console
 Icon=HOME/local/R-logo.jpg
