@@ -7,4 +7,5 @@ tar cvf - R | bzip2 -9c > R.tar.bz2
 tar cvf - \
   local \
   .local/share/applications/google-refine.desktop \
+  .local/share/applications/R.desktop \
   | bzip2 -9c > local.tar.bz2
