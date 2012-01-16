@@ -17,3 +17,6 @@ sudo zypper install -y nautilus-evince libgnome nautilus-open-terminal
 
 # Ruby
 sudo zypper install -y ruby
+
+# upower
+sudo zypper install -y upower
