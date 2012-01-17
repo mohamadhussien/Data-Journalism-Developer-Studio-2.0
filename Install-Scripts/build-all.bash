@@ -3,7 +3,7 @@
 # do the addrepos up front
 grep -h addrepo */install-dependencies.bash | sort -u > addrepos.bash
 bash addrepos.bash
-sudo zypper refresh
+sudo zypper update
 rm addrepos.bash
 
 # do all the dependencies first - minimizes babysitting
