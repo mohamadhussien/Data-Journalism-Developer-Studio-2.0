@@ -36,7 +36,6 @@ pushd Perl-packages
 popd
 
 # install Google Refine
-rm -fr ~/local
 pushd GoogleRefine
 ./install-dependencies.bash
 ./install-all.bash
