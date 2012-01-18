@@ -6,41 +6,36 @@ bash addrepos.bash
 sudo zypper update
 rm addrepos.bash
 
-# do all the dependencies first - minimizes babysitting
-for i in */cleanup.bash
-do
-  j=`echo ${i} | sed 's/cleanup.bash//'`
-  pushd ${j}
+pushd ReproducibleResearch # only one that needs babysitting now
   ./cleanup.bash
   ./install-dependencies.bash 2>&1 | tee dependencies.log
-  popd
-done
-
-pushd ReproducibleResearch # only one that needs babysitting
-  .install-all.bash
+  ./install-all.bash 2>&1 | tee all.log
 popd
 
+# now do the rest
 for i in */cleanup.bash
 do
-  if [ "${i}" == "Perl-packages/cleanup.bash" ]
+  if [ "${i}" == "Perl-packages/cleanup.bash" ] # done in base
   then
     echo "skipped"
-  elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ]
+  elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ] # just done here
   then
     echo "skipped"
-  elif [ "${i}" == "R-libraries/cleanup.bash" ]
+  elif [ "${i}" == "R-libraries/cleanup.bash" ] # done in base
   then
     echo "skipped"
-  elif [ "${i}" == "Rcmdr/cleanup.bash" ]
+  elif [ "${i}" == "Rcmdr/cleanup.bash" ] # done in base
   then
     echo "skipped"
-  elif [ "${i}" == "GoogleRefine/cleanup.bash" ]
+  elif [ "${i}" == "GoogleRefine/cleanup.bash" ] # done in base
   then
     echo "skipped"
   else
     j=`echo ${i} | sed 's/cleanup.bash//'`
     pushd ${j}
-    ./install-all.bash
+    ./cleanup.bash
+    ./install-dependencies.bash 2>&1 | tee dependencies.log
+    ./install-all.bash 2>&1 | tee all.log
     popd
   fi
 done
