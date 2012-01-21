@@ -19,26 +19,25 @@ fi
 
 # install local R libraries
 pushd R-libraries
-./install-dependencies.bash
+./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 
 # install R Commander
 pushd Rcmdr
-./install-dependencies.bash
+./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 
 # install Perl packages
 pushd Perl-packages
-./install-dependencies.bash
+./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 
 # install Google Refine
-rm -fr ~/local
 pushd GoogleRefine
-./install-dependencies.bash
+./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 

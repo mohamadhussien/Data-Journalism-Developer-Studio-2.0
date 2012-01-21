@@ -14,3 +14,8 @@ for i in system
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
+
+rm -fr ~/local; mkdir -p ~/local # start with clean slate
+cp logo.jpg ~/local/R-logo.jpg
+mkdir -p ~/.local/share/applications
+sed s:HOME:$HOME: R.desktop > ~/.local/share/applications/R.desktop

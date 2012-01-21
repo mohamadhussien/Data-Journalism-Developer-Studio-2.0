@@ -208,7 +208,7 @@ Business and financial data
 \end_layout
 
 \begin_layout Itemize
-Political fundraising and vote tabulation data
+Political fundraising, census/redistricting and vote tabulation data
 \end_layout
 
 \begin_layout Itemize
@@ -538,6 +538,54 @@ target "http://search.cpan.org/~tempire/Google-Voice-0.0101/lib/Google/Voice.pm"
 \end_layout
 
 \begin_layout BeginFrame
+Base Workstation R Library Packages
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Textir Sentiment Analysis and Topic Modeling"
+target "http://cran.r-project.org/web/packages/textir/index.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "tm Text Mining"
+target "http://cran.r-project.org/web/packages/tm/index.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "GGPlot2 Publication-Quality Graphics"
+target "http://cran.r-project.org/web/packages/ggplot2/index.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "googleVis Google Visualization API Interface"
+target "http://cran.r-project.org/web/packages/googleVis/index.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
 The Data Journalism Developer Studio Is Modular
 \end_layout
 
@@ -803,28 +851,6 @@ target "http://rosuda.org/mondrian/"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "ggplot2"
-target "http://had.co.nz/ggplot2/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "The R Commander: A Basic-Statistics GUI for R"
-target "http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
 name "Rattle: Gnome Cross Platform GUI for Data Mining using R"
 target "http://rattle.togaware.com/"
 
@@ -836,8 +862,8 @@ target "http://rattle.togaware.com/"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "R Machine Learning Task View"
-target "http://cran.cnr.berkeley.edu/web/views/MachineLearning.html"
+name "SciViews-R GUI"
+target "http://sciviews.org/SciViews-R/index.html"
 
 \end_inset
 
@@ -886,17 +912,6 @@ target "http://cran.cnr.berkeley.edu/web/views/Econometrics.html"
 LatexCommand href
 name "R Time Series Analysis Task View"
 target "http://cran.cnr.berkeley.edu/web/views/TimeSeries.html"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "BeanCounter Portfolio Performance Toolkit"
-target "http://dirk.eddelbuettel.com/code/beancounter.html"
 
 \end_inset
 
@@ -1021,6 +1036,17 @@ target "http://cran.cnr.berkeley.edu/web/views/NaturalLanguageProcessing.html"
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "R Machine Learning Task View"
+target "http://cran.cnr.berkeley.edu/web/views/MachineLearning.html"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 Add-On Server Construction Frameworks
 \end_layout
@@ -1073,17 +1099,6 @@ target "http://couchdb.apache.org/"
 LatexCommand href
 name "MongoDB"
 target "http://www.mongodb.org/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Riak"
-target "http://wiki.basho.com/Riak.html"
 
 \end_inset
 
