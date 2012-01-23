@@ -12,9 +12,5 @@ sudo zypper install -y sudo ntp yast2-sudo yast2-ntp-client
 # Just in case there's no browser
 sudo zypper install -y MozillaFirefox icedtea-web
 
-# desktop goodies
-sudo zypper install -y nautilus-evince libgnome libgnomesu \
-  nautilus-open-terminal
-
 # Ruby
 sudo zypper install -y ruby
