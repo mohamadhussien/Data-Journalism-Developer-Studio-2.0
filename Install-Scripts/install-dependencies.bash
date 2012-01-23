@@ -3,11 +3,11 @@
 # wget may not be there in appliances
 sudo zypper install -y wget
 
-# vim and bash
-sudo zypper install -y vim bash-completion
+# bash completion
+sudo zypper install -y bash-completion
 
 # system admin
-sudo zypper install -y sudo ntp yast2-sudo yast2-ntp-client
+sudo zypper install -y sudo ntp yast2-sudo yast2-ntp-client yast2-firewall
 
 # Just in case there's no browser
 sudo zypper install -y MozillaFirefox icedtea-web
