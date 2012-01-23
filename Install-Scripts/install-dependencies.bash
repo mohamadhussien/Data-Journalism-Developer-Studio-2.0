@@ -1,16 +1,4 @@
 #!/bin/bash -v
 
-# wget may not be there in appliances
-sudo zypper install -y wget
-
-# bash completion
-sudo zypper install -y bash-completion
-
-# system admin
-sudo zypper install -y sudo ntp yast2-sudo yast2-ntp-client yast2-firewall
-
-# Just in case there's no browser
-sudo zypper install -y MozillaFirefox icedtea-web
-
-# Ruby
-sudo zypper install -y ruby
+sudo zypper install -y bash-completion sudo ntp MozillaFirefox icedtea-web \
+  ruby wget yast2-sudo yast2-ntp-client yast2-firewall
