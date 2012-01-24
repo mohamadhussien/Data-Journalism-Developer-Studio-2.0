@@ -17,24 +17,28 @@ fi
 
 # install local R libraries
 pushd R-libraries
+./cleanup.bash
 ./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 
 # install R Commander
 pushd Rcmdr
+./cleanup.bash
 ./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 
 # install Perl packages
 pushd Perl-packages
+./cleanup.bash
 ./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
 
 # install Google Refine
 pushd GoogleRefine
+./cleanup.bash
 ./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-all.bash
 popd
