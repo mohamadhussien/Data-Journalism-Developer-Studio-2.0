@@ -7,6 +7,7 @@ then
 fi
 
 cat bashrc >> ~/.bashrc # define the ls conveniences
+vi ~/.bashrc
 source ~/.bashrc
 
 # install Linux dependencies
