@@ -8,18 +8,58 @@ sudo zypper addrepo -cf http://download.opensuse.org/repositories/Virtualization
 sudo zypper refresh
 
 # Openbox base
-sudo zypper install -y bash-completion gnome-menus-editor lightdm \
-  NetworkManager ntp obconf obmenu openbox open-vm-tools open-vm-tools-gui \
-  sudo virtualbox-guest-tools virtualbox-guest-x11 xscreensaver yast2-firewall \
-  yast2-ntp-client yast2-sudo
+sudo zypper install -y \
+  bash-completion \
+  gnome-menus-editor \
+  gvim \
+  lightdm \
+  NetworkManager \
+  ntp \
+  obconf \
+  obmenu \
+  openbox \
+  open-vm-tools \
+  open-vm-tools-gui \
+  sudo \
+  vim-base \
+  vim-data \
+  vim-enhanced \
+  virtualbox-guest-tools \
+  virtualbox-guest-x11 \
+  xscreensaver \
+  yast2-firewall \
+  yast2-ntp-client \
+  yast2-sudo
 
 # Studio base
-sudo zypper install -y epdfview freeglut-devel gcc-c++ gcc-fortran graphviz \
-  graphviz-devel graphviz-gd icedtea-web java-1_6_0-openjdk-devel \
-  libcurl-devel libpng14-devel libxml2-devel make MozillaFirefox \
-  perl-Crypt-SSLeay perl-IO-Socket-SSL perl-JSON perl-JSON-XS perl-Net-SSLeay \
-  perl-YAML perl-YAML-Syck R-patched R-patched-devel ruby tesseract texinfo \
-  texlive-bin texlive-bin-latex tk-devel wget
+sudo zypper install -y \
+  epdfview \
+  freeglut-devel \
+  gcc-c++ \
+  gcc-fortran \
+  graphviz \
+  graphviz-devel \
+  graphviz-gd \
+  icedtea-web \
+  java-1_6_0-openjdk-devel \
+  libcurl-devel \
+  libpng14-devel \
+  libxml2-devel \
+  make \
+  MozillaFirefox \
+  perl-JSON \
+  perl-JSON-XS \
+  perl-YAML \
+  perl-YAML-Syck \
+  R-patched \
+  R-patched-devel \
+  ruby \
+  tesseract \
+  texinfo \
+  texlive-bin \
+  texlive-bin-latex \
+  tk-devel \
+  wget
 
 # RStudio Desktop
 if [ `uname -m` == 'x86_64' ]
