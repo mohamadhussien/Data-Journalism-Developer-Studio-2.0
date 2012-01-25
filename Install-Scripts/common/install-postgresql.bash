@@ -5,7 +5,7 @@ if [ "$TEST" != "1" ]
 then
   echo "Installing PostgreSQL and friends"
   sudo zypper install -y postgresql postgresql-devel postgresql-contrib \
-    postgresql-docs pgadmin3 perl-DBD-Pg
+    pgadmin3 perl-DBD-Pg
 else
   echo "PostgreSQL and friends have already been installed"
 fi
