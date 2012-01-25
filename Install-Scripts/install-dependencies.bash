@@ -5,6 +5,7 @@ sudo zypper addrepo -cf http://download.opensuse.org/repositories/X11:/lxde/open
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languages:/R:/patched/openSUSE_12.1/devel:languages:R:patched.repo # R Patched
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.1/Documentation:Tools.repo # Tesseract
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Virtualization/openSUSE_12.1/Virtualization.repo # VirtualBox guest tools
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.1/devel:languages:perl.repo # Perl libraries
 sudo zypper refresh
 
 # Openbox base
@@ -47,8 +48,11 @@ sudo zypper install -y \
   libxml2-devel \
   make \
   MozillaFirefox \
+  perl-Browser-Open \
   perl-JSON \
   perl-JSON-XS \
+  perl-Net-Twitter \
+  perl-WWW-Mechanize \
   perl-YAML \
   perl-YAML-Syck \
   R-patched \
