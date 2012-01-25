@@ -1,10 +1,9 @@
 #!/bin/bash -v
 
-# IceWM / Openbox base
-sudo zypper install -y alacarte bash-completion icewm-default lightdm \
-  NetworkManager ntp obconf openbox open-vm-tools open-vm-tools-gui sudo \
-  virtualbox-guest-tools virtualbox-guest-x11 xscreensaver yast2-firewall \
-  yast2-ntp-client yast2-sudo
+# Openbox base
+sudo zypper install -y alacarte bash-completion lightdm NetworkManager ntp \
+  obconf openbox open-vm-tools open-vm-tools-gui sudo virtualbox-guest-tools \
+  virtualbox-guest-x11 xscreensaver yast2-firewall yast2-ntp-client yast2-sudo
 
 # Studio base
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languages:/R:/patched/openSUSE_12.1/devel:languages:R:patched.repo
