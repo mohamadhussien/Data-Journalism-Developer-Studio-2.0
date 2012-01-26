@@ -11,7 +11,7 @@
 		<item label="R Tk Console">
 			<action name="Execute">
 				<execute>
-					R -g Tk
+					xterm -e R -g Tk
 				</execute>
 			</action>
 		</item>
