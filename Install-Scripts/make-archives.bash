@@ -14,4 +14,6 @@ tar cvf - \
   .local/share/applications/google-refine.desktop \
   .local/share/applications/R.desktop \
   .config/openbox \
+  .vimrc \
+  .gvimrc \
   | bzip2 -9c > local.tar.bz2
