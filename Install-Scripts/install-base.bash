@@ -7,8 +7,11 @@ then
 fi
 
 cat bashrc >> ~/.bashrc # define the ls conveniences
-vi ~/.bashrc
+vim ~/.bashrc
 source ~/.bashrc
+
+cp vimrc ~/.vimrc; vim ~/.vimrc
+cp gvimrc ~/.gvimrc; vim ~/.gvimrc
 
 # install Linux dependencies
 if [ "$1" != "--appliance" ]
