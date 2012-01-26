@@ -21,6 +21,7 @@ sudo zypper install -y \
   openbox \
   open-vm-tools \
   open-vm-tools-gui \
+  python-xml \
   sudo \
   vim-base \
   vim-data \
