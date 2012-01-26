@@ -48,5 +48,12 @@ pushd GoogleRefine
 ./install-all.bash
 popd
 
+# install Maqetta
+pushd Maqetta
+./cleanup.bash
+./install-dependencies.bash 2>&1 | tee dependencies.log
+./install-all.bash
+popd
+
 # make archives
 ./make-archives.bash 2>&1 | tee make-archives.log
