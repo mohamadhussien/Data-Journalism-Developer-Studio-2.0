@@ -18,9 +18,6 @@ do
   if [ "${i}" == "Perl-packages/cleanup.bash" ] # done in base
   then
     echo "skipped"
-  elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ] # just done here
-  then
-    echo "skipped"
   elif [ "${i}" == "R-libraries/cleanup.bash" ] # done in base
   then
     echo "skipped"
@@ -28,6 +25,9 @@ do
   then
     echo "skipped"
   elif [ "${i}" == "GoogleRefine/cleanup.bash" ] # done in base
+  then
+    echo "skipped"
+  elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ] # just done here
   then
     echo "skipped"
   else
