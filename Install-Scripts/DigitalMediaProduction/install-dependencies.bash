@@ -35,3 +35,4 @@ sudo zypper install -y gimp-plugins-python
 sudo zypper install -y gimp-save-for-web
 sudo zypper install -y gimp-ufraw ufraw
 sudo zypper install -y gutenprint-gimpplugin
+sudo zypper install -y calibre
