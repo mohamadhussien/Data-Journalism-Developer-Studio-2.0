@@ -12,6 +12,7 @@ source ~/.bashrc
 
 cp vimrc ~/.vimrc; vim ~/.vimrc
 cp gvimrc ~/.gvimrc; vim ~/.gvimrc
+mkdir -p ~/.config/openbox; cp menu.xml ~/.config/openbox/
 
 # install Linux dependencies
 if [ "$1" != "--appliance" ]

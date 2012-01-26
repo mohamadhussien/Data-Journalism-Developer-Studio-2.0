@@ -1,8 +1,6 @@
 #! /bin/bash -v
 cd ~
 gmenu-simple-editor # invoke "Gnome" menu editor
-mkdir -p ~/.config/openbox
-cp /etc/xdg/openbox/menu.xml ~/.config/openbox/
 obmenu # invoke Openbox menu editor
 vim ~/.config/openbox/menu.xml
 vim .bashrc # get approval before archiving .bashrc!
@@ -13,7 +11,7 @@ tar cvf - \
   local \
   .local/share/applications/google-refine.desktop \
   .local/share/applications/R.desktop \
-  .config/openbox \
+  .config/openbox/menu.xml \
   .vimrc \
   .gvimrc \
   | bzip2 -9c > local.tar.bz2
