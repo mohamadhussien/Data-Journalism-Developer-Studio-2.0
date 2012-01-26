@@ -2,8 +2,9 @@
 cd ~
 gmenu-simple-editor # invoke "Gnome" menu editor
 mkdir -p ~/.config/openbox
-cp /etc/xdg/openbox/*.xml ~/.config/openbox/
+cp /etc/xdg/openbox/menu.xml ~/.config/openbox/
 obmenu # invoke Openbox menu editor
+vim ~/.config/openbox/menu.xml
 vim .bashrc # get approval before archiving .bashrc!
 tar cvf - .bashrc | bzip2 -9c > bashrc.tar.bz2
 tar cvf - perl5 | bzip2 -9c > perl5.tar.bz2
