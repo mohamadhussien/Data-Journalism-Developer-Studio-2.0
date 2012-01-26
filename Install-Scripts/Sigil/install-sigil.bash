@@ -15,7 +15,6 @@ pushd /usr/local/src
   sudo mkdir -p ${BDIR}
   pushd ${BDIR}
     sudo cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ../${SDIR}
-    exit
     sudo make
     sudo make install
   popd
