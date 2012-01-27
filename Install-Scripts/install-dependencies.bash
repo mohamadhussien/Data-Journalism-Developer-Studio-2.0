@@ -24,7 +24,6 @@ sudo zypper install -y \
   vim-enhanced \
   virtualbox-guest-tools \
   virtualbox-guest-x11 \
-  wmctrl \
   xscreensaver \
   yast2-firewall \
   yast2-ntp-client \
