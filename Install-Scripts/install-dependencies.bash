@@ -11,7 +11,6 @@ sudo zypper refresh
 # Openbox base
 sudo zypper install -y \
   bash-completion \
-  gnome-menus-editor \
   gvim \
   lightdm \
   NetworkManager \
