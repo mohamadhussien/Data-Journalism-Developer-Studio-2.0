@@ -33,10 +33,6 @@ sudo zypper install -y \
 # Openbox
 sudo zypper install -y obconf openbox
 
-# WindowMaker
-sudo zypper install -y WindowMaker WindowMaker-applets WindowMaker-themes\
-  wmakerconf
-
 # Razor Qt
 sudo zypper install -y juffed juffed-plugins qlipper qstardict qterminal \
 	  qxkb razorqt rssguard
