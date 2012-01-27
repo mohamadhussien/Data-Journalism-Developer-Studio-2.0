@@ -48,6 +48,7 @@ sudo zypper install -y \
   java-1_6_0-openjdk-devel \
   libcurl-devel \
   libpng14-devel \
+  libQtWebKit4 \
   libxml2-devel \
   make \
   MozillaFirefox \
