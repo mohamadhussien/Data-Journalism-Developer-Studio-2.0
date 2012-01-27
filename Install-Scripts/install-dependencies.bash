@@ -17,6 +17,7 @@ sudo zypper install -y \
   ntp \
   open-vm-tools \
   open-vm-tools-gui \
+  oxygen-icon-theme \
   python-gtk \
   python-xml \
   sudo \
