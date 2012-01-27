@@ -140,13 +140,13 @@
   (WindowMaker, OPEN_MENU, "/etc/X11/WindowMaker/SuSE_wmapps"),
   (
     "Local Applications",
-    (Maqetta, EXEC, "xterm -e ${HOME}/local/maqetta/maqetta.local.unix.sh"),
-    ("R Tk Console", EXEC, "xterm -e R -g Tk"),
     (
       "Google Refine",
       EXEC,
       "xterm -e ${HOME}/local/google-refine-2.5/refine"
-    )
+    ),
+    (Maqetta, EXEC, "xterm -e ${HOME}/local/maqetta/maqetta.local.unix.sh"),
+    ("R Tk Console", EXEC, "xterm -e R -g Tk")
   ),
   (SuSE, OPEN_MENU, "| xdg_menu --format WindowMaker --charset UTF-8"),
   (Exit, (Restart, RESTART), (Exit, EXIT))
