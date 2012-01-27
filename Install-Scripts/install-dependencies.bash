@@ -5,6 +5,7 @@ sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languag
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.1/Documentation:Tools.repo # Tesseract
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Virtualization/openSUSE_12.1/Virtualization.repo # VirtualBox guest tools
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.1/devel:languages:perl.repo # Perl libraries
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/X11:/QtDesktop/openSUSE_12.1/X11:QtDesktop.repo # Razor Qt
 sudo zypper refresh
 
 # X-Windows base
@@ -28,6 +29,17 @@ sudo zypper install -y \
   yast2-firewall \
   yast2-ntp-client \
   yast2-sudo
+
+# Openbox
+sudo zypper install -y obconf openbox
+
+# WindowMaker
+sudo zypper install -y WindowMaker WindowMaker-applets WindowMaker-themes\
+  wmakerconf
+
+# Razor Qt
+sudo zypper install -y juffed juffed-plugins qlipper qstardict qterminal \
+	  qxkb razorqt rssguard
 
 # Studio base
 sudo zypper install -y \
