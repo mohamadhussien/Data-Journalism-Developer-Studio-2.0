@@ -10,9 +10,10 @@ cat bashrc >> ~/.bashrc # define the ls conveniences
 vim ~/.bashrc
 source ~/.bashrc
 
-cp vimrc ~/.vimrc; vim ~/.vimrc
-cp gvimrc ~/.gvimrc; vim ~/.gvimrc
+cp vimrc ~/.vimrc
+cp gvimrc ~/.gvimrc
 mkdir -p ~/.config/openbox; cp menu.xml ~/.config/openbox/
+mkdir -p ~/GNUStep/Defaults; cp WMRootMenu ~/GNUStep/Defaults
 
 # install Linux dependencies
 if [ "$1" != "--appliance" ]
