@@ -13,8 +13,7 @@ source ~/.bashrc
 cp vimrc ~/.vimrc
 cp gvimrc ~/.gvimrc
 mkdir -p ~/.config/openbox; cp menu.xml ~/.config/openbox/
-mkdir -p ~/.razor; cp session.conf ~/.razor/
-mkdir -p ~/.razor/razor-panel; cp panel.conf ~/.razor/razor-panel/
+mkdir -p ~/.razor; cp -a razor-conf/* ~/.razor/
 
 # install Linux dependencies
 if [ "$1" != "--appliance" ]
