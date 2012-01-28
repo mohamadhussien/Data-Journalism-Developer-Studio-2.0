@@ -14,3 +14,5 @@ popd
 mkdir -p ~/.local/share/applications
 sed s:HOME:$HOME: google-refine.desktop > \
   ~/.local/share/applications/google-refine.desktop
+sed s:HOME:$HOME: google-refine-browser.desktop > \
+  ~/.local/share/applications/google-refine-browser.desktop
