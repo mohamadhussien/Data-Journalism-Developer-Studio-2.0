@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 	<menu id="local-applications" label="Local Applications">
-		<item label="Google Refine">
+		<item label="Google Refine Local Server">
 			<action name="Execute">
 				<execute>
 					xterm -e ${HOME}/local/google-refine-2.5/refine
+				</execute>
+			</action>
+		</item>
+		<item label="Google Refine Browser">
+			<action name="Execute">
+				<execute>
+					firefox http://127.0.0.1:3333
 				</execute>
 			</action>
 		</item>
