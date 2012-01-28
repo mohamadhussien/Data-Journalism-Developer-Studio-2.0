@@ -9,6 +9,7 @@ tar cvf - \
   local \
   .local/share/applications/google-refine.desktop \
   .local/share/applications/R.desktop \
+  .razor/* \
   .config/openbox/menu.xml \
   .vimrc \
   .gvimrc \
