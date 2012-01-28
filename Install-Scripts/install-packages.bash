@@ -39,6 +39,7 @@ sudo zypper install -y lxshortcut
 sudo zypper install -y lxtask
 sudo zypper install -y lxterminal
 sudo zypper install -y make
+sudo zypper install -y menu-cache
 sudo zypper install -y MozillaFirefox
 sudo zypper install -y NetworkManager
 sudo zypper install -y ntp
