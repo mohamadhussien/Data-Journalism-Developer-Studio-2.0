@@ -13,7 +13,6 @@ source ~/.bashrc
 cp vimrc ~/.vimrc
 cp gvimrc ~/.gvimrc
 mkdir -p ~/.config/openbox; cp -a openbox-conf/* ~/.config/openbox/
-mkdir -p ~/.razor; cp -a razor-conf/* ~/.razor/
 
 # install Linux dependencies
 if [ "$1" != "--appliance" ]
