@@ -8,10 +8,17 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Maqetta">
+		<item label="Maqetta Local Server">
 			<action name="Execute">
 				<execute>
 					xterm -e ${HOME}/local/maqetta/maqetta.local.unix.sh
+				</execute>
+			</action>
+		</item>
+		<item label="Maqetta Browser">
+			<action name="Execute">
+				<execute>
+					firefox http://localhost:5000/maqetta
 				</execute>
 			</action>
 		</item>
