@@ -1,7 +1,6 @@
 #!/bin/bash -v
 
 sudo zypper install -y bash-completion
-sudo zypper install -y branding-upstream
 sudo zypper install -y ConsoleKit-x11
 sudo zypper install -y dbus-1-x11
 sudo zypper install -y epdfview
@@ -15,7 +14,6 @@ sudo zypper install -y gvim
 sudo zypper install -y icedtea-web
 sudo zypper install -y iputils
 sudo zypper install -y java-1_6_0-openjdk-devel
-sudo zypper install -y kernel-default
 sudo zypper install -y less
 sudo zypper install -y libcurl-devel
 sudo zypper install -y libpng14-devel
