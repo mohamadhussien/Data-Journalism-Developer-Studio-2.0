@@ -28,7 +28,6 @@ sudo zypper install -y lxinput
 sudo zypper install -y lxlauncher
 sudo zypper install -y lxmenu-data
 sudo zypper install -y lxpanel
-sudo zypper install -y lxpolkit
 sudo zypper install -y lxrandr
 sudo zypper install -y lxsession
 sudo zypper install -y lxsession-edit
