@@ -22,3 +22,10 @@ pushd /usr/local/src
   # clean up
   sudo rm -fr ${WHAT} ${SDIR} ${BDIR}
 popd
+
+sudo tar cf - \
+  /usr/local/bin/sigil \
+  /usr/local/share/applications/sigil.desktop \
+  /usr/local/share/pixmaps/sigil.png \
+  /usr/local/share/sigil/* \
+  | bzip2 -9c > ~/sigil.tar.bz2
