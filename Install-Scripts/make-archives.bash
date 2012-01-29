@@ -14,6 +14,4 @@ tar cvf - \
   .local/share/applications/R.desktop \
   .config/openbox/* \
   .config/lxterminal/* \
-  .vimrc \
-  .gvimrc \
   | bzip2 -9c > local.tar.bz2
