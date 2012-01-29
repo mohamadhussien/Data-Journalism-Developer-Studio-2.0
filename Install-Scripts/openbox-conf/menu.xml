@@ -8,7 +8,7 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Google Refine Browser">
+		<item label="Browse to Google Refine">
 			<action name="Execute">
 				<execute>
 					xdg-open 'http://127.0.0.1:3333/'
@@ -22,7 +22,7 @@
 				</execute>
 			</action>
 		</item>
-		<item label="Maqetta Browser">
+		<item label="Browse to Maqetta">
 			<action name="Execute">
 				<execute>
 					xdg-open 'http://localhost:50000/maqetta'
