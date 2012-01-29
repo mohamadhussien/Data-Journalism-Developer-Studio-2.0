@@ -4,7 +4,7 @@
 		<item label="Google Refine Local Server">
 			<action name="Execute">
 				<execute>
-					xterm -e ${HOME}/local/google-refine-2.5/refine
+					xterm -e ${HOME}/local/google-refine/refine
 				</execute>
 			</action>
 		</item>
