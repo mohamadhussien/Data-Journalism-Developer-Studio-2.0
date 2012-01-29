@@ -4,6 +4,7 @@ export WHERE=http://maqetta.org/downloads
 export DIR=maqetta
 export \
   WHAT=`curl -s ${WHERE}/|grep '.zip'|sed 's/^.*href=.//'|sed 's/zip.*/zip/'`
+export VERSION=`echo ${WHAT}|sed 's/\.zip//'`
 
 mkdir -p ~/local
 pushd ~/local
@@ -20,3 +21,6 @@ mkdir -p ~/.local/share/applications
 sed s:HOME:$HOME: maqetta.desktop > ~/.local/share/applications/maqetta.desktop
 sed s:HOME:$HOME: maqetta-browser.desktop > \
   ~/.local/share/applications/maqetta-browser.desktop
+
+tar cf - ~/local/maqetta ~/.local/share/applications/maqetta*desktop \
+  | gzip -9c > ~/${VERSION}.tar.bz2
