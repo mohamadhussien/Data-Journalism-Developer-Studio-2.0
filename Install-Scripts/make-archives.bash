@@ -7,8 +7,4 @@ tar cvf - \
   local/R-logo.jpg \
   R \
   | bzip2 -9c > R.tar.bz2
-tar cvf - \
-  .config/openbox/* \
-  .config/lxterminal/* \
-  .config/lxpanel/* \
-  | bzip2 -9c > config.tar.bz2
+tar cvf - .config/* | bzip2 -9c > config.tar.bz2
