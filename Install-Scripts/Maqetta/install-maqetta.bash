@@ -22,5 +22,9 @@ sed s:HOME:$HOME: maqetta.desktop > ~/.local/share/applications/maqetta.desktop
 sed s:HOME:$HOME: maqetta-browser.desktop > \
   ~/.local/share/applications/maqetta-browser.desktop
 
-tar cf - ~/local/maqetta ~/.local/share/applications/maqetta*desktop \
-  | gzip -9c > ~/${VERSION}.tar.bz2
+pushd ~
+tar cf - \
+  .local/share/applications/maqetta*desktop \
+  local/maqetta \
+  | gzip -9c > ${VERSION}.tar.bz2
+popd
