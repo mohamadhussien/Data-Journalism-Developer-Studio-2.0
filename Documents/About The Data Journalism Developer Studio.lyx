@@ -87,8 +87,8 @@ Data Journalism Developer Studio 2012LX Overview
 \emph on
 \begin_inset CommandInset href
 LatexCommand href
-name "Download Data Journalism Developer Studio 2012"
-target "http://susestudio.com/a/RQrRBY/data-journalism-developer-studio-20"
+name "Download Data Journalism Developer Studio 2012LX"
+target "http://j.mp/DJDS2012LX"
 
 \end_inset
 
@@ -180,7 +180,11 @@ Hundreds of millions of Twitter accounts almost everywhere in the world
 \end_layout
 
 \begin_layout Itemize
-Millions of active Twitter users
+Millions of 
+\emph on
+active
+\emph default
+ Twitter users
 \end_layout
 
 \begin_layout Itemize
@@ -192,6 +196,8 @@ Intricate and changing connection patterns between people
 \end_layout
 
 \begin_layout Itemize
+
+\emph on
 People break and discuss the news in real time on Twitter.
 \end_layout
 
@@ -212,7 +218,7 @@ Political fundraising, census/redistricting and vote tabulation data
 \end_layout
 
 \begin_layout Itemize
-Environmental and climate data
+Environmental, weather and climate data
 \end_layout
 
 \begin_layout Itemize
@@ -336,11 +342,6 @@ The software in the Data Journalism Developer Studio is freely downloadable
 \end_layout
 
 \begin_layout Itemize
-Much of the documentation and training material in the Data Journalism Developer
- Studio is also free to download
-\end_layout
-
-\begin_layout Itemize
 Functionality that would cost thousands of dollars in commercial licenses
  is available for the cost of a download
 \end_layout
@@ -353,7 +354,7 @@ Base Workstation
 The 
 \begin_inset CommandInset href
 LatexCommand href
-name "openSUSE 12.1 Linux operating system"
+name "openSUSE(TM) 12.1 Linux(TM) operating system"
 target "http://software.opensuse.org/121/en"
 
 \end_inset
@@ -365,12 +366,12 @@ target "http://software.opensuse.org/121/en"
 The 
 \begin_inset CommandInset href
 LatexCommand href
-name "Firefox"
+name "Firefox(TM) Browser"
 target "http://www.mozilla.com/en-US/firefox/firefox.html"
 
 \end_inset
 
- Browser
+
 \end_layout
 
 \begin_layout Itemize
@@ -386,17 +387,19 @@ target "http://www.r-project.org/"
 \end_layout
 
 \begin_layout Itemize
+The 
 \begin_inset CommandInset href
 LatexCommand href
-name "RStudio"
+name "RStudio Integrated Development Environment"
 target "http://rstudio.org/"
 
 \end_inset
 
- Integrated Development Environment
+
 \end_layout
 
 \begin_layout Itemize
+The 
 \begin_inset CommandInset href
 LatexCommand href
 name "R Commander GUI"
@@ -408,6 +411,7 @@ target "http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/"
 \end_layout
 
 \begin_layout Itemize
+The 
 \begin_inset CommandInset href
 LatexCommand href
 name "Sigil WYSIWYG eBook Editor"
@@ -419,6 +423,7 @@ target "http://code.google.com/p/sigil/"
 \end_layout
 
 \begin_layout Itemize
+The 
 \begin_inset CommandInset href
 LatexCommand href
 name "Maqetta WYSIWYG HTML5 User Interface Authoring Tool"
@@ -493,7 +498,7 @@ target "http://search.cpan.org/~mmims/Net-Twitter-3.14002/lib/Net/Twitter.pod"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "Perl WWW::Mechanize Web Page Scraping Tools"
+name "Perl WWW::Mechanize Web Mining Tools"
 target "http://search.cpan.org/~petdance/WWW-Mechanize-1.66/lib/WWW/Mechanize.pm"
 
 \end_inset
@@ -530,7 +535,7 @@ target "http://cran.r-project.org/web/packages/textir/index.html"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "tm Text Mining"
+name "tm Text Mining Package"
 target "http://cran.r-project.org/web/packages/tm/index.html"
 
 \end_inset
@@ -538,6 +543,20 @@ target "http://cran.r-project.org/web/packages/tm/index.html"
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Email plugin
+\end_layout
+
+\begin_layout Itemize
+Sentiment analysis plugin
+\end_layout
+
+\begin_layout Itemize
+Web mining plugin
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
@@ -665,7 +684,7 @@ Geospatial / mapping
 \end_layout
 
 \begin_layout Itemize
-Natural language processing and text mining
+Natural language processing, machine learning and text mining
 \end_layout
 
 \begin_layout BeginFrame
@@ -1210,6 +1229,17 @@ target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20
 LatexCommand href
 name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
 target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
+target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
 
 \end_inset
 
