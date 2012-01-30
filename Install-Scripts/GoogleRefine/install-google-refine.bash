@@ -19,7 +19,9 @@ sed s:HOME:$HOME: google-refine.desktop > \
 sed s:HOME:$HOME: google-refine-browser.desktop > \
   ~/.local/share/applications/google-refine-browser.desktop
 
+pushd ~
 tar cf - \
-  ~/.local/share/applications/google-refine*desktop \
-  ~/local/${DIR} \
-  | bzip2 -9c > ~/${VERSION}.tar.bz2
+  .local/share/applications/google-refine*desktop \
+  local/${DIR} \
+  | bzip2 -9c > ${VERSION}.tar.bz2
+popd
