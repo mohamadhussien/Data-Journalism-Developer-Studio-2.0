@@ -1,7 +1,7 @@
 #! /bin/bash -v
 
 pushd ~
-rm -fr .cpan/build .cpan/sources
+rm -fr .cpan/build .cpan/sources .cpan/Metadata
 tar cf - \
   perl5 \
   .cpan \
