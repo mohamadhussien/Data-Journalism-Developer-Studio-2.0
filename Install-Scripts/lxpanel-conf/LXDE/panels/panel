@@ -61,9 +61,6 @@ Plugin {
         Button {
             id=/usr/share/applications/firefox.desktop
         }
-        Button {
-            id=/usr/share/applications/YaST.desktop
-        }
     }
 }
 
