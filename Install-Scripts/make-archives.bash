@@ -9,4 +9,5 @@ tar cvf - \
 tar cvf - \
   .config/openbox/* \
   .config/lxterminal/* \
+  .config/lxpanel/* \
   | bzip2 -9c > config.tar.bz2
