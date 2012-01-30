@@ -27,6 +27,12 @@ do
   elif [ "${i}" == "GoogleRefine/cleanup.bash" ] # done in base
   then
     echo "skipped"
+  elif [ "${i}" == "Maqetta/cleanup.bash" ] # done in base
+  then
+    echo "skipped"
+  elif [ "${i}" == "Sigil/cleanup.bash" ] # done in base
+  then
+    echo "skipped"
   elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ] # just done here
   then
     echo "skipped"
