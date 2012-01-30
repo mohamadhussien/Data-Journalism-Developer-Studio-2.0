@@ -79,7 +79,7 @@
 \begin_body
 
 \begin_layout Title
-Data Journalism Developer Studio 2012 Overview
+Data Journalism Developer Studio 2012LX Overview
 \end_layout
 
 \begin_layout Subtitle
@@ -410,6 +410,32 @@ target "http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
+name "Sigil WYSIWYG eBook Editor"
+target "http://code.google.com/p/sigil/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Maqetta WYSIWYG HTML5 User Interface Authoring Tool"
+target "http://maqetta.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Base Workstation Internet Data Collection Libraries
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
 name "Perl"
 target "http://www.perl.org/"
 
@@ -442,10 +468,7 @@ target "http://code.google.com/p/google-refine/"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Itemize
+ and 
 \begin_inset CommandInset href
 LatexCommand href
 name "Google Tesseract OCR Optical Character Recognition Engine"
@@ -456,47 +479,10 @@ target "http://code.google.com/p/tesseract-ocr/"
 
 \end_layout
 
-\begin_layout BeginFrame
-Base Workstation Perl Real-Time Internet Data Collection Libraries
-\end_layout
-
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "WebService::Bitly"
-target "http://search.cpan.org/~shibazaki/WebService-Bitly-0.05/lib/WebService/Bitly.pm"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Email::Send"
-target "http://search.cpan.org/~rjbs/Email-Send-2.198/lib/Email/Send.pm"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Net::Google::Spreadsheets"
-target "http://search.cpan.org/~danjou/Net-Google-Spreadsheets-0.14/lib/Net/Google/Spreadsheets.pm"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Net::Twitter"
+name "Perl Net::Twitter API Interface"
 target "http://search.cpan.org/~mmims/Net-Twitter-3.14002/lib/Net/Twitter.pod"
 
 \end_inset
@@ -507,7 +493,7 @@ target "http://search.cpan.org/~mmims/Net-Twitter-3.14002/lib/Net/Twitter.pod"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "WWW::Mechanize"
+name "Perl WWW::Mechanize Web Page Scraping Tools"
 target "http://search.cpan.org/~petdance/WWW-Mechanize-1.66/lib/WWW/Mechanize.pm"
 
 \end_inset
@@ -518,19 +504,8 @@ target "http://search.cpan.org/~petdance/WWW-Mechanize-1.66/lib/WWW/Mechanize.pm
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "AnyEvent::Twitter::Stream"
+name "Perl AnyEvent::Twitter::Stream Streaming API Interface"
 target "http://search.cpan.org/~miyagawa/AnyEvent-Twitter-Stream-0.20/lib/AnyEvent/Twitter/Stream.pm"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Google::Voice"
-target "http://search.cpan.org/~tempire/Google-Voice-0.0101/lib/Google/Voice.pm"
 
 \end_inset
 
@@ -768,54 +743,6 @@ target "http://www.pitivi.org/"
 LatexCommand href
 name "Calibre eBook Library Manager"
 target "http://calibre-ebook.com/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Sigil WYSIWYG eBook Editor"
-target "http://code.google.com/p/sigil/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Maqetta WYSIWYG HTML5 User Interface Authoring Tool"
-target "http://maqetta.org/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Data Collection and Management
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Nokogiri HTML, XML, SAX, and Reader parser"
-target "http://nokogiri.org/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "PostgreSQL Relational Database"
-target "http://www.postgresql.org/"
 
 \end_inset
 
@@ -1116,6 +1043,17 @@ target "http://redis.io/"
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Riak"
+target "http://basho.com/products/riak-overview/"
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 \begin_inset CommandInset href
@@ -1250,6 +1188,43 @@ One million Hows, two million Wheres,
 
 \begin_layout Verse
 And seven million Whys!
+\end_layout
+
+\begin_layout BeginFrame
+Recommended Reading
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Facts are Sacred: The power of data (Guardian Shorts)' by Simon Rogers"
+target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B006PI9PQG"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
+target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Web Data Mining' by Bing Liu"
+target "http://www.amazon.com/gp/product/B000SEPGWK?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B000SEPGWK"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
