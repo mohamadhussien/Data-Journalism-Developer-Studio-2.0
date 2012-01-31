@@ -1238,8 +1238,89 @@ target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
+name "'R Through Excel' by Richard M. Heiberger"
+target "http://www.amazon.com/gp/product/B003VYBPH4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003VYBPH4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Crafting Digital Media' by Daniel James"
+target "http://www.amazon.com/gp/product/B003U890V4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003U890V4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'ggplot2: Elegant Graphics for Data Analysis (Use R)' by Hadley Wickham"
+target "http://www.amazon.com/gp/product/B0041KLFRW?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B0041KLFRW"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Interactive and Dynamic Graphics for Data Analysis' by Dianne Cook"
+target "http://www.amazon.com/gp/product/B00192UM2O?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00192UM2O"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Recommended Reading - Advanced
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
+target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B004QOB424"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
 name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
 target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Natural Language Processing with Python' by Steven Bird"
+target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0596516495"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'The Elements of Statistical Learning' by Jerome Friedman"
+target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00475AS2E"
 
 \end_inset
 
