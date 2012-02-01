@@ -1,0 +1,3 @@
+#! /bin/bash -v
+cd /usr/local/google-refine-2.5
+./refine

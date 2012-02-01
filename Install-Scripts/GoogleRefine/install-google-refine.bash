@@ -14,7 +14,7 @@ popd
 sudo mkdir -p /usr/local/share/applications
 sudo cp google-refine.desktop /usr/local/share/applications/
 sudo mkdir -p /usr/local/bin
-sudo cp refine /usr/local/bin
+sudo cp refine /usr/local/bin/
 
 pushd ~
 sudo tar cf - \
