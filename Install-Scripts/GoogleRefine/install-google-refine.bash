@@ -2,26 +2,24 @@
 export WHERE=http://google-refine.googlecode.com/files
 export WHAT=google-refine-2.5-r2407.tar.gz
 export VERSION=`echo ${WHAT}|sed 's/.tar.gz//'`
-export DIR=google-refine
+export DIR=google-refine-2.5
 
-mkdir -p ~/local
-pushd ~/local/
-rm -fr ${WHAT} ${DIR}
-wget ${WHERE}/${WHAT}
-tar xf ${WHAT}
-rm ${WHAT}
-mv google-refine-* ${DIR}
+pushd /usr/local
+sudo rm -fr ${WHAT} ${DIR}
+sudo wget ${WHERE}/${WHAT}
+sudo tar xf ${WHAT}
+sudo rm ${WHAT}
 popd
 
-mkdir -p ~/.local/share/applications
-sed s:HOME:$HOME: google-refine.desktop > \
-  ~/.local/share/applications/google-refine.desktop
-sed s:HOME:$HOME: google-refine-browser.desktop > \
-  ~/.local/share/applications/google-refine-browser.desktop
+sudo mkdir -p /usr/local/share/applications
+sudo cp google-refine.desktop /usr/local/share/applications/
+sudo mkdir -p /usr/local/bin
+sudo cp refine /usr/local/bin
 
 pushd ~
-tar cf - \
-  .local/share/applications/google-refine*desktop \
-  local/${DIR} \
+sudo tar cf - \
+  /usr/local/share/applications/google-refine.desktop \
+  /usr/local/bin/refine \
+  /usr/local/${DIR} \
   | bzip2 -9c > ${VERSION}.tar.bz2
 popd
