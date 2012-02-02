@@ -7,6 +7,9 @@ sudo zypper install -y epdfview
 sudo zypper install -y freeglut-devel
 sudo zypper install -y gcc-c++
 sudo zypper install -y gcc-fortran
+sudo zypper install -y gnome-icon-theme
+sudo zypper install -y gnome-icon-theme-extras
+sudo zypper install -y gnome-icon-theme-symbolic
 sudo zypper install -y graphviz
 sudo zypper install -y graphviz-devel
 sudo zypper install -y graphviz-gd
@@ -16,6 +19,8 @@ sudo zypper install -y iputils
 sudo zypper install -y java-1_6_0-openjdk-devel
 sudo zypper install -y less
 sudo zypper install -y libcurl-devel
+sudo zypper install -y libgnome
+sudo zypper install -y libgnomesu
 sudo zypper install -y libpng14-devel
 sudo zypper install -y libQtWebKit4
 sudo zypper install -y libxml2-devel
@@ -42,8 +47,6 @@ sudo zypper install -y ntp
 sudo zypper install -y nuoveXT2-icon-theme
 sudo zypper install -y obconf
 sudo zypper install -y openbox
-sudo zypper install -y open-vm-tools
-sudo zypper install -y open-vm-tools-gui
 sudo zypper install -y parcellite
 sudo zypper install -y pcmanfm
 sudo zypper install -y perl-Browser-Open
@@ -67,8 +70,6 @@ sudo zypper install -y tk-devel
 sudo zypper install -y vim
 sudo zypper install -y vim-data
 sudo zypper install -y vim-enhanced
-sudo zypper install -y virtualbox-guest-tools
-sudo zypper install -y virtualbox-guest-x11
 sudo zypper install -y wget
 sudo zypper install -y x11-tools
 sudo zypper install -y xarchiver
