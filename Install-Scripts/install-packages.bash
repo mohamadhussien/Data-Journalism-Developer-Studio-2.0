@@ -3,13 +3,11 @@
 sudo zypper install -y bash-completion
 sudo zypper install -y ConsoleKit-x11
 sudo zypper install -y dbus-1-x11
+sudo zypper install -y eject
 sudo zypper install -y epdfview
 sudo zypper install -y freeglut-devel
 sudo zypper install -y gcc-c++
 sudo zypper install -y gcc-fortran
-sudo zypper install -y gnome-icon-theme
-sudo zypper install -y gnome-icon-theme-extras
-sudo zypper install -y gnome-icon-theme-symbolic
 sudo zypper install -y graphviz
 sudo zypper install -y graphviz-devel
 sudo zypper install -y graphviz-gd
@@ -40,6 +38,7 @@ sudo zypper install -y lxshortcut
 sudo zypper install -y lxtask
 sudo zypper install -y lxterminal
 sudo zypper install -y make
+sudo zypper install -y man
 sudo zypper install -y menu-cache
 sudo zypper install -y MozillaFirefox
 sudo zypper install -y NetworkManager
@@ -71,6 +70,10 @@ sudo zypper install -y vim
 sudo zypper install -y vim-data
 sudo zypper install -y vim-enhanced
 sudo zypper install -y wget
+sudo zypper install -y WindowMaker-applets
+sudo zypper install -y WindowMaker-themes
+sudo zypper install -y wmakerconf
+sudo zypper install -y wm-icons
 sudo zypper install -y x11-tools
 sudo zypper install -y xarchiver
 sudo zypper install -y xorg-x11-driver-input
