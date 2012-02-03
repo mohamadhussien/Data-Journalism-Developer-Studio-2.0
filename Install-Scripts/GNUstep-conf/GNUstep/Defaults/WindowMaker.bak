@@ -1,0 +1,94 @@
+{
+  HighlightColor = "#d6d8da";
+  FTitleColor = "#20302a";
+  AppIconBalloons = NO;
+  AntialiasedText = NO;
+  MenuTextFont = "helvetica:pixelsize=12";
+  WorkspaceBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/Lichen1.jpg",
+    black
+  );
+  MouseMiddleButtonAction = None;
+  UTitleBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/Lichentb1.jpg",
+    "#86a4a6"
+  );
+  IconTitleFont = "helvetica:pixelsize=8";
+  PixmapPath = (
+    "/home/studio/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/studio/GNUstep/Library/WindowMaker/Backgrounds",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/X11R6/share/icons/png/hicolor/all",
+    "/usr/X11R6/share/icons/png/locolor/all",
+    "/usr/X11R6/include/X11/pixmaps",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps"
+  );
+  PTitleBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/Lichentb3.jpg",
+    "#777777"
+  );
+  MiniwindowTitleBalloons = NO;
+  UTitleColor = "#707a80";
+  IconPath = (
+    "/home/studio/GNUstep/Library/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/home/studio/GNUstep/Library/WindowMaker/Pixmaps",
+    "/usr/share/icons",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps",
+    "/usr/share/icons/hicolor/48x48/apps",
+    "/usr/local/share/pixmaps"
+  );
+  NoWindowOverDock = NO;
+  WindowTitleFont = "helvetica:bold:pixelsize=12";
+  ClipTitleFont = "helvetica:bold:pixelsize=10";
+  MenuDisabledColor = "#707a80";
+  MenuTextBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/LichenMenutb4.jpg",
+    "#dddddd"
+  );
+  MenuStyle = flat;
+  PTitleColor = "#20302a";
+  Attraction = NO;
+  IconBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/LichenTile1.jpg",
+    black
+  );
+  MenuTitleBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/LichenMenutb3.jpg",
+    black
+  );
+  DisplayFont = "helvetica:pixelsize=12";
+  FTitleBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/Lichentb9.jpg",
+    "#2e2e2e"
+  );
+  MouseRightButtonAction = OpenWindowListMenu;
+  SingleClickLaunch = YES;
+  HelpBalloons = NO;
+  CClipTitleColor = "#777777";
+  TitleJustify = right;
+  ResizebarBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/Lichen.themed/Lichentb1.jpg",
+    "#999999"
+  );
+  MenuTextColor = "#101a20";
+  ClipTitleColor = "#555555";
+  IconTitleBack = "#a1a69c";
+  HighlightTextColor = "#000000";
+  IconTitleColor = "#ffffff";
+  MenuTitleFont = "helvetica:bold:pixelsize=12";
+  DisableBlinking = NO;
+  MenuTitleColor = "#e0f0ea";
+}

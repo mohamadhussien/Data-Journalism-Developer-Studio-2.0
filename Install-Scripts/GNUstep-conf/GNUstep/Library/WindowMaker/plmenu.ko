@@ -1,0 +1,57 @@
+("윈도우메이커",
+ ("정    보",
+  ("정보 패널", INFO_PANEL),
+  ("저작권 정보", LEGAL_PANEL)
+  ),
+ ("창 관 리",
+  ("다른창숨김", HIDE_OTHERS),
+  ("모두보이기", SHOW_ALL),
+  ("아이콘정렬", ARRANGE_ICONS),
+  ("화면정리", REFRESH),
+  ("세션저장", SAVE_SESSION),
+  ("세션삭제", CLEAR_SESSION)
+  ),
+ ("작업공간", WORKSPACE_MENU),
+ ("작업환경",
+  ("설    정", SHEXEC, "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs || wmakerconf"),
+  ("테    마", OPEN_MENU, "-noext /usr/share/WindowMaker/Themes ~/GNUstep/Library/WindowMaker/Themes WITH setstyle"),
+  ("테마저장", EXEC, "getstyle -t $HOME/GNUstep/Library/WindowMaker/Themes/\"%a(테마 이름,파일 이름을 입력하세요:)\""),
+  ("스 타 일", OPEN_MENU, "-noext /usr/share/WindowMaker/Styles ~/GNUstep/Library/WindowMaker/Styles WITH setstyle"),
+  ("아이콘셋", OPEN_MENU, "-noext /usr/share/WindowMaker/IconSets ~/GNUstep/Library/WindowMaker/IconSets WITH seticons"),
+  ("아이콘셋저장", EXEC, "geticonset ~/GNUstep/Library/WindowMaker/IconSets/\"%a(아이콘셋 이름,파일 이름을 입력하세요:)\""),
+  ("배경화면",
+   ("단    색",
+    ("Black", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, black)'"),
+    ("Blue",  EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"#505075\")'"),
+    ("Indigo", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"#243e6c\")'"),
+    ("Bleumarine", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"#224477\")'"),
+    ("Purple", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"#554466\")'"),
+    ("Wheat", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, wheat4)'"),
+    ("Dark Gray", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"#333340\")'"),
+    ("Wine", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"#400020\")'"),
+    ("색지정", EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, \"%a(배경색:)\")'")
+    ),
+   ("그    림",
+    ("전체화면", OPEN_MENU, "-noext /usr/share/WindowMaker/Backgrounds ~/GNUstep/Library/WindowMaker/Backgrounds WITH wmsetbg -u -s"),
+    ("타일형식", OPEN_MENU, "-noext /usr/share/WindowMaker/Backgrounds ~/GNUstep/Library/WindowMaker/Backgrounds WITH wmsetbg -u -t"),
+    ("가 운 데", OPEN_MENU, "-noext /usr/share/WindowMaker/Backgrounds ~/GNUstep/Library/WindowMaker/Backgrounds WITH wmsetbg -u -e")
+    ),
+   ("그래디언트",
+    ("Sunset", EXEC, "wdwrite WindowMaker WorkspaceBack '(mvgradient, deepskyblue4, black, deepskyblue4, tomato4)'"),
+    ("Sky", EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, blue4, white)'"),
+    ("Blue Shades",   EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#7080a5\", \"#101020\")'"),
+    ("Indigo Shades", EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#746ebc\", \"#242e4c\")'"),
+    ("Purple Shades", EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#654c66\", \"#151426\")'"),
+    ("Wheat Shades",  EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#a09060\", \"#302010\")'"),
+    ("Grey Shades",   EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#636380\", \"#131318\")'"),
+    ("Wine Shades",   EXEC, "wdwrite WindowMaker WorkspaceBack '(vgradient, \"#600040\", \"#180010\")'")
+    )
+   )
+  ),
+ ("WindowMaker", OPEN_MENU, "/etc/X11/WindowMaker/SuSE_wmapps"),                      
+ ("SuSE", OPEN_MENU, "| xdg_menu --format WindowMaker --charset UTF-8"),                         
+ ("종    료",
+  ("재 시 작", RESTART),
+  ("종    료", EXIT)
+ )
+)

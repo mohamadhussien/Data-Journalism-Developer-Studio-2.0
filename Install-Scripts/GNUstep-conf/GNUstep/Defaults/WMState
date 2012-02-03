@@ -1,0 +1,187 @@
+{
+  Dock = {
+    Lowered = No;
+    Applications960 = (
+      {
+        Name = Logo.WMDock;
+        Lock = No;
+        AutoLaunch = No;
+        Command = "-";
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = xterm.XTerm;
+        Lock = No;
+        AutoLaunch = No;
+        Command = lxterminal;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = groupLeader.WPrefs;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs";
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "xclock -d %s";
+        Name = xclock.XClock;
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = "xclock -d";
+        Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+    Position = "-64,0";
+    Applications = (
+      {
+        Name = Logo.WMDock;
+        Lock = No;
+        AutoLaunch = No;
+        Command = "-";
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = xterm.XTerm;
+        Lock = No;
+        AutoLaunch = No;
+        Command = lxterminal;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = groupLeader.WPrefs;
+        Lock = Yes;
+        AutoLaunch = No;
+        Command = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs";
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "xclock -d %s";
+        Name = xclock.XClock;
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = "xclock -d";
+        Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+  };
+  Clip = {
+    Name = Logo.WMClip;
+    Lock = No;
+    AutoLaunch = No;
+    Command = "-";
+    Position = "0,0";
+    Forced = No;
+    BuggyApplication = No;
+  };
+  Workspace = Main;
+  Workspaces = (
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = (
+          {
+            PasteCommand = "firefox-bin %s";
+            Name = "firefox-bin.Firefox-bin";
+            Lock = No;
+            AutoLaunch = No;
+            Command = "firefox-bin";
+            Position = "0,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "/usr/lib/rstudio/bin/rstudio %s";
+            Name = rstudio.Rstudio;
+            Lock = No;
+            AutoLaunch = No;
+            Command = "/usr/lib/rstudio/bin/rstudio";
+            Position = "0,2";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "sigil %s";
+            Name = sigil.Sigil;
+            Lock = No;
+            AutoLaunch = No;
+            Command = sigil;
+            Position = "0,3";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "gvim %s";
+            Name = gvim.Gvim;
+            Lock = No;
+            AutoLaunch = No;
+            Command = gvim;
+            Position = "0,4";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "wmakerconf %s";
+            Name = wmakerconf.Wmakerconf;
+            Lock = No;
+            AutoLaunch = No;
+            Command = wmakerconf;
+            Position = "0,5";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "xarchiver %s";
+            Name = xarchiver.Xarchiver;
+            Lock = No;
+            AutoLaunch = No;
+            Command = xarchiver;
+            Position = "0,6";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          }
+        );
+      };
+      Name = Main;
+    }
+  );
+  Applications = (
+    {
+      Dock = Dock;
+      Hidden = No;
+      ShortcutMask = 0;
+      Name = xclock.XClock;
+      Geometry = "261x35+1015+892";
+      Workspace = Main;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "xclock -d";
+    }
+  );
+}

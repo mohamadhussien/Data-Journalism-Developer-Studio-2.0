@@ -1,0 +1,32 @@
+{
+  rstudio.Rstudio = {
+    Icon = rstudio.png;
+  };
+  "firefox-bin.Firefox-bin" = {
+    Icon = "/usr/share/icons/hicolor/48x48/apps/firefox.png";
+  };
+  xarchiver.Xarchiver = {
+    Icon = "/home/studio/GNUstep/Library/WindowMaker/CachedPixmaps/xarchiver.Xarchiver.xpm";
+  };
+  xterm.XTerm = {
+    Icon = Terminal.tiff;
+  };
+  groupLeader.WPrefs = {
+    Icon = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  xclock.XClock = {
+    Icon = "/home/studio/GNUstep/Library/WindowMaker/CachedPixmaps/xclock.XClock.xpm";
+  };
+  lxterminal.Lxterminal = {
+    Icon = "/home/studio/GNUstep/Library/WindowMaker/CachedPixmaps/lxterminal.Lxterminal.xpm";
+  };
+  sigil.Sigil = {
+    Icon = sigil.png;
+  };
+  wmakerconf.Wmakerconf = {
+    Icon = "yast-autoyast.png";
+  };
+  gvim.Gvim = {
+    Icon = "/home/studio/GNUstep/Library/WindowMaker/CachedPixmaps/gvim.Gvim.xpm";
+  };
+}
