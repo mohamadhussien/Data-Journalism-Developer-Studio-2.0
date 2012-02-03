@@ -99,6 +99,18 @@
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
+    <font place="OnScreenActiveDisplay">
+      <name>Sans</name>
+      <size>12</size>
+      <weight/>
+      <slant/>
+    </font>
+    <font place="OnScreenIactiveDisplay">
+      <name>Sans</name>
+      <size>10</size>
+      <weight/>
+      <slant/>
+    </font>
   </theme>
   <desktops>
     <!-- this stuff is only used at startup, pagers allow you to change them
