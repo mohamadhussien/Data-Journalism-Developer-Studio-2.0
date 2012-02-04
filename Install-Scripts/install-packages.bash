@@ -8,6 +8,7 @@ sudo zypper install --no-recommends -y epdfview
 sudo zypper install --no-recommends -y freeglut-devel
 sudo zypper install --no-recommends -y gcc-c++
 sudo zypper install --no-recommends -y gcc-fortran
+sudo zypper install --no-recommends -y gnome-icon-theme
 sudo zypper install --no-recommends -y graphviz
 sudo zypper install --no-recommends -y graphviz-devel
 sudo zypper install --no-recommends -y graphviz-gd
@@ -45,6 +46,7 @@ sudo zypper install --no-recommends -y NetworkManager
 sudo zypper install --no-recommends -y ntp
 sudo zypper install --no-recommends -y nuoveXT2-icon-theme
 sudo zypper install --no-recommends -y obconf
+sudo zypper install --no-recommends -y obmenu
 sudo zypper install --no-recommends -y openbox
 sudo zypper install --no-recommends -y parcellite
 sudo zypper install --no-recommends -y pcmanfm
