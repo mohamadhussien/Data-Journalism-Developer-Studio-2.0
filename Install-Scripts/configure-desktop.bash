@@ -4,9 +4,11 @@ cat bashrc >> ~/.bashrc # define the ls conveniences
 vim ~/.bashrc
 source ~/.bashrc
 
-for i in desktop-conf/*
+pushd desktop-conf
+for i in *
 do
   mkdir -p ~/.${i}
-  cp -a desktop-conf/${i}/* ~/.{i}/
+  cp -a ${i}/* ~/.${i}/
   pushd ~; tar cvf - .${i} | bzip2 -9c > ${i}.tar.bz2; popd
 done
+popd
