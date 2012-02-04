@@ -7,5 +7,3 @@ tar cvf - \
   local/R-logo.jpg \
   R \
   | bzip2 -9c > R.tar.bz2
-tar cvf - .config/* | bzip2 -9c > config.tar.bz2
-tar cvf - .gconf/* | bzip2 -9c > gconf.tar.bz2
