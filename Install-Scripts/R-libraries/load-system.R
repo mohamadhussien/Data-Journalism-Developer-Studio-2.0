@@ -12,6 +12,11 @@ install.packages(c(
   'ggplot2',
   'textir',
   'RPostgreSQL',
+  'filehashSQLite',
+  'RSQLite',
+  'RSQLite.extfuns',
+  'TSSQLite',
+  'TSPostgreSQL',
   'ctv'),
   repos=c(
     'http://cran.cnr.berkeley.edu'
