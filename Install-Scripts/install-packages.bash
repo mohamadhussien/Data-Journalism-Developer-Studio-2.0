@@ -51,12 +51,17 @@ sudo zypper install --no-recommends -y openbox
 sudo zypper install --no-recommends -y parcellite
 sudo zypper install --no-recommends -y pcmanfm
 sudo zypper install --no-recommends -y perl-Browser-Open
+sudo zypper install --no-recommends -y perl-DBD-Pg
 sudo zypper install --no-recommends -y perl-JSON
 sudo zypper install --no-recommends -y perl-JSON-XS
 sudo zypper install --no-recommends -y perl-Net-Twitter
 sudo zypper install --no-recommends -y perl-WWW-Mechanize
 sudo zypper install --no-recommends -y perl-YAML
 sudo zypper install --no-recommends -y perl-YAML-Syck
+sudo zypper install --no-recommends -y pgadmin3
+sudo zypper install --no-recommends -y postgresql
+sudo zypper install --no-recommends -y postgresql-devel
+sudo zypper install --no-recommends -y postgresql-contrib
 sudo zypper install --no-recommends -y R-patched-devel
 sudo zypper install --no-recommends -y rstudio
 sudo zypper install --no-recommends -y ruby
