@@ -11,6 +11,7 @@ install.packages(c(
   'reshape2',
   'ggplot2',
   'textir',
+  'RPostgreSQL',
   'ctv'),
   repos=c(
     'http://cran.cnr.berkeley.edu'
