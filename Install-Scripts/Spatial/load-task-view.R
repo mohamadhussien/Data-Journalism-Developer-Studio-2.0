@@ -3,6 +3,7 @@ install.packages(c(
   'stringr',
   'rgeos',
   'RODBC',
+  'SQLiteMap',
   'RPostgreSQL'), 
   repos='http://cran.cnr.berkeley.edu'
 )
