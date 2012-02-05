@@ -66,6 +66,7 @@ sudo zypper install --no-recommends -y postgresql-contrib
 sudo zypper install --no-recommends -y R-patched-devel
 sudo zypper install --no-recommends -y rstudio
 sudo zypper install --no-recommends -y ruby
+sudo zypper install --no-recommends -y sqlite3-devel
 sudo zypper install --no-recommends -y sudo
 sudo zypper install --no-recommends -y SuSEfirewall2
 sudo zypper install --no-recommends -y syslog-ng
