@@ -52,6 +52,7 @@ sudo zypper install --no-recommends -y parcellite
 sudo zypper install --no-recommends -y pcmanfm
 sudo zypper install --no-recommends -y perl-Browser-Open
 sudo zypper install --no-recommends -y perl-DBD-Pg
+sudo zypper install --no-recommends -y perl-DBD-SQLite
 sudo zypper install --no-recommends -y perl-JSON
 sudo zypper install --no-recommends -y perl-JSON-XS
 sudo zypper install --no-recommends -y perl-Net-Twitter
@@ -77,10 +78,6 @@ sudo zypper install --no-recommends -y vim
 sudo zypper install --no-recommends -y vim-data
 sudo zypper install --no-recommends -y vim-enhanced
 sudo zypper install --no-recommends -y wget
-sudo zypper install --no-recommends -y WindowMaker-applets
-sudo zypper install --no-recommends -y WindowMaker-themes
-sudo zypper install --no-recommends -y wmakerconf
-sudo zypper install --no-recommends -y wm-icons
 sudo zypper install --no-recommends -y x11-tools
 sudo zypper install --no-recommends -y xarchiver
 sudo zypper install --no-recommends -y xorg-x11-driver-input
