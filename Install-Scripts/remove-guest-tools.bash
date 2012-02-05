@@ -1,9 +1,5 @@
 #! /bin/bash -v
 
-# first, install tools to build from source
-export KERNEL=`uname -r|sed 's/^.*-//'`
-sudo zypper install -y kernel-${KERNEL}-devel
-
 # get rid of any VMware tools
 sudo zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
   vmware-guest-kmp-default vmware-guest-kmp-desktop vmware-guest-kmp-pae
