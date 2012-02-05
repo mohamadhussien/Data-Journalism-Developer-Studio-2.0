@@ -2,8 +2,8 @@
 
 ../common/install-postgresql.bash
 
-sudo zypper install -y -t pattern office
-sudo zypper install -y libreoffice \
+sudo zypper install --no-recommends -y -t pattern office
+sudo zypper install --no-recommends -y libreoffice \
   libreoffice-base \
   libreoffice-base-drivers-postgresql \
   libreoffice-base-extensions \
@@ -31,14 +31,14 @@ sudo zypper install -y libreoffice \
   libreoffice-writer \
   libreoffice-writer-extensions
 
-sudo zypper install -y evolution evolution-data-server evolution-webcal \
+sudo zypper install --no-recommends -y evolution evolution-data-server evolution-webcal \
   nautilus-sendto-plugin-evolution
 
-sudo zypper install -y -t pattern voip
-sudo zypper install -y ekiga
-sudo zypper install -y empathy nautilus-sendto-plugin-empathy
+sudo zypper install --no-recommends -y -t pattern voip
+sudo zypper install --no-recommends -y ekiga
+sudo zypper install --no-recommends -y empathy nautilus-sendto-plugin-empathy
 
-sudo zypper install -y tracker tracker-miner-evolution tracker-miner-files \
+sudo zypper install --no-recommends -y tracker tracker-miner-evolution tracker-miner-files \
   tracker-miner-flickr tracker-miner-rss tracker-gui \
   gnome-panel-applet-tracker nautilus-extension-tracker-tags \
   tracker-miner-firefox

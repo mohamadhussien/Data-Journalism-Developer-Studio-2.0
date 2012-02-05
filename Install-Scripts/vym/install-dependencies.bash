@@ -1,3 +1,3 @@
 #! /bin/bash -v
 
-sudo zypper install -y vym
+sudo zypper install --no-recommends -y vym
