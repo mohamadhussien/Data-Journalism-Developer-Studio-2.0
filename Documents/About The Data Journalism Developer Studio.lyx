@@ -517,6 +517,30 @@ target "http://search.cpan.org/~miyagawa/AnyEvent-Twitter-Stream-0.20/lib/AnyEve
 
 \end_layout
 
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "PostgreSQL Advanced Open Source Database"
+target "http://www.postgresql.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "SQLite3 Open Source Database"
+target "http://www.sqlite.org/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 Base Workstation R Library Packages
 \end_layout
@@ -608,18 +632,6 @@ The
 LatexCommand href
 name "LibreOffice Productivity Suite"
 target "http://www.libreoffice.org/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-The 
-\begin_inset CommandInset href
-LatexCommand href
-name "PostgreSQL Advanced Open Source Database"
-target "http://www.postgresql.org/"
 
 \end_inset
 
@@ -1284,6 +1296,7 @@ Recommended Reading - Advanced
 \end_layout
 
 \begin_layout Itemize
+Finance: 
 \begin_inset CommandInset href
 LatexCommand href
 name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
@@ -1295,6 +1308,7 @@ target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20
 \end_layout
 
 \begin_layout Itemize
+Geospatial: 
 \begin_inset CommandInset href
 LatexCommand href
 name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
@@ -1306,6 +1320,7 @@ target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20
 \end_layout
 
 \begin_layout Itemize
+Natural Language Processing: 
 \begin_inset CommandInset href
 LatexCommand href
 name "'Natural Language Processing with Python' by Steven Bird"
@@ -1317,6 +1332,7 @@ target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20
 \end_layout
 
 \begin_layout Itemize
+Machine Learning: 
 \begin_inset CommandInset href
 LatexCommand href
 name "'The Elements of Statistical Learning' by Jerome Friedman"
@@ -1328,6 +1344,7 @@ target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20
 \end_layout
 
 \begin_layout Itemize
+Web Data Mining: 
 \begin_inset CommandInset href
 LatexCommand href
 name "'Web Data Mining' by Bing Liu"
