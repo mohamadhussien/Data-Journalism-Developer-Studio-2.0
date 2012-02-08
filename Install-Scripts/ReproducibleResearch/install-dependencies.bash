@@ -4,5 +4,5 @@
 sudo zypper install --no-recommends -y texlive texlive-latex texlive-xetex
 
 # For Sweave / LyX
-sudo zypper install --no-recommends -y lyx latex2html latex2html-doc latex2html-pngicons \
-  texlive-tex4ht
+sudo zypper install --no-recommends -y lyx latex2html latex2html-doc \
+  latex2html-pngicons texlive-tex4ht
