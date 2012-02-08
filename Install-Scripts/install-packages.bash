@@ -50,6 +50,7 @@ sudo zypper install --no-recommends -y obmenu
 sudo zypper install --no-recommends -y openbox
 sudo zypper install --no-recommends -y parcellite
 sudo zypper install --no-recommends -y pcmanfm
+sudo zypper install --no-recommends -y pdfminer
 sudo zypper install --no-recommends -y perl-Browser-Open
 sudo zypper install --no-recommends -y perl-DBD-Pg
 sudo zypper install --no-recommends -y perl-DBD-SQLite
@@ -63,6 +64,7 @@ sudo zypper install --no-recommends -y pgadmin3
 sudo zypper install --no-recommends -y postgresql
 sudo zypper install --no-recommends -y postgresql-devel
 sudo zypper install --no-recommends -y postgresql-contrib
+sudo zypper install --no-recommends -y pstoedit
 sudo zypper install --no-recommends -y R-patched-devel
 sudo zypper install --no-recommends -y rstudio
 sudo zypper install --no-recommends -y ruby
@@ -85,7 +87,7 @@ sudo zypper install --no-recommends -y xorg-x11-driver-input
 sudo zypper install --no-recommends -y xorg-x11-driver-video
 sudo zypper install --no-recommends -y xorg-x11-fonts
 sudo zypper install --no-recommends -y xorg-x11-server
-sudo zypper install --no-recommends -y xscreensaver
+sudo zypper install --no-recommends -y xpdf-poppler
 sudo zypper install --no-recommends -y yast2
 sudo zypper install --no-recommends -y yast2-firewall
 sudo zypper install --no-recommends -y yast2-firstboot
