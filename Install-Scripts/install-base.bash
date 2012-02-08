@@ -12,47 +12,15 @@ then
   ./install-dependencies.bash 2>&1 | tee install-dependencies.log # my additions
 fi
 
-# install local R libraries
-pushd R-libraries
-./cleanup.bash
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-all.bash
-popd
-
-# install R Commander
-pushd Rcmdr
-./cleanup.bash
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-all.bash
-popd
-
-# install Perl packages
-pushd Perl-packages
-./cleanup.bash
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-all.bash
-popd
-
-# install Google Refine
-pushd GoogleRefine
-./cleanup.bash
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-all.bash
-popd
-
-# install Maqetta
-pushd Maqetta
-./cleanup.bash
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-all.bash
-popd
-
-# install Sigil
-pushd Sigil
-./cleanup.bash
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-all.bash
-popd
+# install addons
+for addon in R-libraries Rcmdr Perl-packages GoogleRefine Maqetta Sigil Calibre
+do
+  pushd ${addon}
+  ./cleanup.bash
+  ./install-dependencies.bash 2>&1 | tee dependencies.log
+  ./install-all.bash
+  popd
+done
 
 # make archives
 ./make-archives.bash 2>&1 | tee make-archives.log
