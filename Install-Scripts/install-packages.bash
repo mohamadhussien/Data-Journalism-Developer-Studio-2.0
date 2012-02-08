@@ -62,8 +62,8 @@ sudo zypper install --no-recommends -y perl-YAML
 sudo zypper install --no-recommends -y perl-YAML-Syck
 sudo zypper install --no-recommends -y pgadmin3
 sudo zypper install --no-recommends -y postgresql
-sudo zypper install --no-recommends -y postgresql-devel
 sudo zypper install --no-recommends -y postgresql-contrib
+sudo zypper install --no-recommends -y postgresql-devel
 sudo zypper install --no-recommends -y pstoedit
 sudo zypper install --no-recommends -y R-patched-devel
 sudo zypper install --no-recommends -y rstudio
