@@ -6,5 +6,5 @@ sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languag
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.1/Documentation:Tools.repo # Tesseract
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.1/X11:lxde.repo # LXDE
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/server:/database:/postgresql/openSUSE_12.1/server:database:postgresql.repo # PostgreSQL
-sudo zypper addrepo -cf http://download.opensuse.org/repositories/Publishing/openSUSE_12.1/Publishing.repo # Calibre and LaTeX stuff
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/Publishing/openSUSE_12.1/Publishing.repo # LaTeX stuff
 sudo zypper update
