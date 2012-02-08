@@ -23,23 +23,23 @@
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_title "Project Kipling: Real-Time Data Journalism Tools"
+\pdf_title "Data Journalism Developer Studio 2012LX Overview"
 \pdf_author "M. Edward (Ed) Borasky"
 \pdf_subject "Real-Time Data Journalism"
 \pdf_keywords "data journalism,real-time journalism,Twitter"
 \pdf_bookmarks true
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 2
 \pdf_breaklinks true
-\pdf_pdfborder true
+\pdf_pdfborder false
 \pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
@@ -73,7 +73,7 @@
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
-\html_be_strict false
+\html_be_strict true
 \end_header
 
 \begin_body
@@ -347,14 +347,14 @@ Functionality that would cost thousands of dollars in commercial licenses
 \end_layout
 
 \begin_layout BeginFrame
-Base Workstation
+Base Appliance
 \end_layout
 
 \begin_layout Itemize
 The 
 \begin_inset CommandInset href
 LatexCommand href
-name "openSUSE(TM) 12.1 Linux(TM) operating system"
+name "openSUSE 12.1 Linux operating system"
 target "http://software.opensuse.org/121/en"
 
 \end_inset
@@ -366,7 +366,7 @@ target "http://software.opensuse.org/121/en"
 The 
 \begin_inset CommandInset href
 LatexCommand href
-name "Firefox(TM) Browser"
+name "Firefox Browser"
 target "http://www.mozilla.com/en-US/firefox/firefox.html"
 
 \end_inset
@@ -410,6 +410,10 @@ target "http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/"
 
 \end_layout
 
+\begin_layout BeginFrame
+Base Appliance Media Creation
+\end_layout
+
 \begin_layout Itemize
 The 
 \begin_inset CommandInset href
@@ -434,8 +438,20 @@ target "http://maqetta.org/"
 
 \end_layout
 
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "Calibre eBook Library Manager"
+target "http://calibre-ebook.com/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
-Base Workstation Internet Data Collection Libraries
+Base Appliance Internet Data Collection Libraries
 \end_layout
 
 \begin_layout Itemize
@@ -542,7 +558,7 @@ target "http://www.sqlite.org/"
 \end_layout
 
 \begin_layout BeginFrame
-Base Workstation R Library Packages
+Base Appliance R Library Packages
 \end_layout
 
 \begin_layout Itemize
@@ -763,17 +779,6 @@ target "http://audacity.sourceforge.net/"
 LatexCommand href
 name "PiTiVi Video Editor"
 target "http://www.pitivi.org/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Calibre eBook Library Manager"
-target "http://calibre-ebook.com/"
 
 \end_inset
 
