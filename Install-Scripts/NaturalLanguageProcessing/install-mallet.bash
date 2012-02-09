@@ -1,6 +1,6 @@
 #! /bin/bash -v
 
-export DIR=mallet-2.0.5
+export DIR=mallet-2.0.7
 export WHERE=http://mallet.cs.umass.edu/dist
 
 sudo mkdir -p /usr/local/mallet
@@ -13,5 +13,6 @@ cd ${DIR}
 sudo ant
 cd ..
 sudo rm -f ${DIR}.tar.gz
+sudo mktexlsr
 sudo /sbin/ldconfig
 sudo /sbin/SuSEconfig
