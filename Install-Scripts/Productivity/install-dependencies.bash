@@ -31,14 +31,14 @@ sudo zypper install --no-recommends -y libreoffice \
   libreoffice-writer \
   libreoffice-writer-extensions
 
-sudo zypper install --no-recommends -y evolution evolution-data-server evolution-webcal \
-  nautilus-sendto-plugin-evolution
+sudo zypper install --no-recommends -y evolution evolution-data-server
+  evolution-webcal nautilus-sendto-plugin-evolution MozillaThunderbird
 
 sudo zypper install --no-recommends -y -t pattern voip
 sudo zypper install --no-recommends -y ekiga
 sudo zypper install --no-recommends -y empathy nautilus-sendto-plugin-empathy
 
-sudo zypper install --no-recommends -y tracker tracker-miner-evolution tracker-miner-files \
-  tracker-miner-flickr tracker-miner-rss tracker-gui \
+sudo zypper install --no-recommends -y tracker tracker-miner-evolution \
+  tracker-miner-files tracker-miner-flickr tracker-miner-rss tracker-gui \
   gnome-panel-applet-tracker nautilus-extension-tracker-tags \
-  tracker-miner-firefox
+  tracker-miner-firefox tracker-miner-thunderbird
