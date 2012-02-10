@@ -100,7 +100,7 @@ target "http://j.mp/DJDS2012LX"
 \begin_inset CommandInset href
 LatexCommand href
 name "Borasky Research Journal"
-target "http://borasky-research.net"
+target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
 
 \end_inset
 
@@ -1234,6 +1234,54 @@ One million Hows, two million Wheres,
 
 \begin_layout Verse
 And seven million Whys!
+\end_layout
+
+\begin_layout BeginFrame
+Links
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Support Data Journalism Developer Studio On Fundry"
+target "https://fundry.com/project/19-data-journalism-developer-studio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Download Data Journalism Developer Studio 2012LX From SUSE Gallery"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Data Journalism Developer Studo 2012LX On Github"
+target "https://github.com/znmeb/Data-Journalism-Developer-Studio-2.0"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Borasky Research Journal"
+target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
