@@ -13,6 +13,7 @@ sudo zypper install --no-recommends -y gnome-icon-theme
 sudo zypper install --no-recommends -y graphviz
 sudo zypper install --no-recommends -y graphviz-devel
 sudo zypper install --no-recommends -y graphviz-gd
+sudo zypper install --no-recommends -y grub
 sudo zypper install --no-recommends -y gvim
 sudo zypper install --no-recommends -y icedtea-web
 sudo zypper install --no-recommends -y iputils
@@ -67,6 +68,7 @@ sudo zypper install --no-recommends -y postgresql
 sudo zypper install --no-recommends -y postgresql-contrib
 sudo zypper install --no-recommends -y postgresql-devel
 sudo zypper install --no-recommends -y pstoedit
+sudo zypper install --no-recommends -y R-patched
 sudo zypper install --no-recommends -y R-patched-devel
 sudo zypper install --no-recommends -y rstudio
 sudo zypper install --no-recommends -y ruby
