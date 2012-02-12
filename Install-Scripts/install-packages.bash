@@ -1,6 +1,7 @@
 #!/bin/bash -v
 
 sudo zypper install --no-recommends -y bash-completion
+sudo zypper install --no-recommends -y calibre
 sudo zypper install --no-recommends -y ConsoleKit-x11
 sudo zypper install --no-recommends -y dbus-1-x11
 sudo zypper install --no-recommends -y eject
