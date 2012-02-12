@@ -62,6 +62,7 @@ sudo zypper install --no-recommends -y perl-WWW-Mechanize
 sudo zypper install --no-recommends -y perl-YAML
 sudo zypper install --no-recommends -y perl-YAML-Syck
 sudo zypper install --no-recommends -y pgadmin3
+sudo zypper install --no-recommends -y pk-update-icon
 sudo zypper install --no-recommends -y postgresql
 sudo zypper install --no-recommends -y postgresql-contrib
 sudo zypper install --no-recommends -y postgresql-devel
