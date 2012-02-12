@@ -1,6 +1,6 @@
 #! /bin/bash -v
 
-for i in packages
+for i in node packages
 do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
+  sudo ./install-${i}.bash 2>&1 | tee ${i}.log
 done

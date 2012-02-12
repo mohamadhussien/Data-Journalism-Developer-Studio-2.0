@@ -1,10 +1,12 @@
 #! /bin/bash -v
 
+export PATH=/usr/local/bin:$PATH
+
 # now.js
-sudo npm install now
+npm install now
 
 # CoffeeScript
-sudo npm install -g coffee-script
+npm install -g coffee-script
 
-sudo /sbin/ldconfig
-sudo /sbin/SuSEconfig
+/sbin/ldconfig
+/sbin/SuSEconfig
