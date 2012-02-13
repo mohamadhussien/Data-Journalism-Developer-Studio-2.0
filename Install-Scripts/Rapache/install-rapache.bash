@@ -3,8 +3,8 @@
 export PATH=/usr/local/bin:$PATH
 sudo mkdir -p /usr/local/src
 pushd /usr/local/src
-export WHERE=http://biostat.mc.vanderbilt.edu/rapache/files
-export DIR=rapache-1.1.14
+export WHERE=http://biostat.mc.vanderbilt.edu/rapache
+export DIR=rapache-1.1.16
 export WHAT=${DIR}.tar.gz
 sudo rm -fr ${WHAT} ${DIR}
 sudo wget ${WHERE}/${WHAT}
