@@ -33,6 +33,9 @@ do
   elif [ "${i}" == "Sigil/cleanup.bash" ] # done in base
   then
     echo "skipped"
+  elif [ "${i}" == "Node/cleanup.bash" ] # done in base
+  then
+    echo "skipped"
   elif [ "${i}" == "ReproducibleResearch/cleanup.bash" ] # just done here
   then
     echo "skipped"
