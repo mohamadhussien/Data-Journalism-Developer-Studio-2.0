@@ -50,6 +50,7 @@ sudo zypper install --no-recommends -y nuoveXT2-icon-theme
 sudo zypper install --no-recommends -y obconf
 sudo zypper install --no-recommends -y obmenu
 sudo zypper install --no-recommends -y openbox
+sudo zypper install --no-recommends -y PackageKit
 sudo zypper install --no-recommends -y parcellite
 sudo zypper install --no-recommends -y pcmanfm
 sudo zypper install --no-recommends -y pdfminer
