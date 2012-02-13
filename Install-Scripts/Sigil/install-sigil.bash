@@ -3,7 +3,7 @@
 sudo mkdir -p /usr/local/src
 pushd /usr/local/src
   export WHERE=http://sigil.googlecode.com/files
-  export WHAT=Sigil-0.5.0-Code.zip
+  export WHAT=Sigil-0.5.2-Code.zip
   export SDIR=SigilSource
   export BDIR=SigilBuild
   sudo rm -fr ${WHAT} ${SDIR} ${BDIR}
