@@ -13,7 +13,7 @@ then
 fi
 
 # install addons
-for addon in R-libraries Rcmdr Perl-packages GoogleRefine Maqetta Sigil
+for addon in R-libraries Rcmdr Perl-packages GoogleRefine Maqetta Sigil Node
 do
   pushd ${addon}
   ./cleanup.bash
