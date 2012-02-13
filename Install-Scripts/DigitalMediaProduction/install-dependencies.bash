@@ -5,6 +5,8 @@ sudo zypper install --no-recommends -y fftw3 fftw3-devel fftw3-threads fftw3-thr
 
 # base pattern
 sudo zypper install --no-recommends -y -t pattern multimedia
+
+# audio tools
 sudo zypper install --no-recommends -y yast2-sound
 sudo zypper install --no-recommends -y dvd+rw-tools
 sudo zypper install --no-recommends -y vorbis-tools
@@ -36,3 +38,4 @@ sudo zypper install --no-recommends -y gimp-save-for-web
 sudo zypper install --no-recommends -y gimp-ufraw ufraw
 sudo zypper install --no-recommends -y gutenprint-gimpplugin
 sudo zypper install --no-recommends -y calibre
+sudo zypper install --no-recommends -y xfce4-screenshooter
