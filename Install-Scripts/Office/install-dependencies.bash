@@ -2,6 +2,9 @@
 
 ../common/install-postgresql.bash
 
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/LibreOffice:/Stable/openSUSE_12.1/LibreOffice:Stable.repo
+sudo zypper refresh
+
 sudo zypper install --no-recommends -y -t pattern office
 sudo zypper install --no-recommends -y libreoffice \
   libreoffice-base \
@@ -30,15 +33,3 @@ sudo zypper install --no-recommends -y libreoffice \
   libreoffice-thesaurus-en-US \
   libreoffice-writer \
   libreoffice-writer-extensions
-
-sudo zypper install --no-recommends -y evolution evolution-data-server
-  evolution-webcal nautilus-sendto-plugin-evolution MozillaThunderbird
-
-sudo zypper install --no-recommends -y -t pattern voip
-sudo zypper install --no-recommends -y ekiga
-sudo zypper install --no-recommends -y empathy nautilus-sendto-plugin-empathy
-
-sudo zypper install --no-recommends -y tracker tracker-miner-evolution \
-  tracker-miner-files tracker-miner-flickr tracker-miner-rss tracker-gui \
-  gnome-panel-applet-tracker nautilus-extension-tracker-tags \
-  tracker-miner-firefox tracker-miner-thunderbird
