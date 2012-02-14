@@ -10,6 +10,7 @@ sudo zypper --quiet install --no-recommends -y freeglut-devel
 sudo zypper --quiet install --no-recommends -y gcc-c++
 sudo zypper --quiet install --no-recommends -y gcc-fortran
 sudo zypper --quiet install --no-recommends -y gnome-icon-theme
+sudo zypper --quiet install --no-recommends -y gnome-packagekit
 sudo zypper --quiet install --no-recommends -y graphviz
 sudo zypper --quiet install --no-recommends -y graphviz-devel
 sudo zypper --quiet install --no-recommends -y graphviz-gd
@@ -88,6 +89,7 @@ sudo zypper --quiet install --no-recommends -y vim-enhanced
 sudo zypper --quiet install --no-recommends -y wget
 sudo zypper --quiet install --no-recommends -y x11-tools
 sudo zypper --quiet install --no-recommends -y xarchiver
+sudo zypper --quiet install --no-recommends -y xfce4-screenshooter
 sudo zypper --quiet install --no-recommends -y xorg-x11-driver-input
 sudo zypper --quiet install --no-recommends -y xorg-x11-driver-video
 sudo zypper --quiet install --no-recommends -y xorg-x11-fonts
