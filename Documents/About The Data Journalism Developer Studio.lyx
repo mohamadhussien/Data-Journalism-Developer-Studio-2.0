@@ -409,6 +409,18 @@ target "http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/"
 
 \end_layout
 
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "Node.js Network Application Development Framework"
+target "http://nodejs.org/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 Base Appliance Media Creation
 \end_layout
@@ -638,7 +650,7 @@ Add-on installation scripts provide end-user desktop and advanced specialized
 \end_layout
 
 \begin_layout BeginFrame
-Add-On Productivity Suite Option
+Add-On Productivity Suite Options
 \end_layout
 
 \begin_layout Itemize
@@ -653,6 +665,11 @@ target "http://www.libreoffice.org/"
 
 \end_layout
 
+\begin_layout Itemize
+Semantic Desktop
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
@@ -678,6 +695,43 @@ target "http://www.mozilla.org/projects/thunderbird/"
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
+name "Tracker Semantic Data Storage / Indexing / Search"
+target "http://projects.gnome.org/tracker/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+R Language 
+\begin_inset CommandInset href
+LatexCommand href
+name "rrdf"
+target "http://cran.cnr.berkeley.edu/web/packages/rrdf/index.html"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "SPARQL"
+target "http://cran.cnr.berkeley.edu/web/packages/SPARQL/index.html"
+
+\end_inset
+
+ Library Packages
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+VoIP and Messaging
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
 name "Ekiga Voice and Video Conferencing"
 target "http://ekiga.org/"
 
@@ -697,6 +751,7 @@ target "http://live.gnome.org/Empathy"
 
 \end_layout
 
+\end_deeper
 \begin_layout BeginFrame
 Add-On Data Journalism Tools
 \end_layout
@@ -1022,33 +1077,6 @@ target "http://cran.cnr.berkeley.edu/web/views/MachineLearning.html"
 
 \begin_layout BeginFrame
 Add-On Server Construction Frameworks
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Node.js Scalable Network I/O Platform"
-target "http://nodejs.org/"
-
-\end_inset
-
- / 
-\begin_inset CommandInset href
-LatexCommand href
-name "NowJS Real-Time Web Application Framework"
-target "http://nowjs.com/"
-
-\end_inset
-
- / 
-\begin_inset CommandInset href
-LatexCommand href
-name "CoffeeScript"
-target "http://jashkenas.github.com/coffee-script/"
-
-\end_inset
-
- 
 \end_layout
 
 \begin_layout Itemize
