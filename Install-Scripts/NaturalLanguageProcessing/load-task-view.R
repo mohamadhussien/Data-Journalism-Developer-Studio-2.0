@@ -1,6 +1,4 @@
 install.packages(c(
-  'rrdf',
-  'SPARQL',
   'textir',
   'lda',
   'OAIHarvester',
