@@ -5,7 +5,7 @@
 
 # Geospatial / Mapping
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.1/Application:Geo.repo
-sudo zypper addrepo -cf http://download.opensuse.org/repositories/hamradio/openSUSE_Tumbleweed/hamradio.repo
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/hamradio/openSUSE_Tumbleweed/hamradio.repo # needed for proj4
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/science/openSUSE_12.1/science.repo
 sudo zypper refresh
 
