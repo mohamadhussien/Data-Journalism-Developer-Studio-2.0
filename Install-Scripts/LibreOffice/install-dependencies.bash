@@ -5,8 +5,8 @@
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/LibreOffice:/Stable/openSUSE_12.1/LibreOffice:Stable.repo
 sudo zypper refresh
 
-sudo zypper install --no-recommends -y -t pattern office
-sudo zypper install --no-recommends -y libreoffice \
+sudo zypper --quiet install --no-recommends -y -t pattern office
+sudo zypper --quiet install --no-recommends -y libreoffice \
   libreoffice-base \
   libreoffice-base-drivers-postgresql \
   libreoffice-base-extensions \

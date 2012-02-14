@@ -9,13 +9,13 @@ sudo zypper addrepo -cf http://download.opensuse.org/repositories/hamradio/openS
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/science/openSUSE_12.1/science.repo
 sudo zypper refresh
 
-sudo zypper install --no-recommends -y gdal libgdal-devel perl-gdal
-sudo zypper install --no-recommends -y libnetcdf-devel
-sudo zypper install --no-recommends -y gd-devel
-sudo zypper install --no-recommends -y proj4 libproj-devel
-sudo zypper install --no-recommends -y postgis postgis-utils
-sudo zypper install --no-recommends -y grass grass-docs grass-devel libgdal-grass
-sudo zypper install --no-recommends -y libgeos-devel libgeos-docs
-sudo zypper install --no-recommends -y libitpp-devel libitpp-doc
-sudo zypper install --no-recommends -y qgis qgis-devel qgis-plugin-grass
-sudo zypper install --no-recommends -y tktable
+sudo zypper --quiet install --no-recommends -y gdal libgdal-devel perl-gdal
+sudo zypper --quiet install --no-recommends -y libnetcdf-devel
+sudo zypper --quiet install --no-recommends -y gd-devel
+sudo zypper --quiet install --no-recommends -y proj4 libproj-devel
+sudo zypper --quiet install --no-recommends -y postgis postgis-utils
+sudo zypper --quiet install --no-recommends -y grass grass-docs grass-devel libgdal-grass
+sudo zypper --quiet install --no-recommends -y libgeos-devel libgeos-docs
+sudo zypper --quiet install --no-recommends -y libitpp-devel libitpp-doc
+sudo zypper --quiet install --no-recommends -y qgis qgis-devel qgis-plugin-grass
+sudo zypper --quiet install --no-recommends -y tktable

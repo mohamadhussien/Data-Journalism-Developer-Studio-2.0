@@ -1,5 +1,5 @@
 #! /bin/bash -v
 
-sudo zypper install --no-recommends -y -t pattern base
-sudo zypper install --no-recommends -y -t pattern lxde
-sudo zypper install --no-recommends -y -t pattern x11
+sudo zypper --quiet install --no-recommends -y -t pattern base
+sudo zypper --quiet install --no-recommends -y -t pattern lxde
+sudo zypper --quiet install --no-recommends -y -t pattern x11

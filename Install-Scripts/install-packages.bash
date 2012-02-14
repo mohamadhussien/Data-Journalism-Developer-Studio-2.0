@@ -1,102 +1,102 @@
 #!/bin/bash -v
 
-sudo zypper install --no-recommends -y bash-completion
-sudo zypper install --no-recommends -y calibre
-sudo zypper install --no-recommends -y ConsoleKit-x11
-sudo zypper install --no-recommends -y dbus-1-x11
-sudo zypper install --no-recommends -y eject
-sudo zypper install --no-recommends -y epdfview
-sudo zypper install --no-recommends -y freeglut-devel
-sudo zypper install --no-recommends -y gcc-c++
-sudo zypper install --no-recommends -y gcc-fortran
-sudo zypper install --no-recommends -y gnome-icon-theme
-sudo zypper install --no-recommends -y graphviz
-sudo zypper install --no-recommends -y graphviz-devel
-sudo zypper install --no-recommends -y graphviz-gd
-sudo zypper install --no-recommends -y grub
-sudo zypper install --no-recommends -y gvim
-sudo zypper install --no-recommends -y icedtea-web
-sudo zypper install --no-recommends -y iputils
-sudo zypper install --no-recommends -y java-1_6_0-openjdk-devel
-sudo zypper install --no-recommends -y less
-sudo zypper install --no-recommends -y libcurl-devel
-sudo zypper install --no-recommends -y libgnome
-sudo zypper install --no-recommends -y libgnomesu
-sudo zypper install --no-recommends -y libpng14-devel
-sudo zypper install --no-recommends -y libQtWebKit4
-sudo zypper install --no-recommends -y libxml2-devel
-sudo zypper install --no-recommends -y lightdm
-sudo zypper install --no-recommends -y lxappearance
-sudo zypper install --no-recommends -y lxappearance-obconf
-sudo zypper install --no-recommends -y lxcc
-sudo zypper install --no-recommends -y lxde-common
-sudo zypper install --no-recommends -y lxinput
-sudo zypper install --no-recommends -y lxlauncher
-sudo zypper install --no-recommends -y lxmenu-data
-sudo zypper install --no-recommends -y lxpanel
-sudo zypper install --no-recommends -y lxrandr
-sudo zypper install --no-recommends -y lxsession
-sudo zypper install --no-recommends -y lxsession-edit
-sudo zypper install --no-recommends -y lxshortcut
-sudo zypper install --no-recommends -y lxtask
-sudo zypper install --no-recommends -y lxterminal
-sudo zypper install --no-recommends -y make
-sudo zypper install --no-recommends -y man
-sudo zypper install --no-recommends -y menu-cache
-sudo zypper install --no-recommends -y MozillaFirefox
-sudo zypper install --no-recommends -y NetworkManager
-sudo zypper install --no-recommends -y ntp
-sudo zypper install --no-recommends -y nuoveXT2-icon-theme
-sudo zypper install --no-recommends -y obconf
-sudo zypper install --no-recommends -y obmenu
-sudo zypper install --no-recommends -y openbox
-sudo zypper install --no-recommends -y PackageKit
-sudo zypper install --no-recommends -y parcellite
-sudo zypper install --no-recommends -y pcmanfm
-sudo zypper install --no-recommends -y pdfminer
-sudo zypper install --no-recommends -y perl-Browser-Open
-sudo zypper install --no-recommends -y perl-DBD-Pg
-sudo zypper install --no-recommends -y perl-DBD-SQLite
-sudo zypper install --no-recommends -y perl-JSON
-sudo zypper install --no-recommends -y perl-JSON-XS
-sudo zypper install --no-recommends -y perl-Net-Twitter
-sudo zypper install --no-recommends -y perl-WWW-Mechanize
-sudo zypper install --no-recommends -y perl-YAML
-sudo zypper install --no-recommends -y perl-YAML-Syck
-sudo zypper install --no-recommends -y pgadmin3
-sudo zypper install --no-recommends -y pk-update-icon
-sudo zypper install --no-recommends -y postgresql
-sudo zypper install --no-recommends -y postgresql-contrib
-sudo zypper install --no-recommends -y postgresql-devel
-sudo zypper install --no-recommends -y pstoedit
-sudo zypper install --no-recommends -y R-patched
-sudo zypper install --no-recommends -y R-patched-devel
-sudo zypper install --no-recommends -y rstudio
-sudo zypper install --no-recommends -y ruby
-sudo zypper install --no-recommends -y sqlite3-devel
-sudo zypper install --no-recommends -y sudo
-sudo zypper install --no-recommends -y SuSEfirewall2
-sudo zypper install --no-recommends -y syslog-ng
-sudo zypper install --no-recommends -y tesseract
-sudo zypper install --no-recommends -y texinfo
-sudo zypper install --no-recommends -y texlive-bin
-sudo zypper install --no-recommends -y texlive-bin-latex
-sudo zypper install --no-recommends -y tk-devel
-sudo zypper install --no-recommends -y vim
-sudo zypper install --no-recommends -y vim-data
-sudo zypper install --no-recommends -y vim-enhanced
-sudo zypper install --no-recommends -y wget
-sudo zypper install --no-recommends -y x11-tools
-sudo zypper install --no-recommends -y xarchiver
-sudo zypper install --no-recommends -y xorg-x11-driver-input
-sudo zypper install --no-recommends -y xorg-x11-driver-video
-sudo zypper install --no-recommends -y xorg-x11-fonts
-sudo zypper install --no-recommends -y xorg-x11-server
-sudo zypper install --no-recommends -y xpdf-poppler
-sudo zypper install --no-recommends -y yast2
-sudo zypper install --no-recommends -y yast2-firewall
-sudo zypper install --no-recommends -y yast2-firstboot
-sudo zypper install --no-recommends -y yast2-ncurses
-sudo zypper install --no-recommends -y yast2-ntp-client
-sudo zypper install --no-recommends -y yast2-sudo
-sudo zypper install --no-recommends -y zypper
+sudo zypper --quiet install --no-recommends -y bash-completion
+sudo zypper --quiet install --no-recommends -y calibre
+sudo zypper --quiet install --no-recommends -y ConsoleKit-x11
+sudo zypper --quiet install --no-recommends -y dbus-1-x11
+sudo zypper --quiet install --no-recommends -y eject
+sudo zypper --quiet install --no-recommends -y epdfview
+sudo zypper --quiet install --no-recommends -y freeglut-devel
+sudo zypper --quiet install --no-recommends -y gcc-c++
+sudo zypper --quiet install --no-recommends -y gcc-fortran
+sudo zypper --quiet install --no-recommends -y gnome-icon-theme
+sudo zypper --quiet install --no-recommends -y graphviz
+sudo zypper --quiet install --no-recommends -y graphviz-devel
+sudo zypper --quiet install --no-recommends -y graphviz-gd
+sudo zypper --quiet install --no-recommends -y grub
+sudo zypper --quiet install --no-recommends -y gvim
+sudo zypper --quiet install --no-recommends -y icedtea-web
+sudo zypper --quiet install --no-recommends -y iputils
+sudo zypper --quiet install --no-recommends -y java-1_6_0-openjdk-devel
+sudo zypper --quiet install --no-recommends -y less
+sudo zypper --quiet install --no-recommends -y libcurl-devel
+sudo zypper --quiet install --no-recommends -y libgnome
+sudo zypper --quiet install --no-recommends -y libgnomesu
+sudo zypper --quiet install --no-recommends -y libpng14-devel
+sudo zypper --quiet install --no-recommends -y libQtWebKit4
+sudo zypper --quiet install --no-recommends -y libxml2-devel
+sudo zypper --quiet install --no-recommends -y lightdm
+sudo zypper --quiet install --no-recommends -y lxappearance
+sudo zypper --quiet install --no-recommends -y lxappearance-obconf
+sudo zypper --quiet install --no-recommends -y lxcc
+sudo zypper --quiet install --no-recommends -y lxde-common
+sudo zypper --quiet install --no-recommends -y lxinput
+sudo zypper --quiet install --no-recommends -y lxlauncher
+sudo zypper --quiet install --no-recommends -y lxmenu-data
+sudo zypper --quiet install --no-recommends -y lxpanel
+sudo zypper --quiet install --no-recommends -y lxrandr
+sudo zypper --quiet install --no-recommends -y lxsession
+sudo zypper --quiet install --no-recommends -y lxsession-edit
+sudo zypper --quiet install --no-recommends -y lxshortcut
+sudo zypper --quiet install --no-recommends -y lxtask
+sudo zypper --quiet install --no-recommends -y lxterminal
+sudo zypper --quiet install --no-recommends -y make
+sudo zypper --quiet install --no-recommends -y man
+sudo zypper --quiet install --no-recommends -y menu-cache
+sudo zypper --quiet install --no-recommends -y MozillaFirefox
+sudo zypper --quiet install --no-recommends -y NetworkManager
+sudo zypper --quiet install --no-recommends -y ntp
+sudo zypper --quiet install --no-recommends -y nuoveXT2-icon-theme
+sudo zypper --quiet install --no-recommends -y obconf
+sudo zypper --quiet install --no-recommends -y obmenu
+sudo zypper --quiet install --no-recommends -y openbox
+sudo zypper --quiet install --no-recommends -y PackageKit
+sudo zypper --quiet install --no-recommends -y parcellite
+sudo zypper --quiet install --no-recommends -y pcmanfm
+sudo zypper --quiet install --no-recommends -y pdfminer
+sudo zypper --quiet install --no-recommends -y perl-Browser-Open
+sudo zypper --quiet install --no-recommends -y perl-DBD-Pg
+sudo zypper --quiet install --no-recommends -y perl-DBD-SQLite
+sudo zypper --quiet install --no-recommends -y perl-JSON
+sudo zypper --quiet install --no-recommends -y perl-JSON-XS
+sudo zypper --quiet install --no-recommends -y perl-Net-Twitter
+sudo zypper --quiet install --no-recommends -y perl-WWW-Mechanize
+sudo zypper --quiet install --no-recommends -y perl-YAML
+sudo zypper --quiet install --no-recommends -y perl-YAML-Syck
+sudo zypper --quiet install --no-recommends -y pgadmin3
+sudo zypper --quiet install --no-recommends -y pk-update-icon
+sudo zypper --quiet install --no-recommends -y postgresql
+sudo zypper --quiet install --no-recommends -y postgresql-contrib
+sudo zypper --quiet install --no-recommends -y postgresql-devel
+sudo zypper --quiet install --no-recommends -y pstoedit
+sudo zypper --quiet install --no-recommends -y R-patched
+sudo zypper --quiet install --no-recommends -y R-patched-devel
+sudo zypper --quiet install --no-recommends -y rstudio
+sudo zypper --quiet install --no-recommends -y ruby
+sudo zypper --quiet install --no-recommends -y sqlite3-devel
+sudo zypper --quiet install --no-recommends -y sudo
+sudo zypper --quiet install --no-recommends -y SuSEfirewall2
+sudo zypper --quiet install --no-recommends -y syslog-ng
+sudo zypper --quiet install --no-recommends -y tesseract
+sudo zypper --quiet install --no-recommends -y texinfo
+sudo zypper --quiet install --no-recommends -y texlive-bin
+sudo zypper --quiet install --no-recommends -y texlive-bin-latex
+sudo zypper --quiet install --no-recommends -y tk-devel
+sudo zypper --quiet install --no-recommends -y vim
+sudo zypper --quiet install --no-recommends -y vim-data
+sudo zypper --quiet install --no-recommends -y vim-enhanced
+sudo zypper --quiet install --no-recommends -y wget
+sudo zypper --quiet install --no-recommends -y x11-tools
+sudo zypper --quiet install --no-recommends -y xarchiver
+sudo zypper --quiet install --no-recommends -y xorg-x11-driver-input
+sudo zypper --quiet install --no-recommends -y xorg-x11-driver-video
+sudo zypper --quiet install --no-recommends -y xorg-x11-fonts
+sudo zypper --quiet install --no-recommends -y xorg-x11-server
+sudo zypper --quiet install --no-recommends -y xpdf-poppler
+sudo zypper --quiet install --no-recommends -y yast2
+sudo zypper --quiet install --no-recommends -y yast2-firewall
+sudo zypper --quiet install --no-recommends -y yast2-firstboot
+sudo zypper --quiet install --no-recommends -y yast2-ncurses
+sudo zypper --quiet install --no-recommends -y yast2-ntp-client
+sudo zypper --quiet install --no-recommends -y yast2-sudo
+sudo zypper --quiet install --no-recommends -y zypper
