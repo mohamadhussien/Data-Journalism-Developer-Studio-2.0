@@ -11,7 +11,7 @@ sudo tar xf ${WHAT}
 pushd ${DIR}
 
 # the GGobi build croaks if graphviz-devel is installed
-sudo zypper remove -y graphviz-devel
+sudo zypper --quiet remove -y graphviz-devel
 sudo ./configure --with-all-plugins
 sudo make 
 sudo make install
@@ -22,7 +22,7 @@ sudo /sbin/ldconfig
 sudo /sbin/SuSEconfig
 
 # put graphviz-devel back - we need it for Rgraphviz
-sudo zypper install -y graphviz-devel
+sudo zypper --quiet install -y graphviz-devel
 popd
 
 # clean up

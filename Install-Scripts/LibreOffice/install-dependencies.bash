@@ -2,8 +2,8 @@
 
 ../common/install-postgresql.bash
 
-sudo zypper addrepo -cf http://download.opensuse.org/repositories/LibreOffice:/Stable/openSUSE_12.1/LibreOffice:Stable.repo
-sudo zypper refresh
+sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/LibreOffice:/Stable/openSUSE_12.1/LibreOffice:Stable.repo
+sudo zypper --quiet refresh
 
 sudo zypper --quiet install --no-recommends -y -t pattern office
 sudo zypper --quiet install --no-recommends -y libreoffice \
