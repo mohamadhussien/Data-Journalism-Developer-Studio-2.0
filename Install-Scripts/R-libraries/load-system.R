@@ -1,4 +1,6 @@
 install.packages(c(
+  'twitteR',
+  'ROAuth',
   'rJava',
   'Rook',
   'websockets',
