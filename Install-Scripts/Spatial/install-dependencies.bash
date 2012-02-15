@@ -14,8 +14,8 @@ sudo zypper --quiet install --no-recommends -y libnetcdf-devel
 sudo zypper --quiet install --no-recommends -y gd-devel
 sudo zypper --quiet install --no-recommends -y proj4 libproj-devel
 sudo zypper --quiet install --no-recommends -y postgis postgis-utils
-sudo zypper --quiet install --no-recommends -y grass grass-docs grass-devel libgdal-grass
-sudo zypper --quiet install --no-recommends -y libgeos-devel libgeos-docs
-sudo zypper --quiet install --no-recommends -y libitpp-devel libitpp-doc
+sudo zypper --quiet install --no-recommends -y grass grass-devel libgdal-grass
+sudo zypper --quiet install --no-recommends -y libgeos-devel
+sudo zypper --quiet install --no-recommends -y libitpp-devel
 sudo zypper --quiet install --no-recommends -y qgis qgis-devel qgis-plugin-grass
 sudo zypper --quiet install --no-recommends -y tktable

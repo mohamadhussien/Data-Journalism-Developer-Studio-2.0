@@ -18,7 +18,7 @@ sudo zypper --quiet install --no-recommends -y timidity pmidi
 sudo zypper --quiet install --no-recommends -y flac
 
 # video and animation
-sudo zypper --quiet install --no-recommends -y blender blender-doc
+sudo zypper --quiet install --no-recommends -y blender
 sudo zypper --quiet install --no-recommends -y pitivi
 
 # document creation
