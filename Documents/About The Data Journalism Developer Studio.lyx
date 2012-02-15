@@ -654,18 +654,6 @@ Add-On Productivity Suite Options
 \end_layout
 
 \begin_layout Itemize
-The 
-\begin_inset CommandInset href
-LatexCommand href
-name "LibreOffice Productivity Suite"
-target "http://www.libreoffice.org/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
 Semantic Desktop
 \end_layout
 
@@ -724,6 +712,18 @@ target "http://cran.cnr.berkeley.edu/web/packages/SPARQL/index.html"
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+The 
+\begin_inset CommandInset href
+LatexCommand href
+name "LibreOffice Productivity Suite"
+target "http://www.libreoffice.org/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 VoIP and Messaging
 \end_layout
@@ -1069,6 +1069,32 @@ target "http://cran.cnr.berkeley.edu/web/views/NaturalLanguageProcessing.html"
 LatexCommand href
 name "R Machine Learning Task View"
 target "http://cran.cnr.berkeley.edu/web/views/MachineLearning.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Social Network Analysis
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Python NetworkX Network Analysis and Visualization Package"
+target "http://networkx.lanl.gov/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Statnet tools for analysis, simulation and visualization of network data"
+target "http://statnet.org/"
 
 \end_inset
 
