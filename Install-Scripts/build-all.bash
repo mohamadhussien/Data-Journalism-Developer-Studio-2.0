@@ -3,7 +3,7 @@
 # do the addrepos up front
 grep -h addrepo */install-dependencies.bash | sort -u > addrepos.bash
 bash addrepos.bash
-sudo zypper update
+sudo zypper --quiet update
 rm addrepos.bash
 
 pushd ReproducibleResearch # only one that needs babysitting now
