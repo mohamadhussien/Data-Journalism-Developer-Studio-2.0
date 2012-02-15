@@ -8,4 +8,4 @@ sudo zypper --quiet refresh
 sudo zypper --quiet install --no-recommends -y python-devel python-idle python-networkx
 sudo zypper --quiet install --no-recommends -y python-numpy python-matplotlib
 
-sudo zypper --quiet install --no-recommends -y graphviz graphviz-devel graphviz-gd graphviz-gnome
+sudo zypper --quiet install --no-recommends -y graphviz graphviz-devel graphviz-gd

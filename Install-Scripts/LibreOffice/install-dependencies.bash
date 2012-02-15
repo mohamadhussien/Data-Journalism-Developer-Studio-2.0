@@ -17,7 +17,6 @@ sudo zypper --quiet install --no-recommends -y libreoffice \
   libreoffice-draw-extensions \
   libreoffice-filters \
   libreoffice-filters-optional \
-  libreoffice-gnome \
   libreoffice-help-en-US \
   libreoffice-hyphen \
   libreoffice-impress \
