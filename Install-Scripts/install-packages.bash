@@ -96,9 +96,11 @@ sudo zypper --quiet install --no-recommends -y xorg-x11-fonts
 sudo zypper --quiet install --no-recommends -y xorg-x11-server
 sudo zypper --quiet install --no-recommends -y xpdf-poppler
 sudo zypper --quiet install --no-recommends -y yast2
+sudo zypper --quiet install --no-recommends -y yast2-control-center
 sudo zypper --quiet install --no-recommends -y yast2-firewall
 sudo zypper --quiet install --no-recommends -y yast2-firstboot
 sudo zypper --quiet install --no-recommends -y yast2-ncurses
 sudo zypper --quiet install --no-recommends -y yast2-ntp-client
+sudo zypper --quiet install --no-recommends -y yast2-runlevel
 sudo zypper --quiet install --no-recommends -y yast2-sudo
 sudo zypper --quiet install --no-recommends -y zypper
