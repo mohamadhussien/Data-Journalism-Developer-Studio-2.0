@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Title
-Data Journalism Developer Studio 2012LX Overview
+Data Journalism Developer Studio 2012LX
 \end_layout
 
 \begin_layout Subtitle
@@ -110,6 +110,10 @@ target "http://borasky-research.net/about-data-journalism-developer-studio-prici
 \begin_layout Author
 M.
  Edward (Ed) Borasky
+\end_layout
+
+\begin_layout Section
+Overview
 \end_layout
 
 \begin_layout BeginFrame
@@ -343,6 +347,230 @@ The software in the Data Journalism Developer Studio is freely downloadable
 \begin_layout Itemize
 Functionality that would cost thousands of dollars in commercial licenses
  is available for the cost of a download
+\end_layout
+
+\begin_layout Section
+A Virtual Unboxing
+\end_layout
+
+\begin_layout BeginFrame
+Host System Requirements
+\end_layout
+
+\begin_layout Itemize
+64-bit Intel / AMD compatible
+\end_layout
+
+\begin_layout Itemize
+Windows 7 or later
+\end_layout
+
+\begin_layout Itemize
+Two or more cores
+\end_layout
+
+\begin_layout Itemize
+4 GB of RAM
+\end_layout
+
+\begin_layout BeginFrame
+Step 1: Download and Install Oracle VM VirtualBox®
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.virtualbox.org/"
+target "https://www.virtualbox.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 2: Download and Install 7-Zip
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.7-zip.org/"
+target "http://www.7-zip.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 3: Sign up for SUSE Gallery
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "http://susestudio.com/browse"
+target "http://susestudio.com/browse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Pictures/SignUpForSUSEGallery.png
+	width 6in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 4: Download and Unpack Data Journalism Developer Studio 2012LX
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Pictures/DownloadAppliance.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Rest of the Story
+\end_layout
+
+\begin_layout BeginFrame
+I Keep Six Honest Serving Men
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "I Keep Six Honest Serving Men"
+target "http://c2.com/cgi/wiki?SixHonestServingMen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+I keep six honest serving-men
+\end_layout
+
+\begin_layout Verse
+(They taught me all I knew); 
+\end_layout
+
+\begin_layout Verse
+Their names are What and Why and When
+\end_layout
+
+\begin_layout Verse
+And How and Where and Who.
+ 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout FrameSubtitle
+Did you know there was more?
+\end_layout
+
+\begin_layout Verse
+I send them over land and sea,
+\end_layout
+
+\begin_layout Verse
+I send them east and west; 
+\end_layout
+
+\begin_layout Verse
+But after they have worked for me,
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+I
+\series default
+ give them all a rest.
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+I
+\series default
+ let them rest from nine till five,
+\end_layout
+
+\begin_layout Verse
+For I am busy then, 
+\end_layout
+
+\begin_layout Verse
+As well as breakfast, lunch, and tea,
+\end_layout
+
+\begin_layout Verse
+For they are hungry men; 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+But different folk have different views:
+\end_layout
+
+\begin_layout Verse
+I know a person small - 
+\end_layout
+
+\begin_layout Verse
+She keeps ten million serving-men,
+\end_layout
+
+\begin_layout Verse
+Who get no rest at all! 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+She sends 'em abroad on her own affairs.
+\end_layout
+
+\begin_layout Verse
+From the second she opens her eyes - 
+\end_layout
+
+\begin_layout Verse
+One million Hows, two million Wheres,
+\end_layout
+
+\begin_layout Verse
+And seven million Whys!
+\end_layout
+
+\begin_layout Section
+Software in the Appliance
 \end_layout
 
 \begin_layout BeginFrame
@@ -1167,127 +1395,7 @@ target "https://www.djangoproject.com/"
 \end_layout
 
 \begin_layout BeginFrame
-I Keep Six Honest Serving Men
-\end_layout
 
-\begin_layout FrameSubtitle
-\begin_inset CommandInset href
-LatexCommand href
-name "I Keep Six Honest Serving Men"
-target "http://c2.com/cgi/wiki?SixHonestServingMen"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Verse
-I keep six honest serving-men
-\end_layout
-
-\begin_layout Verse
-(They taught me all I knew); 
-\end_layout
-
-\begin_layout Verse
-Their names are What and Why and When
-\end_layout
-
-\begin_layout Verse
-And How and Where and Who.
- 
-\end_layout
-
-\begin_layout BeginFrame
-The Rest of the Story
-\end_layout
-
-\begin_layout FrameSubtitle
-Did you know there was more?
-\end_layout
-
-\begin_layout Verse
-I send them over land and sea,
-\end_layout
-
-\begin_layout Verse
-I send them east and west; 
-\end_layout
-
-\begin_layout Verse
-But after they have worked for me,
-\end_layout
-
-\begin_layout Verse
-
-\series bold
-I
-\series default
- give them all a rest.
-\end_layout
-
-\begin_layout BeginFrame
-The Rest of the Story
-\end_layout
-
-\begin_layout Verse
-
-\series bold
-I
-\series default
- let them rest from nine till five,
-\end_layout
-
-\begin_layout Verse
-For I am busy then, 
-\end_layout
-
-\begin_layout Verse
-As well as breakfast, lunch, and tea,
-\end_layout
-
-\begin_layout Verse
-For they are hungry men; 
-\end_layout
-
-\begin_layout BeginFrame
-The Rest of the Story
-\end_layout
-
-\begin_layout Verse
-But different folk have different views:
-\end_layout
-
-\begin_layout Verse
-I know a person small - 
-\end_layout
-
-\begin_layout Verse
-She keeps ten million serving-men,
-\end_layout
-
-\begin_layout Verse
-Who get no rest at all! 
-\end_layout
-
-\begin_layout BeginFrame
-The Rest of the Story
-\end_layout
-
-\begin_layout Verse
-She sends 'em abroad on her own affairs.
-\end_layout
-
-\begin_layout Verse
-From the second she opens her eyes - 
-\end_layout
-
-\begin_layout Verse
-One million Hows, two million Wheres,
-\end_layout
-
-\begin_layout Verse
-And seven million Whys!
 \end_layout
 
 \begin_layout BeginFrame
@@ -1336,6 +1444,10 @@ target "http://borasky-research.net/about-data-journalism-developer-studio-prici
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+References
 \end_layout
 
 \begin_layout BeginFrame
