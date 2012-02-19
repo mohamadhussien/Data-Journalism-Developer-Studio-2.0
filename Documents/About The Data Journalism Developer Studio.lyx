@@ -419,9 +419,10 @@ target "http://susestudio.com/browse"
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename Pictures/SignUpForSUSEGallery.png
-	width 6in
+	width 4in
 
 \end_inset
 
@@ -429,16 +430,632 @@ target "http://susestudio.com/browse"
 \end_layout
 
 \begin_layout BeginFrame
-Step 4: Download and Unpack Data Journalism Developer Studio 2012LX
+Step 4: Download the Appliance
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename Pictures/DownloadAppliance.png
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/DownloadAppliance.png
+	width 4in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 5a: Open in 7-Zip and Remove Gzip Compression
+\end_layout
+
+\begin_layout FrameSubtitle
+Select appliance and press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceIn7-ZipBeforeUnpacking.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 5b: Extract Tar Archive
+\end_layout
+
+\begin_layout FrameSubtitle
+Select appliance and press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+ again.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceIn7-ZipUncompressed.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 5c: Appliance Unpacked
+\end_layout
+
+\begin_layout FrameSubtitle
+Drag appliance folder to desktop and close 7-Zip.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceIn7-ZipArchiveExtracted.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6a: Open Appliance Folder
+\end_layout
+
+\begin_layout FrameSubtitle
+Right-click on 
+\begin_inset Quotes eld
+\end_inset
+
+ovf
+\begin_inset Quotes erd
+\end_inset
+
+ file and select 
+\begin_inset Quotes eld
+\end_inset
+
+Open with
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceOVFFileInFolder.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6b: Open With Oracle VM VirtualBox Manager
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/OpenWithOracleVMVirtualBoxManager.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6c: Appliance Import Wizard
+\end_layout
+
+\begin_layout FrameSubtitle
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+Import.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceImportWizard.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6c: Import Successful
+\end_layout
+
+\begin_layout FrameSubtitle
+Select the 
+\begin_inset Quotes eld
+\end_inset
+
+vm
+\begin_inset Quotes erd
+\end_inset
+
+ appliance and press the green 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ arrow.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceInVirtualBoxManager.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7a: First Login as 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/FirstStudioLogin.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7b: Enter Original 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+From the page where you downloaded the appliance: 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/EnterOrginalStudioPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7c: Change 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Old
+\begin_inset Quotes erd
+\end_inset
+
+ password is the one you got from the gallery page.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/EnterOldStudioPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7d: Choose a New Password
+\end_layout
+
+\begin_layout FrameSubtitle
+Easy for you to remember, impossible for others to guess, enter same password
+ twice.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/EnterNewStudioPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Data Journalism Developer Studio 2012LX Desktop
+\end_layout
+
+\begin_layout FrameSubtitle
+Press the swift-shaped 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ button in the lower left corner.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/DataJournalismDeveloperStudio2012LXDesktop.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 8a: Open a Terminal Window
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Start -> System Tools -> XTerm
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/StartSystemToolsXTerm.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 8b: Change 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Password
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Old Password
+\begin_inset Quotes erd
+\end_inset
+
+ are 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password from 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/RootPasswordChanged.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9a: Set and Sync Clock
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockStartSystemAdministrationYaST.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9b: Enter 
+\emph on
+New
+\emph default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockEnterRootPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9c: Single-Click 
+\begin_inset Quotes eld
+\end_inset
+
+Date and Time
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockSingleClickDateAndTime.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9d: Choose Time Zone and Press 
+\begin_inset Quotes eld
+\end_inset
+
+Change
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+
+\emph on
+If time looks wrong, toggle 
+\begin_inset Quotes eld
+\end_inset
+
+Hardware Clock Set To UTC
+\begin_inset Quotes erd
+\end_inset
+
+ first!
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockRegionZoneHardware.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9e: Select 
+\begin_inset Quotes eld
+\end_inset
+
+Synchronize With NTP Server
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Run NTP As Daemon
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockChangeDateAndTime.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9f: Press 
+\begin_inset Quotes eld
+\end_inset
+
+Accept
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockSynchronizeAndAccept.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9g: Press 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockNTPConfiguredOK.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 10: Install Guest Additions
 \end_layout
 
 \begin_layout Section
