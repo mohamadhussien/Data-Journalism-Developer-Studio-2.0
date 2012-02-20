@@ -349,8 +349,333 @@ Functionality that would cost thousands of dollars in commercial licenses
  is available for the cost of a download
 \end_layout
 
+\begin_layout BeginFrame
+Links
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Data Journalism Developer Studio Users Google Group"
+target "https://groups.google.com/group/data-journalism-developer-studio-users?hl=en"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Support Data Journalism Developer Studio On Fundry"
+target "https://fundry.com/project/19-data-journalism-developer-studio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Download Data Journalism Developer Studio 2012LX From SUSE Gallery"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Data Journalism Developer Studo 2012LX On Github"
+target "https://github.com/znmeb/Data-Journalism-Developer-Studio-2.0"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Borasky Research Journal"
+target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-A Virtual Unboxing
+References
+\end_layout
+
+\begin_layout BeginFrame
+Recommended Reading
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Facts are Sacred: The power of data (Guardian Shorts)' by Simon Rogers"
+target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B006PI9PQG"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
+target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'R Through Excel' by Richard M. Heiberger"
+target "http://www.amazon.com/gp/product/B003VYBPH4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003VYBPH4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Crafting Digital Media' by Daniel James"
+target "http://www.amazon.com/gp/product/B003U890V4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003U890V4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'ggplot2: Elegant Graphics for Data Analysis (Use R)' by Hadley Wickham"
+target "http://www.amazon.com/gp/product/B0041KLFRW?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B0041KLFRW"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Interactive and Dynamic Graphics for Data Analysis' by Dianne Cook"
+target "http://www.amazon.com/gp/product/B00192UM2O?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00192UM2O"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Recommended Reading - Advanced
+\end_layout
+
+\begin_layout Itemize
+Finance: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
+target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B004QOB424"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Geospatial: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
+target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Natural Language Processing: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Natural Language Processing with Python' by Steven Bird"
+target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0596516495"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Machine Learning: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'The Elements of Statistical Learning' by Jerome Friedman"
+target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00475AS2E"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Web Data Mining: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Web Data Mining' by Bing Liu"
+target "http://www.amazon.com/gp/product/B000SEPGWK?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B000SEPGWK"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Rest of the Story
+\end_layout
+
+\begin_layout BeginFrame
+I Keep Six Honest Serving Men
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "I Keep Six Honest Serving Men"
+target "http://c2.com/cgi/wiki?SixHonestServingMen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+I keep six honest serving-men
+\end_layout
+
+\begin_layout Verse
+(They taught me all I knew); 
+\end_layout
+
+\begin_layout Verse
+Their names are What and Why and When
+\end_layout
+
+\begin_layout Verse
+And How and Where and Who.
+ 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout FrameSubtitle
+Did you know there was more?
+\end_layout
+
+\begin_layout Verse
+I send them over land and sea,
+\end_layout
+
+\begin_layout Verse
+I send them east and west; 
+\end_layout
+
+\begin_layout Verse
+But after they have worked for me,
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+I
+\series default
+ give them all a rest.
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+I
+\series default
+ let them rest from nine till five,
+\end_layout
+
+\begin_layout Verse
+For I am busy then, 
+\end_layout
+
+\begin_layout Verse
+As well as breakfast, lunch, and tea,
+\end_layout
+
+\begin_layout Verse
+For they are hungry men; 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+But different folk have different views:
+\end_layout
+
+\begin_layout Verse
+I know a person small - 
+\end_layout
+
+\begin_layout Verse
+She keeps ten million serving-men,
+\end_layout
+
+\begin_layout Verse
+Who get no rest at all! 
+\end_layout
+
+\begin_layout BeginFrame
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+She sends 'em abroad on her own affairs.
+\end_layout
+
+\begin_layout Verse
+From the second she opens her eyes - 
+\end_layout
+
+\begin_layout Verse
+One million Hows, two million Wheres,
+\end_layout
+
+\begin_layout Verse
+And seven million Whys!
+\end_layout
+
+\begin_layout Section
+A Virtual Unboxing on Windows 7
 \end_layout
 
 \begin_layout BeginFrame
@@ -362,15 +687,52 @@ Host System Requirements
 \end_layout
 
 \begin_layout Itemize
-Windows 7 or later
-\end_layout
-
-\begin_layout Itemize
 Two or more cores
 \end_layout
 
 \begin_layout Itemize
 4 GB of RAM
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+64-bit operating system
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Windows 7 or later
+\end_layout
+
+\begin_layout Itemize
+openSUSE Linux 12.1 or later
+\end_layout
+
+\begin_layout Itemize
+Fedora 16 or later
+\end_layout
+
+\begin_layout Itemize
+Ubuntu 11.10 or later
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+
+\emph on
+Step 0: Join Data Journalism Developer Studio Users Google Group!
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "https://groups.google.com/group/data-journalism-developer-studio-users?hl=en"
+target "https://groups.google.com/group/data-journalism-developer-studio-users?hl=en"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -792,7 +1154,15 @@ Start
 \end_layout
 
 \begin_layout BeginFrame
-Step 8a: Open a Terminal Window
+Step 8a: Change 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ Password
 \end_layout
 
 \begin_layout FrameSubtitle
@@ -803,7 +1173,7 @@ Start -> System Tools -> XTerm
 \begin_inset Quotes erd
 \end_inset
 
-
+ to open XTerm window
 \end_layout
 
 \begin_layout Standard
@@ -818,7 +1188,26 @@ Start -> System Tools -> XTerm
 \end_layout
 
 \begin_layout BeginFrame
-Step 8b: Change 
+Step 8b: Blank XTerm Window
+\end_layout
+
+\begin_layout FrameSubtitle
+Enter codes in next slide.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ChangeRootPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 8c: Change 
 \begin_inset Quotes eld
 \end_inset
 
@@ -879,6 +1268,41 @@ target "http://j.mp/DJDS2012LX"
 Step 9a: Set and Sync Clock
 \end_layout
 
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+System
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+Administration
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+YaST
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset Graphics
@@ -906,6 +1330,10 @@ root
  Password
 \end_layout
 
+\begin_layout FrameSubtitle
+This is the one you created in the XTerm
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset Graphics
@@ -918,7 +1346,11 @@ root
 \end_layout
 
 \begin_layout BeginFrame
-Step 9c: Single-Click 
+Step 9c: 
+\emph on
+Single-Click
+\emph default
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -955,7 +1387,7 @@ Change
 \begin_layout FrameSubtitle
 
 \emph on
-If time looks wrong, toggle 
+Note: if the time looks wrong, toggle 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1055,135 +1487,263 @@ OK
 \end_layout
 
 \begin_layout BeginFrame
-Step 10: Install Guest Additions
-\end_layout
-
-\begin_layout Section
-The Rest of the Story
-\end_layout
-
-\begin_layout BeginFrame
-I Keep Six Honest Serving Men
+Step 10a: Install Guest Additions
 \end_layout
 
 \begin_layout FrameSubtitle
-\begin_inset CommandInset href
-LatexCommand href
-name "I Keep Six Honest Serving Men"
-target "http://c2.com/cgi/wiki?SixHonestServingMen"
+\begin_inset Quotes eld
+\end_inset
+
+Devices
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+Install Guest Additions
+\begin_inset Quotes erd
+\end_inset
+
+ - use right-hand 
+\begin_inset Quotes eld
+\end_inset
+
+Ctrl
+\begin_inset Quotes erd
+\end_inset
+
+ key to release mouse.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/DevicesInstallGuestAdditions.png
+	height 2.5in
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Verse
-I keep six honest serving-men
-\end_layout
-
-\begin_layout Verse
-(They taught me all I knew); 
-\end_layout
-
-\begin_layout Verse
-Their names are What and Why and When
-\end_layout
-
-\begin_layout Verse
-And How and Where and Who.
- 
-\end_layout
-
 \begin_layout BeginFrame
-The Rest of the Story
+Step 10b: Open in File Manager
 \end_layout
 
 \begin_layout FrameSubtitle
-Did you know there was more?
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+OK.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
-\begin_layout Verse
-I send them over land and sea,
-\end_layout
+\begin_layout Standard
+\begin_inset Graphics
+	filename Pictures/OpenInFileManager.png
+	height 2.5in
 
-\begin_layout Verse
-I send them east and west; 
-\end_layout
+\end_inset
 
-\begin_layout Verse
-But after they have worked for me,
-\end_layout
 
-\begin_layout Verse
-
-\series bold
-I
-\series default
- give them all a rest.
-\end_layout
-
-\begin_layout BeginFrame
-The Rest of the Story
-\end_layout
-
-\begin_layout Verse
-
-\series bold
-I
-\series default
- let them rest from nine till five,
-\end_layout
-
-\begin_layout Verse
-For I am busy then, 
-\end_layout
-
-\begin_layout Verse
-As well as breakfast, lunch, and tea,
-\end_layout
-
-\begin_layout Verse
-For they are hungry men; 
 \end_layout
 
 \begin_layout BeginFrame
-The Rest of the Story
+Step 10c: Open Current Folder in Terminal
 \end_layout
 
-\begin_layout Verse
-But different folk have different views:
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Tools
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+Open Current Folder In Terminal
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
-\begin_layout Verse
-I know a person small - 
-\end_layout
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ToolsOpenCurrentFolderInTerminal.png
+	height 2.5in
 
-\begin_layout Verse
-She keeps ten million serving-men,
-\end_layout
+\end_inset
 
-\begin_layout Verse
-Who get no rest at all! 
+
 \end_layout
 
 \begin_layout BeginFrame
-The Rest of the Story
+Step 10d: 
+\begin_inset Quotes eld
+\end_inset
+
+sudo ./VBoxLinuxAdditions.run
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
-\begin_layout Verse
-She sends 'em abroad on her own affairs.
+\begin_layout FrameSubtitle
+Shortcut: 
+\begin_inset Quotes eld
+\end_inset
+
+sudo ./VB<tab>Lin<tab><enter>
 \end_layout
 
-\begin_layout Verse
-From the second she opens her eyes - 
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SudoVBoxLinuxAdditions.png
+	height 2.5in
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Verse
-One million Hows, two million Wheres,
+\begin_layout BeginFrame
+Step 10e: Guest Additions Installed
 \end_layout
 
-\begin_layout Verse
-And seven million Whys!
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/GuestAdditionsInstalled.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11a: Press red 
+\begin_inset Quotes eld
+\end_inset
+
+Power Switch
+\begin_inset Quotes erd
+\end_inset
+
+ (lower right corner)
+\end_layout
+
+\begin_layout FrameSubtitle
+Then press 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/Shutdown.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11b: Press 
+\begin_inset Quotes eld
+\end_inset
+
+Snapshots
+\begin_inset Quotes erd
+\end_inset
+
+ Button
+\end_layout
+
+\begin_layout FrameSubtitle
+Then press the 
+\begin_inset Quotes eld
+\end_inset
+
+Camera
+\begin_inset Quotes erd
+\end_inset
+
+ icon to take a snapshot.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SnapshotsBeforeSnapshot.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11c: Fill in the Form and Press 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/TakeSnapshot.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11e: Snaphot Completed
+\end_layout
+
+\begin_layout FrameSubtitle
+You can close VirtualBox Manager now.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SnapshotTaken.png
+	height 2.5in
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2005,196 +2565,6 @@ target "http://basho.com/products/riak-overview/"
 LatexCommand href
 name "Django"
 target "https://www.djangoproject.com/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Links
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Support Data Journalism Developer Studio On Fundry"
-target "https://fundry.com/project/19-data-journalism-developer-studio"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Download Data Journalism Developer Studio 2012LX From SUSE Gallery"
-target "http://j.mp/DJDS2012LX"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Data Journalism Developer Studo 2012LX On Github"
-target "https://github.com/znmeb/Data-Journalism-Developer-Studio-2.0"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Borasky Research Journal"
-target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-References
-\end_layout
-
-\begin_layout BeginFrame
-Recommended Reading
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Facts are Sacred: The power of data (Guardian Shorts)' by Simon Rogers"
-target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B006PI9PQG"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
-target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'R Through Excel' by Richard M. Heiberger"
-target "http://www.amazon.com/gp/product/B003VYBPH4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003VYBPH4"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Crafting Digital Media' by Daniel James"
-target "http://www.amazon.com/gp/product/B003U890V4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003U890V4"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'ggplot2: Elegant Graphics for Data Analysis (Use R)' by Hadley Wickham"
-target "http://www.amazon.com/gp/product/B0041KLFRW?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B0041KLFRW"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Interactive and Dynamic Graphics for Data Analysis' by Dianne Cook"
-target "http://www.amazon.com/gp/product/B00192UM2O?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00192UM2O"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Recommended Reading - Advanced
-\end_layout
-
-\begin_layout Itemize
-Finance: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
-target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B004QOB424"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Geospatial: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
-target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Natural Language Processing: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Natural Language Processing with Python' by Steven Bird"
-target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0596516495"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Machine Learning: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'The Elements of Statistical Learning' by Jerome Friedman"
-target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00475AS2E"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Web Data Mining: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Web Data Mining' by Bing Liu"
-target "http://www.amazon.com/gp/product/B000SEPGWK?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B000SEPGWK"
 
 \end_inset
 
