@@ -349,79 +349,133 @@ Functionality that would cost thousands of dollars in commercial licenses
  is available for the cost of a download
 \end_layout
 
+\begin_layout BeginFrame
+Links
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Data Journalism Developer Studio Users Google Group"
+target "https://groups.google.com/group/data-journalism-developer-studio-users?hl=en"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Support Data Journalism Developer Studio On Fundry"
+target "https://fundry.com/project/19-data-journalism-developer-studio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Download Data Journalism Developer Studio 2012LX From SUSE Gallery"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Data Journalism Developer Studo 2012LX On Github"
+target "https://github.com/znmeb/Data-Journalism-Developer-Studio-2.0"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Borasky Research Journal"
+target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-A Virtual Unboxing
+References
 \end_layout
 
 \begin_layout BeginFrame
-Host System Requirements
+Recommended Reading
 \end_layout
 
 \begin_layout Itemize
-64-bit Intel / AMD compatible
-\end_layout
-
-\begin_layout Itemize
-Windows 7 or later
-\end_layout
-
-\begin_layout Itemize
-Two or more cores
-\end_layout
-
-\begin_layout Itemize
-4 GB of RAM
-\end_layout
-
-\begin_layout BeginFrame
-Step 1: Download and Install Oracle VM VirtualBox®
-\end_layout
-
-\begin_layout FrameSubtitle
 \begin_inset CommandInset href
 LatexCommand href
-name "https://www.virtualbox.org/"
-target "https://www.virtualbox.org/"
+name "'Facts are Sacred: The power of data (Guardian Shorts)' by Simon Rogers"
+target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B006PI9PQG"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout BeginFrame
-Step 2: Download and Install 7-Zip
-\end_layout
-
-\begin_layout FrameSubtitle
+\begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "http://www.7-zip.org/"
-target "http://www.7-zip.org/"
+name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
+target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout BeginFrame
-Step 3: Sign up for SUSE Gallery
-\end_layout
-
-\begin_layout FrameSubtitle
+\begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "http://susestudio.com/browse"
-target "http://susestudio.com/browse"
+name "'R Through Excel' by Richard M. Heiberger"
+target "http://www.amazon.com/gp/product/B003VYBPH4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003VYBPH4"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename Pictures/SignUpForSUSEGallery.png
-	width 6in
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Crafting Digital Media' by Daniel James"
+target "http://www.amazon.com/gp/product/B003U890V4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003U890V4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'ggplot2: Elegant Graphics for Data Analysis (Use R)' by Hadley Wickham"
+target "http://www.amazon.com/gp/product/B0041KLFRW?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B0041KLFRW"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "'Interactive and Dynamic Graphics for Data Analysis' by Dianne Cook"
+target "http://www.amazon.com/gp/product/B00192UM2O?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00192UM2O"
 
 \end_inset
 
@@ -429,12 +483,63 @@ target "http://susestudio.com/browse"
 \end_layout
 
 \begin_layout BeginFrame
-Step 4: Download and Unpack Data Journalism Developer Studio 2012LX
+Recommended Reading - Advanced
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename Pictures/DownloadAppliance.png
+\begin_layout Itemize
+Finance: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
+target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B004QOB424"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Geospatial: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
+target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Natural Language Processing: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Natural Language Processing with Python' by Steven Bird"
+target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0596516495"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Machine Learning: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'The Elements of Statistical Learning' by Jerome Friedman"
+target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00475AS2E"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Web Data Mining: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Web Data Mining' by Bing Liu"
+target "http://www.amazon.com/gp/product/B000SEPGWK?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B000SEPGWK"
 
 \end_inset
 
@@ -567,6 +672,1078 @@ One million Hows, two million Wheres,
 
 \begin_layout Verse
 And seven million Whys!
+\end_layout
+
+\begin_layout Section
+A Virtual Unboxing on Windows 7
+\end_layout
+
+\begin_layout BeginFrame
+Host System Requirements
+\end_layout
+
+\begin_layout Itemize
+64-bit Intel / AMD compatible
+\end_layout
+
+\begin_layout Itemize
+Two or more cores
+\end_layout
+
+\begin_layout Itemize
+4 GB of RAM
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+64-bit operating system
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Windows 7 or later
+\end_layout
+
+\begin_layout Itemize
+openSUSE Linux 12.1 or later
+\end_layout
+
+\begin_layout Itemize
+Fedora 16 or later
+\end_layout
+
+\begin_layout Itemize
+Ubuntu 11.10 or later
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+
+\emph on
+Step 0: Join Data Journalism Developer Studio Users Google Group!
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "https://groups.google.com/group/data-journalism-developer-studio-users?hl=en"
+target "https://groups.google.com/group/data-journalism-developer-studio-users?hl=en"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 1: Download and Install Oracle VM VirtualBox®
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.virtualbox.org/"
+target "https://www.virtualbox.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 2: Download and Install 7-Zip
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.7-zip.org/"
+target "http://www.7-zip.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 3: Sign up for SUSE Gallery
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "http://susestudio.com/browse"
+target "http://susestudio.com/browse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SignUpForSUSEGallery.png
+	width 4in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 4: Download the Appliance
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset CommandInset href
+LatexCommand href
+name "http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/DownloadAppliance.png
+	width 4in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 5a: Open in 7-Zip and Remove Gzip Compression
+\end_layout
+
+\begin_layout FrameSubtitle
+Select appliance and press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceIn7-ZipBeforeUnpacking.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 5b: Extract Tar Archive
+\end_layout
+
+\begin_layout FrameSubtitle
+Select appliance and press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+ again.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceIn7-ZipUncompressed.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 5c: Appliance Unpacked
+\end_layout
+
+\begin_layout FrameSubtitle
+Drag appliance folder to desktop and close 7-Zip.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceIn7-ZipArchiveExtracted.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6a: Open Appliance Folder
+\end_layout
+
+\begin_layout FrameSubtitle
+Right-click on 
+\begin_inset Quotes eld
+\end_inset
+
+ovf
+\begin_inset Quotes erd
+\end_inset
+
+ file and select 
+\begin_inset Quotes eld
+\end_inset
+
+Open with
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceOVFFileInFolder.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6b: Open With Oracle VM VirtualBox Manager
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/OpenWithOracleVMVirtualBoxManager.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6c: Appliance Import Wizard
+\end_layout
+
+\begin_layout FrameSubtitle
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+Import.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceImportWizard.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 6c: Import Successful
+\end_layout
+
+\begin_layout FrameSubtitle
+Select the 
+\begin_inset Quotes eld
+\end_inset
+
+vm
+\begin_inset Quotes erd
+\end_inset
+
+ appliance and press the green 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ arrow.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ApplianceInVirtualBoxManager.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7a: First Login as 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/FirstStudioLogin.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7b: Enter Original 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+From the page where you downloaded the appliance: 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/EnterOrginalStudioPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7c: Change 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Old
+\begin_inset Quotes erd
+\end_inset
+
+ password is the one you got from the gallery page.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/EnterOldStudioPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 7d: Choose a New Password
+\end_layout
+
+\begin_layout FrameSubtitle
+Easy for you to remember, impossible for others to guess, enter same password
+ twice.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/EnterNewStudioPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Data Journalism Developer Studio 2012LX Desktop
+\end_layout
+
+\begin_layout FrameSubtitle
+Press the swift-shaped 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ button in the lower left corner.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/DataJournalismDeveloperStudio2012LXDesktop.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 8a: Change 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Start -> System Tools -> XTerm
+\begin_inset Quotes erd
+\end_inset
+
+ to open XTerm window
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/StartSystemToolsXTerm.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 8b: Blank XTerm Window
+\end_layout
+
+\begin_layout FrameSubtitle
+Enter codes in next slide.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ChangeRootPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 8c: Change 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Password
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Old Password
+\begin_inset Quotes erd
+\end_inset
+
+ are 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password from 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/RootPasswordChanged.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9a: Set and Sync Clock
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+System
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+Administration
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+YaST
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockStartSystemAdministrationYaST.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9b: Enter 
+\emph on
+New
+\emph default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\begin_layout FrameSubtitle
+This is the one you created in the XTerm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockEnterRootPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9c: 
+\emph on
+Single-Click
+\emph default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Date and Time
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockSingleClickDateAndTime.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9d: Choose Time Zone and Press 
+\begin_inset Quotes eld
+\end_inset
+
+Change
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+
+\emph on
+Note: if the time looks wrong, toggle 
+\begin_inset Quotes eld
+\end_inset
+
+Hardware Clock Set To UTC
+\begin_inset Quotes erd
+\end_inset
+
+ first!
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockRegionZoneHardware.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9e: Select 
+\begin_inset Quotes eld
+\end_inset
+
+Synchronize With NTP Server
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Run NTP As Daemon
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockChangeDateAndTime.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9f: Press 
+\begin_inset Quotes eld
+\end_inset
+
+Accept
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockSynchronizeAndAccept.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 9g: Press 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ClockNTPConfiguredOK.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 10a: Install Guest Additions
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Devices
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+Install Guest Additions
+\begin_inset Quotes erd
+\end_inset
+
+ - use right-hand 
+\begin_inset Quotes eld
+\end_inset
+
+Ctrl
+\begin_inset Quotes erd
+\end_inset
+
+ key to release mouse.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/DevicesInstallGuestAdditions.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 10b: Open in File Manager
+\end_layout
+
+\begin_layout FrameSubtitle
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+OK.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Pictures/OpenInFileManager.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 10c: Open Current Folder in Terminal
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Quotes eld
+\end_inset
+
+Tools
+\begin_inset Quotes erd
+\end_inset
+
+ -> 
+\begin_inset Quotes eld
+\end_inset
+
+Open Current Folder In Terminal
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ToolsOpenCurrentFolderInTerminal.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 10d: 
+\begin_inset Quotes eld
+\end_inset
+
+sudo ./VBoxLinuxAdditions.run
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+Shortcut: 
+\begin_inset Quotes eld
+\end_inset
+
+sudo ./VB<tab>Lin<tab><enter>
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SudoVBoxLinuxAdditions.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 10e: Guest Additions Installed
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/GuestAdditionsInstalled.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11a: Press red 
+\begin_inset Quotes eld
+\end_inset
+
+Power Switch
+\begin_inset Quotes erd
+\end_inset
+
+ (lower right corner)
+\end_layout
+
+\begin_layout FrameSubtitle
+Then press 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/Shutdown.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11b: Press 
+\begin_inset Quotes eld
+\end_inset
+
+Snapshots
+\begin_inset Quotes erd
+\end_inset
+
+ Button
+\end_layout
+
+\begin_layout FrameSubtitle
+Then press the 
+\begin_inset Quotes eld
+\end_inset
+
+Camera
+\begin_inset Quotes erd
+\end_inset
+
+ icon to take a snapshot.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SnapshotsBeforeSnapshot.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11c: Fill in the Form and Press 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/TakeSnapshot.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Step 11e: Snaphot Completed
+\end_layout
+
+\begin_layout FrameSubtitle
+You can close VirtualBox Manager now.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/SnapshotTaken.png
+	height 2.5in
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1388,196 +2565,6 @@ target "http://basho.com/products/riak-overview/"
 LatexCommand href
 name "Django"
 target "https://www.djangoproject.com/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Links
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Support Data Journalism Developer Studio On Fundry"
-target "https://fundry.com/project/19-data-journalism-developer-studio"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Download Data Journalism Developer Studio 2012LX From SUSE Gallery"
-target "http://j.mp/DJDS2012LX"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Data Journalism Developer Studo 2012LX On Github"
-target "https://github.com/znmeb/Data-Journalism-Developer-Studio-2.0"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "Borasky Research Journal"
-target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-References
-\end_layout
-
-\begin_layout BeginFrame
-Recommended Reading
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Facts are Sacred: The power of data (Guardian Shorts)' by Simon Rogers"
-target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B006PI9PQG"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
-target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'R Through Excel' by Richard M. Heiberger"
-target "http://www.amazon.com/gp/product/B003VYBPH4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003VYBPH4"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Crafting Digital Media' by Daniel James"
-target "http://www.amazon.com/gp/product/B003U890V4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003U890V4"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'ggplot2: Elegant Graphics for Data Analysis (Use R)' by Hadley Wickham"
-target "http://www.amazon.com/gp/product/B0041KLFRW?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B0041KLFRW"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "'Interactive and Dynamic Graphics for Data Analysis' by Dianne Cook"
-target "http://www.amazon.com/gp/product/B00192UM2O?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00192UM2O"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Recommended Reading - Advanced
-\end_layout
-
-\begin_layout Itemize
-Finance: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
-target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B004QOB424"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Geospatial: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
-target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Natural Language Processing: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Natural Language Processing with Python' by Steven Bird"
-target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0596516495"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Machine Learning: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'The Elements of Statistical Learning' by Jerome Friedman"
-target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00475AS2E"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Web Data Mining: 
-\begin_inset CommandInset href
-LatexCommand href
-name "'Web Data Mining' by Bing Liu"
-target "http://www.amazon.com/gp/product/B000SEPGWK?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B000SEPGWK"
 
 \end_inset
 
