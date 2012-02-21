@@ -810,7 +810,7 @@ target "http://j.mp/DJDS2012LX"
 \align center
 \begin_inset Graphics
 	filename Pictures/DownloadAppliance.png
-	width 4in
+	height 2.5in
 
 \end_inset
 
@@ -1127,6 +1127,25 @@ Easy for you to remember, impossible for others to guess, enter same password
 \end_layout
 
 \begin_layout BeginFrame
+Step 7e: Re-enter New Password
+\end_layout
+
+\begin_layout FrameSubtitle
+This must match the one you just entered.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/ReEnterNewPassword.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
 Data Journalism Developer Studio 2012LX Desktop
 \end_layout
 
@@ -1433,7 +1452,7 @@ Run NTP As Daemon
 \align center
 \begin_inset Graphics
 	filename Pictures/ClockChangeDateAndTime.png
-	height 2.5in
+	height 2.25in
 
 \end_inset
 
@@ -1545,6 +1564,7 @@ OK.
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename Pictures/OpenInFileManager.png
 	height 2.5in
@@ -1739,6 +1759,157 @@ You can close VirtualBox Manager now.
 \align center
 \begin_inset Graphics
 	filename Pictures/SnapshotTaken.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Updating the Software
+\end_layout
+
+\begin_layout BeginFrame
+Why Update Software?
+\end_layout
+
+\begin_layout Itemize
+People find and fix bugs, especially security vulnerabilities
+\end_layout
+
+\begin_layout Itemize
+People add features.
+\end_layout
+
+\begin_layout BeginFrame
+The Update Icon
+\end_layout
+
+\begin_layout FrameSubtitle
+You'll see the red star with the 
+\begin_inset Quotes eld
+\end_inset
+
+!
+\begin_inset Quotes erd
+\end_inset
+
+ in the lower right corner if there are updates.
+ Press it.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/UpdateAvailableIcon.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+A Typical Update Session - Screen 1
+\end_layout
+
+\begin_layout FrameSubtitle
+The session you get will depend on what updates there are!
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/UpdateInstallUpdate.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Update Screen 2 -- After Pressing 
+\begin_inset Quotes eld
+\end_inset
+
+Install Update
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+Continue.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/UpdateAdditionalConfirmationRequired.png
+	height 2.25in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Authentication Required
+\end_layout
+
+\begin_layout FrameSubtitle
+Enter the new 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password and press 
+\begin_inset Quotes eld
+\end_inset
+
+Authenticate
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Pictures/UpdateAuthenticate.png
+	height 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Log Out and Back In
+\end_layout
+
+\begin_layout FrameSubtitle
+You won't always get this, and sometimes it will ask you to reboot.
+ Do whatever it tells you.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Pictures/UpdateLogOut.png
 	height 2.5in
 
 \end_inset
