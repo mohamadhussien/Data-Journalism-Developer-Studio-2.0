@@ -72,16 +72,12 @@ sudo zypper --quiet install --no-recommends -y postgresql-devel
 sudo zypper --quiet install --no-recommends -y pstoedit
 sudo zypper --quiet install --no-recommends -y R-patched
 sudo zypper --quiet install --no-recommends -y R-patched-devel
-sudo zypper --quiet install --no-recommends -y rstudio
 sudo zypper --quiet install --no-recommends -y ruby
 sudo zypper --quiet install --no-recommends -y sqlite3-devel
 sudo zypper --quiet install --no-recommends -y sudo
 sudo zypper --quiet install --no-recommends -y SuSEfirewall2
 sudo zypper --quiet install --no-recommends -y syslog-ng
 sudo zypper --quiet install --no-recommends -y tesseract
-sudo zypper --quiet install --no-recommends -y texinfo
-sudo zypper --quiet install --no-recommends -y texlive-bin
-sudo zypper --quiet install --no-recommends -y texlive-bin-latex
 sudo zypper --quiet install --no-recommends -y tk-devel
 sudo zypper --quiet install --no-recommends -y vim
 sudo zypper --quiet install --no-recommends -y vim-data
