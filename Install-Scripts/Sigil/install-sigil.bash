@@ -1,9 +1,11 @@
 #! /bin/bash -v
 
+export VERSION=`curl http://code.google.com/p/sigil/|grep Code.zip|head -n 1|sed 's/^.*Sigil-//'|sed 's/-Code.zip.*$//'`
+
 sudo mkdir -p /usr/local/src
 pushd /usr/local/src
   export WHERE=http://sigil.googlecode.com/files
-  export WHAT=Sigil-0.5.3-Code.zip
+  export WHAT=Sigil-${VERSION}-Code.zip
   export SDIR=SigilSource
   export BDIR=SigilBuild
   sudo rm -fr ${WHAT} ${SDIR} ${BDIR}
