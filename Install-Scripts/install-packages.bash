@@ -70,8 +70,8 @@ sudo zypper --quiet install --no-recommends -y postgresql
 sudo zypper --quiet install --no-recommends -y postgresql-contrib
 sudo zypper --quiet install --no-recommends -y postgresql-devel
 sudo zypper --quiet install --no-recommends -y pstoedit
-sudo zypper --quiet install --no-recommends -y R-patched
-sudo zypper --quiet install --no-recommends -y R-patched-devel
+sudo zypper --quiet install --no-recommends -y R-base
+sudo zypper --quiet install --no-recommends -y R-base-devel
 sudo zypper --quiet install --no-recommends -y ruby
 sudo zypper --quiet install --no-recommends -y sqlite3-devel
 sudo zypper --quiet install --no-recommends -y sudo
