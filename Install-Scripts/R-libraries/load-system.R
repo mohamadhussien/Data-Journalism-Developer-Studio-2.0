@@ -3,6 +3,7 @@ install.packages(c(
   'ROAuth',
   'rJava',
   'Rook',
+  'sinartra',
   'websockets',
   'googleVis',
   'gooJSON',
