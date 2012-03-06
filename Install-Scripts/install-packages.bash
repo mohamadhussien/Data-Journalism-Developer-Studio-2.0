@@ -1,6 +1,7 @@
 #!/bin/bash -v
 
 sudo zypper --quiet install --no-recommends -y bash-completion
+sudo zypper --quiet install --no-recommends -y boost-license1_46_1
 sudo zypper --quiet install --no-recommends -y calibre
 sudo zypper --quiet install --no-recommends -y check
 sudo zypper --quiet install --no-recommends -y ConsoleKit-x11
@@ -18,6 +19,7 @@ sudo zypper --quiet install --no-recommends -y graphviz-gd
 sudo zypper --quiet install --no-recommends -y grub
 sudo zypper --quiet install --no-recommends -y gstreamer-utils
 sudo zypper --quiet install --no-recommends -y gvim
+sudo zypper --quiet install --no-recommends -y hunspell
 sudo zypper --quiet install --no-recommends -y icedtea-web
 sudo zypper --quiet install --no-recommends -y iputils
 sudo zypper --quiet install --no-recommends -y java-1_6_0-openjdk-devel
@@ -41,12 +43,14 @@ sudo zypper --quiet install --no-recommends -y libboost_wave1_46_1
 sudo zypper --quiet install --no-recommends -y libcurl-devel
 sudo zypper --quiet install --no-recommends -y libgnome
 sudo zypper --quiet install --no-recommends -y libgnomesu
+sudo zypper --quiet install --no-recommends -y libpcre0
 sudo zypper --quiet install --no-recommends -y libpcrecpp0
-sudo zypper --quiet install --no-recommends -y libpcreposix0 
+sudo zypper --quiet install --no-recommends -y libpcreposix0
 sudo zypper --quiet install --no-recommends -y libpng14-devel
 sudo zypper --quiet install --no-recommends -y libqt4-sql-sqlite
 sudo zypper --quiet install --no-recommends -y libQtGStreamer-0_10-0
 sudo zypper --quiet install --no-recommends -y libQtWebKit4
+sudo zypper --quiet install --no-recommends -y libxerces-c-3_0
 sudo zypper --quiet install --no-recommends -y libxml2-devel
 sudo zypper --quiet install --no-recommends -y lightdm
 sudo zypper --quiet install --no-recommends -y lxappearance
@@ -83,8 +87,8 @@ sudo zypper --quiet install --no-recommends -y perl-DBD-SQLite
 sudo zypper --quiet install --no-recommends -y perl-JSON
 sudo zypper --quiet install --no-recommends -y perl-JSON-Any
 sudo zypper --quiet install --no-recommends -y perl-JSON-DWIW
-sudo zypper --quiet install --no-recommends -y perl-JSON-PP
 sudo zypper --quiet install --no-recommends -y perl-JSON-Parse
+sudo zypper --quiet install --no-recommends -y perl-JSON-PP
 sudo zypper --quiet install --no-recommends -y perl-JSON-RPC
 sudo zypper --quiet install --no-recommends -y perl-JSON-XS
 sudo zypper --quiet install --no-recommends -y perl-Net-Twitter
@@ -100,6 +104,7 @@ sudo zypper --quiet install --no-recommends -y postgresql
 sudo zypper --quiet install --no-recommends -y postgresql-contrib
 sudo zypper --quiet install --no-recommends -y postgresql-devel
 sudo zypper --quiet install --no-recommends -y pstoedit
+sudo zypper --quiet install --no-recommends -y python-django
 sudo zypper --quiet install --no-recommends -y R-base
 sudo zypper --quiet install --no-recommends -y R-base-devel
 sudo zypper --quiet install --no-recommends -y ruby
