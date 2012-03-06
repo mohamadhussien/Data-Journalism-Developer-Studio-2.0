@@ -7,3 +7,4 @@ sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/Docume
 sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.1/X11:lxde.repo # LXDE
 sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/server:/database:/postgresql/openSUSE_12.1/server:database:postgresql.repo # PostgreSQL
 sudo zypper --quiet update
+sudo zypper --quiet dup
