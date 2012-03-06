@@ -7,7 +7,8 @@ then
 fi
 
 # install addons
-for addon in R-libraries Rcmdr Perl-packages GoogleRefine Maqetta Sigil Node
+for addon in R-libraries Rcmdr Perl-packages GoogleRefine Maqetta Sigil Node \
+  Django
 do
   pushd ${addon}
   ./cleanup.bash
