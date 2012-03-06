@@ -1,6 +1,6 @@
 #! /bin/bash -v
 
-sudo zypper --quiet install --no-recommends -y python-devel # for RPy2
+../common/install-python-repositories.bash
 sudo zypper --quiet install --no-recommends -y ant # for Mallet
-sudo zypper --quiet install --no-recommends -y python-nltk python-idle
+sudo zypper --quiet install --no-recommends -y python-nltk
 sudo zypper --quiet install --no-recommends -y wordnet wordnet-devel
