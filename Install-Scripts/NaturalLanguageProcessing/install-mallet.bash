@@ -9,6 +9,8 @@ sudo rm -f ${DIR}.tar.gz
 sudo wget ${WHERE}/${DIR}.tar.gz
 sudo rm -fr ${DIR}
 sudo tar xf ${DIR}.tar.gz
+sudo chown -R root.root ${DIR}
+sudo chmod -R a+rx ${DIR}
 cd ${DIR}
 sudo ant
 cd ..
