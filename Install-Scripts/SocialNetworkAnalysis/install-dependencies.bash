@@ -1,4 +1,4 @@
 #! /bin/bash -v
 
-../common/install-python-repositories
+../common/install-python-repositories.bash
 sudo zypper --quiet install --no-recommends -y python-networkx
