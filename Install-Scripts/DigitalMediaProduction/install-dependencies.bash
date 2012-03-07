@@ -37,5 +37,3 @@ sudo zypper --quiet install --no-recommends -y gimp-plugins-python
 sudo zypper --quiet install --no-recommends -y gimp-save-for-web
 sudo zypper --quiet install --no-recommends -y gimp-ufraw ufraw
 sudo zypper --quiet install --no-recommends -y gutenprint-gimpplugin
-sudo zypper --quiet install --no-recommends -y calibre
-sudo zypper --quiet install --no-recommends -y xfce4-screenshooter
