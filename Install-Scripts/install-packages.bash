@@ -50,7 +50,6 @@ sudo zypper --quiet install --no-recommends -y libpng14-devel
 sudo zypper --quiet install --no-recommends -y libqt4-sql-sqlite
 sudo zypper --quiet install --no-recommends -y libQtGStreamer-0_10-0
 sudo zypper --quiet install --no-recommends -y libQtWebKit4
-sudo zypper --quiet install --no-recommends -y libxerces-c-3_0
 sudo zypper --quiet install --no-recommends -y libxml2-devel
 sudo zypper --quiet install --no-recommends -y lightdm
 sudo zypper --quiet install --no-recommends -y lxappearance
