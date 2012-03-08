@@ -4,10 +4,12 @@ sudo zypper --quiet install --no-recommends -y bash-completion
 sudo zypper --quiet install --no-recommends -y boost-license1_46_1
 sudo zypper --quiet install --no-recommends -y calibre
 sudo zypper --quiet install --no-recommends -y check
+sudo zypper --quiet install --no-recommends -y command-not-found
 sudo zypper --quiet install --no-recommends -y ConsoleKit-x11
 sudo zypper --quiet install --no-recommends -y dbus-1-x11
 sudo zypper --quiet install --no-recommends -y eject
 sudo zypper --quiet install --no-recommends -y epdfview
+sudo zypper --quiet install --no-recommends -y findutils-locate
 sudo zypper --quiet install --no-recommends -y freeglut-devel
 sudo zypper --quiet install --no-recommends -y gcc-c++
 sudo zypper --quiet install --no-recommends -y gcc-fortran
