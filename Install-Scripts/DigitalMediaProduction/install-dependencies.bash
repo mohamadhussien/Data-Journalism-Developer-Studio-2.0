@@ -1,9 +1,5 @@
 #! /bin/bash -v
 
-sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/multimedia:/apps/openSUSE_12.1/multimedia:apps.repo
-sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/multimedia:/libs/openSUSE_12.1/multimedia:libs.repo
-sudo zypper --quiet refresh
-
 # needed for R audio  packages
 sudo zypper --quiet install --no-recommends -y fftw3 fftw3-devel fftw3-threads fftw3-threads-devel
 
