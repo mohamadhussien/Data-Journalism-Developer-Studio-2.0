@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # do the addrepos up front
-grep -h addrepo */install-dependencies.bash | sort -u > addrepos.bash
+grep -h addrepo */install-*.bash | sort -u > addrepos.bash
 bash addrepos.bash
 sudo zypper --quiet update
 rm addrepos.bash
