@@ -9,3 +9,11 @@ sudo zypper --quiet install --no-recommends -y jack qjackctl
 sudo zypper --quiet install --no-recommends -y csound cecilia
 sudo zypper --quiet install --no-recommends -y pd-extended
 sudo zypper --quiet install --no-recommends -y ardour
+sudo zypper --quiet install --no-recommends -y dssi fluidsynth fluidsynth-dssi \
+  xsynth-dssi rubberband-cli
+sudo zypper --quiet install --no-recommends -y hydrogen hydrogen-drumkits
+sudo zypper --quiet install --no-recommends -y ZynAddSubFX
+sudo zypper --quiet install --no-recommends -y sweep
+sudo zypper --quiet install --no-recommends -y snd
+sudo zypper --quiet install --no-recommends -y rubberband-ladspa ladspa
+sudo zypper --quiet install --no-recommends -y rubberband-vamp vamp-plugin-sdk
