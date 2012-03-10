@@ -19,6 +19,7 @@ sudo zypper --quiet install --no-recommends -y graphviz
 sudo zypper --quiet install --no-recommends -y graphviz-devel
 sudo zypper --quiet install --no-recommends -y graphviz-gd
 sudo zypper --quiet install --no-recommends -y grub
+sudo zypper --quiet install --no-recommends -y gstreamer-0_10-utils
 sudo zypper --quiet install --no-recommends -y gstreamer-utils
 sudo zypper --quiet install --no-recommends -y gvim
 sudo zypper --quiet install --no-recommends -y hunspell
