@@ -5,6 +5,7 @@ sudo zypper --quiet install --no-recommends -y fftw3 fftw3-devel fftw3-threads f
 
 # base pattern
 sudo zypper --quiet install --no-recommends -y -t pattern multimedia
+sudo zypper --quiet install --no-recommends -y -t pattern multimedia_opt
 
 # audio tools
 sudo zypper --quiet install --no-recommends -y yast2-sound
@@ -20,6 +21,7 @@ sudo zypper --quiet install --no-recommends -y flac
 # video and animation
 sudo zypper --quiet install --no-recommends -y blender
 sudo zypper --quiet install --no-recommends -y pitivi
+sudo zypper --quiet install --no-recommends -y frei0r-plugins
 
 # document creation
 sudo zypper --quiet install --no-recommends -y scribus
