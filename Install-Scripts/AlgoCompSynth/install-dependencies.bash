@@ -7,6 +7,8 @@ sudo zypper --quiet install --no-recommends -y pd-extended
 sudo zypper --quiet install --no-recommends -y ardour
 sudo zypper --quiet install --no-recommends -y dssi fluidsynth fluidsynth-dssi \
   xsynth-dssi rubberband-cli
+sudo zypper --quiet install --no-recommends -y fluid-soundfont-gs
+sudo zypper --quiet install --no-recommends -y fluid-soundfont-gm
 sudo zypper --quiet install --no-recommends -y hydrogen hydrogen-drumkits
 sudo zypper --quiet install --no-recommends -y ZynAddSubFX
 sudo zypper --quiet install --no-recommends -y sweep
