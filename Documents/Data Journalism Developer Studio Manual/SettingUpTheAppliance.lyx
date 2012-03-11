@@ -1,0 +1,3285 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\master Data-Journalism-Developer-Studio-2012LX.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Data Journalism Developer Studio 2012LX: An appliance for computational journalism"
+\pdf_author "M. Edward (Ed) Borasky"
+\pdf_subject "Data Journalism"
+\pdf_keywords "data journalism, computational journalism"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\noindent
+Setting Up The Appliance
+\end_layout
+
+\begin_layout Section
+\noindent
+Host Computer Requirements
+\end_layout
+
+\begin_layout Standard
+\noindent
+Almost any multicore 64-bit PC or Macintosh with at least 4 GB of RAM should
+ work as a host for Data Journalism Developer Studio 2012LX.
+ I use an Intel i5-based 64-bit Windows 7 laptop with 8 GB of RAM, the same
+ laptop running 64-bit openSUSE 12.1 and an Athlon64 X2 workstation with
+ 4 GB of RAM running 64-bit openSUSE 12.1 for development and testing.
+ So I know it works with 4 GB.
+ It might work
+\end_layout
+
+\begin_layout Itemize
+\noindent
+with fewer cores, 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+a 32-bit host operating system,
+\end_layout
+
+\begin_layout Itemize
+\noindent
+less RAM, or 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+older versions of Windows,
+\end_layout
+
+\begin_layout Standard
+\noindent
+but I don't recommend it.
+\end_layout
+
+\begin_layout Section
+\noindent
+Download and Install VirtualBox
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "Oracle VM VirtualBox®"
+target "https://www.virtualbox.org/"
+
+\end_inset
+
+ is a desktop virtualizer.
+ Desktop virtualizers turn your workstation or laptop into a host system.
+ The virtualizer runs appliances as guest virtual computers, contained within
+ your host's file system and RAM.
+ The base VirtualBox desktop virtualizer is open source, licensed with the
+ GPL license.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+To install VirtualBox, go to 
+\begin_inset CommandInset href
+LatexCommand href
+name "Download VirtualBox"
+target "https://www.virtualbox.org/wiki/Downloads"
+
+\end_inset
+
+ and download the version of VirtualBox for your host system.
+ For more information, see the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Oracle VM VirtualBox User Manual"
+target "https://www.virtualbox.org/manual/UserManual.html"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+\noindent
+Download and Install 7-Zip
+\end_layout
+
+\begin_layout Standard
+\noindent
+The Data Journalism Developer Studio 2012LX appliance is distrbuted as a
+ compressed file in gzipped tar format.
+ This is a standard format in Linux, colloquially called a "tarball".
+ Windows systems don't always have a utility to unpack a tarball into a
+ usable form.
+ I use the open source utility 
+\begin_inset CommandInset href
+LatexCommand href
+name "7-Zip"
+target "http://www.7-zip.org/"
+
+\end_inset
+
+ to extract the appliance from the tarball.
+ If you don't have 7-Zip, download it from 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.7-zip.org/"
+target "http://www.7-zip.org/"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+\noindent
+Download and Unpack Data Journalism Developer Studio 2012LX
+\end_layout
+
+\begin_layout Standard
+\noindent
+The Data Journalism Developer Studio 2012LX appliance is hosted in the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SUSE Gallery"
+target "http://susestudio.com/browse"
+
+\end_inset
+
+.
+ In order to download it, you will need to 
+\begin_inset CommandInset href
+LatexCommand href
+name "create an account"
+target "http://susestudio.com/browse#login"
+
+\end_inset
+
+.
+ The benefits of an account are
+\end_layout
+
+\begin_layout Itemize
+\noindent
+You can download the Data Journalism Developer Studio 2012LX appliance.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+You can clone it and use it as a starting point for an appliance of your
+ own.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+You can download or clone any of the hundreds of other appliances in the
+ SUSE Gallery.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+You can create your own appliance from scratch.
+\end_layout
+
+\begin_layout Standard
+\noindent
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Create Account / Sign In
+\begin_inset Quotes erd
+\end_inset
+
+ screen is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Create-SUSE-Studio"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Create-SUSE-Studio"
+
+\end_inset
+
+Create SUSE Studio Account
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/SignUpForSUSEGallery.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Once you've created an account, you can download the appliance.
+ The download link is 
+\begin_inset CommandInset href
+LatexCommand href
+name "Download Data Journalism Developer Studio 2012LX http://j.mp/DJDS2012LX"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+.
+ Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Data-Journalism-Developer"
+
+\end_inset
+
+ shows the appliance download page.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Data-Journalism-Developer"
+
+\end_inset
+
+Data Journalism Developer Studio 2012LX Download Page
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/DownloadAppliance.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Unpacking the appliance is a two-step process.
+ First, start up 7-Zip and browse to the tarball you downloaded.
+ You should see something like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Downloaded-Tarball-In"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Downloaded-Tarball-In"
+
+\end_inset
+
+Downloaded Tarball In 7-Zip
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ApplianceIn7-ZipBeforeUnpacking.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Select the appliance and press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+.
+ That removes the outer layer - the gzip compression - from the appliance
+ tarball.
+ The result should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tarball-In-7-Zip"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tarball-In-7-Zip"
+
+\end_inset
+
+Tarball In 7-Zip After Decompression
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Graphics
+	filename Screenshots/ApplianceIn7-ZipUncompressed.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Now you have to extract appliance folder and its files from the 
+\begin_inset Quotes eld
+\end_inset
+
+tar
+\begin_inset Quotes erd
+\end_inset
+
+ archive.
+ Select the appliance and press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+ again.
+ That will extract the files into a folder.
+ The 7-Zip window should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tarball-Extracted-To"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tarball-Extracted-To"
+
+\end_inset
+
+Tarball Extracted To A Folder In 7-Zip
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ApplianceIn7-ZipArchiveExtracted.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Drag the folder to the desktop.
+ The appliance is now unpacked and ready to import.
+ Close 7-Zip.
+\end_layout
+
+\begin_layout Section
+\noindent
+Import the Unpacked Appliance
+\end_layout
+
+\begin_layout Standard
+\noindent
+The next step is to import the appliance into VirtualBox.
+ Open the folder you just dragged to your desktop.
+ You should see three files, like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-Three-Files"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-Three-Files"
+
+\end_inset
+
+The Three Files In The Folder
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Graphics
+	filename Screenshots/ApplianceOVFFileInFolder.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The one in the middle - the OVF file - is the one you will import.
+ This file describes the components of the appliance.
+ Right-click on the OVF file, select 
+\begin_inset Quotes eld
+\end_inset
+
+Open With
+\begin_inset Quotes erd
+\end_inset
+
+ and choose 
+\begin_inset Quotes eld
+\end_inset
+
+Oracle VM VirtualBox Manager
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+You should now see the Appliance Import Wizard as in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-Appliance-Import"
+
+\end_inset
+
+.
+ Just press 
+\begin_inset Quotes eld
+\end_inset
+
+Import
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-Appliance-Import"
+
+\end_inset
+
+The Appliance Import Wizard
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ApplianceImportWizard.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+VirtualBox will import the appliance.
+ After the import is complete, you should see the main VirtualBox control
+ panel as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Import-Successful"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Import-Successful"
+
+\end_inset
+
+Import Successful
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ApplianceInVirtualBoxManager.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Start the Virtual Machine
+\end_layout
+
+\begin_layout Standard
+\noindent
+Select the imported appliance in the Oracle VM VirtualBox Manager and press
+ the green 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ arrow above it.
+ The virtual machine is booting! After a while, you'll see the Display Manager
+ prompt, as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Display-Manager-Prompt"
+
+\end_inset
+
+.
+ Press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Display-Manager-Prompt"
+
+\end_inset
+
+Display Manager Prompt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/FirstStudioLogin.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Change the Default Passwords
+\end_layout
+
+\begin_layout Standard
+\noindent
+The appliance is built with known passwords, so that anyone can download
+ it and start it up.
+ This is a security risk; anyone who downloads a copy has the same passwords
+ you do, and knows what they are! So the appliance will force you to change
+ those passwords the first time you log in.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter
+\begin_inset Quotes erd
+\end_inset
+
+ to initiate the login sequence.
+ You will be asked for a password.
+ The screen will look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entering-The-Default"
+
+\end_inset
+
+.
+ The password you enter here is the password for the 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ user, as shown on the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SUSE Gallery page"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+ where you downloaded the appliance.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Entering-The-Default"
+
+\end_inset
+
+Entering The Default Password For 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/EnterOrginalStudioPassword.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Now you will see the password change request as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Password-Change-Request"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Password-Change-Request"
+
+\end_inset
+
+Password Change Request
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/EnterOldStudioPassword.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The password you enter here is the 
+\begin_inset Quotes eld
+\end_inset
+
+old
+\begin_inset Quotes erd
+\end_inset
+
+ password.
+ 
+\emph on
+That's the same password you entered before, from the appliance download
+ page.
+
+\emph default
+ Then you will be asked to create a 
+\emph on
+new
+\emph default
+ password.
+ The usual advice applies here - at least ten characters, a mix of numbers,
+ upper and lower case letters and special characters, easy for you to remember
+ and impossible for others to guess.
+ Enter your new password as shown in Figure
+\begin_inset space ~
+\end_inset
+
+xx.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Enter New 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ Password
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Graphics
+	filename Screenshots/EnterNewStudioPassword.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+You'll need to enter it twice and the two versions will have to match.
+ Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Re-Enter-New-Password"
+
+\end_inset
+
+ shows the dialog.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Re-Enter-New-Password"
+
+\end_inset
+
+Re-Enter New Password
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ReEnterNewPassword.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Once you've completed this, you'll be logged in and working on the Data
+ Journalism Developer Studio 2012LX desktop.
+ The desktop is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-Data-Journalism"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-Data-Journalism"
+
+\end_inset
+
+The Data Journalism Developer Studio 2012LX Desktop
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/DataJournalismDeveloperStudio2012LXDesktop.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+We'll be exploring the desktop in detail later.
+ Right now, the two features you'll need are the 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ button and the 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ button.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ button is in the lower left corner, with the 
+\begin_inset Quotes eld
+\end_inset
+
+Swift
+\begin_inset Quotes erd
+\end_inset
+
+ LXDE logo.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ button is the red button in the lower right corner.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Press the 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+ button.
+ A menu will come up.
+ Select 
+\begin_inset Quotes eld
+\end_inset
+
+System Tools -> XTerm
+\begin_inset Quotes erd
+\end_inset
+
+, as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:System-Tools-Menu"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:System-Tools-Menu"
+
+\end_inset
+
+System Tools Menu
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/StartSystemToolsXTerm.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The desktop should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A-New-XTerm"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-New-XTerm"
+
+\end_inset
+
+A New XTerm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ChangeRootPassword.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+In the XTerm, enter the command
+\end_layout
+
+\begin_layout LyX-Code
+\noindent
+su -
+\end_layout
+
+\begin_layout Standard
+\noindent
+at the first prompt.
+ This asks the system to let you enter the system administrator account,
+ called 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Enter the password.
+ It's the same as the 
+\begin_inset Quotes eld
+\end_inset
+
+old
+\begin_inset Quotes erd
+\end_inset
+
+ password for the 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+ account from the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SUSE Gallery page"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+.
+ It will ask you for the 
+\begin_inset Quotes eld
+\end_inset
+
+old
+\begin_inset Quotes erd
+\end_inset
+
+ password, which is the one you just typed in.
+ Then it will ask you to create a 
+\emph on
+new
+\emph default
+ password and enter it twice.
+ 
+\emph on
+Choose a different password from the one you used for 
+\begin_inset Quotes eld
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+.
+
+\emph default
+ Once you've set the new 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password, type
+\end_layout
+
+\begin_layout LyX-Code
+\noindent
+exit
+\end_layout
+
+\begin_layout Standard
+\noindent
+and you'll be done with the passwords.
+ Your screen should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Root-Password-Changed"
+
+\end_inset
+
+ when you're done.
+ Note, however, that the appliance is configured to force you to create
+ new passwords every thirty days.
+ This may seem like an inconvenience, but it's better than having your appliance
+ hacked.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Root-Password-Changed"
+
+\end_inset
+
+Root Password Changed Successfully
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/RootPasswordChanged.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Set and Synchronize the Appliance Clock
+\end_layout
+
+\begin_layout Standard
+\noindent
+The appliance you downloaded has the time zone set to the United State 
+\begin_inset Quotes eld
+\end_inset
+
+Pacific
+\begin_inset Quotes erd
+\end_inset
+
+ time zone - Los Angeles, California.
+ If you live in any other time zone, you will need to change it to match
+ where you live.
+ In addition, you'll want to synchronize the appliance clock to the Internet
+ master clocks via the Network Time Protocol (NTP.) First, start the YaST
+ system administration tool.
+ Press 
+\begin_inset Quotes eld
+\end_inset
+
+Start -> System -> Administration -> YaST
+\begin_inset Quotes erd
+\end_inset
+
+ as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Start-YaST2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Start-YaST2"
+
+\end_inset
+
+Start YaST
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockStartSystemAdministrationYaST.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+YaST requires authentication; you will need to enter the new 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:YaST-Authentication"
+
+\end_inset
+
+.
+ Press 
+\begin_inset Quotes eld
+\end_inset
+
+Continue
+\begin_inset Quotes erd
+\end_inset
+
+ after entering the password.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:YaST-Authentication"
+
+\end_inset
+
+YaST Authentication
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockEnterRootPassword.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Now you should be in the main YaST menu as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Single-Click-Date-and"
+
+\end_inset
+
+.
+ 
+\emph on
+Single-click
+\emph default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Date and Time
+\begin_inset Quotes erd
+\end_inset
+
+ to start up the time control application.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Single-Click-Date-and"
+
+\end_inset
+
+Single-Click 
+\begin_inset Quotes eld
+\end_inset
+
+Date and Time
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockSingleClickDateAndTime.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The first page you will see looks like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Set-Time-Zone"
+
+\end_inset
+
+.
+ Here you will set the region and the time zone within the region.
+ You can enter the region and time zone with the pull-down menus, or you
+ can click the mouse on the map to select a city within your time zone.
+ Then press 
+\begin_inset Quotes eld
+\end_inset
+
+Change.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Set-Time-Zone"
+
+\end_inset
+
+Set Time Zone
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockRegionZoneHardware.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The next page you will see looks like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Change-Date-and"
+
+\end_inset
+
+.
+ Select 
+\begin_inset Quotes eld
+\end_inset
+
+Synchronize with NTP Server
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Run NTP as daemon.
+\begin_inset Quotes erd
+\end_inset
+
+ Your screen should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Synchronization-Selected"
+
+\end_inset
+
+.
+ Then press 
+\begin_inset Quotes eld
+\end_inset
+
+Accept
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Change-Date-and"
+
+\end_inset
+
+Change Date and Time
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockChangeDateAndTime.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Synchronization-Selected"
+
+\end_inset
+
+Synchronization Selected
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockSynchronizeAndAccept.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+After pressing 
+\begin_inset Quotes eld
+\end_inset
+
+Accept
+\begin_inset Quotes erd
+\end_inset
+
+, the appliance will access the Internet and set up some internal configuration
+ files.
+ When it's finished, you'll be back at a screen that looks like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Internet-Synchronization-Configu"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Internet-Synchronization-Configu"
+
+\end_inset
+
+Internet Synchronization Configured
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ClockNTPConfiguredOK.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The final clock synchronization step is to check whether the hardware clock
+ is set to Universal Coordinated Time (UTC).
+ Look at the time displayed under 
+\begin_inset Quotes eld
+\end_inset
+
+Date and Time (NTP is configured).
+ If it looks correct, press 
+\begin_inset Quotes eld
+\end_inset
+
+OK.
+\begin_inset Quotes erd
+\end_inset
+
+ Otherwise, toggle the 
+\begin_inset Quotes eld
+\end_inset
+
+Hardware Clock Set To UTC
+\begin_inset Quotes erd
+\end_inset
+
+ check box.
+ That is, if it's checked, uncheck it, and if it's unchecked, check it.
+ The time should then display correctly.
+ When it does, you can press 
+\begin_inset Quotes eld
+\end_inset
+
+OK.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Updating System Software Packages
+\end_layout
+
+\begin_layout Standard
+\noindent
+You've probably noticed the red star-shaped icon with an exclamation point
+ in the lower right section of some of the desktop screenshots.
+ This is the software update icon.
+ 
+\emph on
+Whenever it comes on, you'll need to save your work and install software
+ updates.
+
+\emph default
+ You may need to log out and back in again or reboot the appliance after
+ installing the updates.
+ Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-Update-Available"
+
+\end_inset
+
+ shows the 
+\begin_inset Quotes eld
+\end_inset
+
+Update Available
+\begin_inset Quotes erd
+\end_inset
+
+ icon.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-Update-Available"
+
+\end_inset
+
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Update Available
+\begin_inset Quotes erd
+\end_inset
+
+ Icon
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/UpdateAvailableIcon.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+When you press the 
+\begin_inset Quotes eld
+\end_inset
+
+Update Available
+\begin_inset Quotes erd
+\end_inset
+
+ icon, you should see a list of available updates similar to Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:List-of-Available"
+
+\end_inset
+
+.
+ The exact list of updates will depend on what packages you have installed,
+ and when changes are made to them.
+ Press the 
+\begin_inset Quotes eld
+\end_inset
+
+Install Updates
+\begin_inset Quotes erd
+\end_inset
+
+ button.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:List-of-Available"
+
+\end_inset
+
+List of Available Updates
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/UpdateInstallUpdate.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The appliance will then calculate if any additional packages need to be
+ updated or installed.
+ If they do, you will see a screen like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Additional-Confirmation-Required"
+
+\end_inset
+
+.
+ Press 
+\begin_inset Quotes eld
+\end_inset
+
+Continue.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Additional-Confirmation-Required"
+
+\end_inset
+
+Additional Confirmation Required
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/UpdateAdditionalConfirmationRequired.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Now you will be asked for the (new) 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Authentication-Required"
+
+\end_inset
+
+.
+ Enter it and press 
+\begin_inset Quotes eld
+\end_inset
+
+Authenticate.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Authentication-Required"
+
+\end_inset
+
+Authentication Required
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/UpdateAuthenticate.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The system will then do the installs.
+ This can take some time.
+ It has to download all the packages, which requires network bandwidth.
+ Once it has downloaded them, it goes through a process similar to what
+ 7-Zip did with the appliance.
+ It unpacks a compressed archive and copies the files in the archive where
+ they are supposed to go.
+ Once it has completed, you might see a request to log out and back in again,
+ or you might see a request to reboot.
+ It's best to follow the instructions.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Log-Out-and"
+
+\end_inset
+
+Log Out and Back In Required
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/UpdateLogOut.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+To log out or reboot, press the 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ button.
+ It's the red button in the lower right corner that looks like a 
+\begin_inset Quotes eld
+\end_inset
+
+power switch.
+\begin_inset Quotes erd
+\end_inset
+
+ This will bring up the 
+\begin_inset Quotes eld
+\end_inset
+
+Logout LXDE Session?
+\begin_inset Quotes erd
+\end_inset
+
+ dialog as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Logout-Dialog"
+
+\end_inset
+
+.
+ If you were asked to log out, select 
+\begin_inset Quotes eld
+\end_inset
+
+Logout
+\begin_inset Quotes erd
+\end_inset
+
+ and if you were asked to reboot, select 
+\begin_inset Quotes eld
+\end_inset
+
+Reboot.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Logout-Dialog"
+
+\end_inset
+
+Logout LXDE Session?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/LogoutDialog.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Note that you may still see the 
+\begin_inset Quotes eld
+\end_inset
+
+Update Available
+\begin_inset Quotes erd
+\end_inset
+
+ icon after you have completed these steps.
+ If you do, you'll need to press it again to see if there are more updates
+ that need to be installed.
+ If there are, you'll need to install them as well.
+\end_layout
+
+\begin_layout Section
+\noindent
+Install the Guest Additions
+\end_layout
+
+\begin_layout Standard
+\noindent
+The final step in making the appliance ready for use is to install the Guest
+ Additions.
+ These are tools that control the interface between the VirtualBox host
+ and its operating system and the Linux operating system in the appliance.Now
+ go to the 
+\begin_inset Quotes eld
+\end_inset
+
+Devices
+\begin_inset Quotes erd
+\end_inset
+
+ menu in VirtualBox.
+ 
+\emph on
+You will probably have to release the mouse by pressing the right 
+\begin_inset Quotes eld
+\end_inset
+
+Control
+\begin_inset Quotes erd
+\end_inset
+
+ key on the keyboard to get the mouse out of the appliance desktop.
+
+\emph default
+ In the 
+\begin_inset Quotes eld
+\end_inset
+
+Devices
+\begin_inset Quotes erd
+\end_inset
+
+ menu, select 
+\begin_inset Quotes eld
+\end_inset
+
+Install Guest Additions
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This connects a disk file CD image to the guest machine's CD drive.
+ After some processing, the File Manager in the appliance will ask you if
+ you want to open the guest additions removable medium.
+ The appliance screen will look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Open-in-File"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Open-in-File"
+
+\end_inset
+
+Open in File Manager
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/OpenInFileManager.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Press the 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+ button and the File Manager will show the files on the image.
+ Go into the File Manager 
+\begin_inset Quotes eld
+\end_inset
+
+Tools
+\begin_inset Quotes erd
+\end_inset
+
+ menu and select 
+\begin_inset Quotes eld
+\end_inset
+
+Open Current Folder in Terminal.
+\begin_inset Quotes erd
+\end_inset
+
+ See Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Open-Current-Folder"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Open-Current-Folder"
+
+\end_inset
+
+Open Current Folder in Terminal
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/ToolsOpenCurrentFolderInTerminal.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Then type the command
+\end_layout
+
+\begin_layout LyX-Code
+\noindent
+sudo ./VBoxLinuxAdditions.run
+\end_layout
+
+\begin_layout Standard
+\noindent
+This tells the system that you want to temporarily run as 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ to install the guest additions.
+ 
+\emph on
+There's a shortcut to type the above command.
+
+\emph default
+ First, type 
+\begin_inset Quotes eld
+\end_inset
+
+sudo ./V
+\begin_inset Quotes erd
+\end_inset
+
+ and then press the 
+\begin_inset Quotes eld
+\end_inset
+
+Tab
+\begin_inset Quotes erd
+\end_inset
+
+ key.
+ The appliance will autocomplete up through 
+\begin_inset Quotes eld
+\end_inset
+
+VBox.
+\begin_inset Quotes erd
+\end_inset
+
+ Then type 
+\begin_inset Quotes eld
+\end_inset
+
+L
+\begin_inset Quotes erd
+\end_inset
+
+ and press the 
+\begin_inset Quotes eld
+\end_inset
+
+Tab
+\begin_inset Quotes erd
+\end_inset
+
+ key again.
+ The rest of the command will be autocompleted and you can press 
+\begin_inset Quotes eld
+\end_inset
+
+Enter!
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Run-the-Guest"
+
+\end_inset
+
+ shows what you'll see.
+ Enter the new 
+\begin_inset Quotes eld
+\end_inset
+
+root
+\begin_inset Quotes erd
+\end_inset
+
+ password - the one you created - and the system will install the guest
+ additions.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Run-the-Guest"
+
+\end_inset
+
+Run the Guest Additions Installer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/SudoVBoxLinuxAdditions.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+This takes quite a bit of time.
+ When it's finished, the screen should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Guest-Additions-Successfully"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Guest-Additions-Successfully"
+
+\end_inset
+
+Guest Additions Successfully Installed
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/GuestAdditionsInstalled.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Shut Down and Take a Snapshot
+\end_layout
+
+\begin_layout Standard
+\noindent
+The appliance is now ready to use.
+ As an added precaution, take a snapshot of the appliance as a backup.
+ That way, if the software or data in it get corrupted, you can go back
+ to a known good state.
+ Press the desktop 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ button again - the red one in the lower right corner.
+ The desktop will look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Logout-Dialog"
+
+\end_inset
+
+.
+ Press the 
+\begin_inset Quotes eld
+\end_inset
+
+Shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ button - the one on the top - and the appliance will shut down.
+ Then press the camera-shaped 
+\begin_inset Quotes eld
+\end_inset
+
+Snapshots
+\begin_inset Quotes erd
+\end_inset
+
+ button in the upper right part of the VirtualBox window.
+ Your screen should look like Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Snapshots-Panel"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Snapshots-Panel"
+
+\end_inset
+
+Snapshots Panel
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/SnapshotsBeforeSnapshot.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Press the 
+\begin_inset Quotes eld
+\end_inset
+
+camera
+\begin_inset Quotes erd
+\end_inset
+
+ icon and the 
+\begin_inset Quotes eld
+\end_inset
+
+Take Snapshot of Virtual Machine
+\begin_inset Quotes erd
+\end_inset
+
+ dialog will appear.
+ Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Filled-In-Snapshot-Dialog"
+
+\end_inset
+
+ shows a sample.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Filled-In-Snapshot-Dialog"
+
+\end_inset
+
+Filled-In Snapshot Dialog
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/TakeSnapshot.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+When you have the information you want to describe the snapshot, press 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The snapshot will be created and you'll be back to the Snapshots panel,
+ as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Snapshot-Taken"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Snapshot-Taken"
+
+\end_inset
+
+Snapshot Taken
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Screenshots/SnapshotTaken.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,751 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\master Data-Journalism-Developer-Studio-2012LX.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Data Journalism Developer Studio 2012LX: An appliance for computational journalism"
+\pdf_author "M. Edward (Ed) Borasky"
+\pdf_subject "Data Journalism"
+\pdf_keywords "data journalism, computational journalism"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\noindent
+Data Journalism Developer Studio 2012LX Overview
+\end_layout
+
+\begin_layout Standard
+\noindent
+Rudyard Kipling, of course, anticipated data journalism (
+\begin_inset CommandInset href
+LatexCommand href
+name "I Keep Six Honest Serving Men"
+target "http://c2.com/cgi/wiki?SixHonestServingMen"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Verse
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+I keep six honest serving-men
+\begin_inset Newline newline
+\end_inset
+
+(They taught me all I knew); 
+\begin_inset Newline newline
+\end_inset
+
+Their names are What and Why and When
+\begin_inset Newline newline
+\end_inset
+
+And How and Where and Who.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Why A Data Journalism Developer Studio?
+\end_layout
+
+\begin_layout Standard
+\noindent
+Journalists today work in a world dominated by two trends:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Real-time many-to-many communications platforms
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Large sets of complex data with stories waiting to be told
+\end_layout
+
+\begin_layout Standard
+\noindent
+There are hundreds of millions of Twitter accounts in most major nations
+ of the world.
+ Millions of those accounts are 
+\emph on
+active
+\emph default
+ Twitter users.
+ Twitter and other networks exhibit complex patterns of interactions around
+ people, places and events.
+ And these intricate connection patterns change in real time.
+ 
+\emph on
+People break and discuss the news in real time on Twitter.
+
+\emph default
+ Journalists need at a minimum tools to collect Twitter data in real time,
+ and better yet, tools to create databases of Twitter users and tweets and
+ tools to analyze the databases.
+\end_layout
+
+\begin_layout Standard
+\noindent
+The other trend is what has been called an explosion of data:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Government data - national, regional, and local
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Business and financial data
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Political fundraising, census/redistricting and vote tabulation data
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Environmental, weather and climate data
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Social network data
+\end_layout
+
+\begin_layout Itemize
+\noindent
+And yes - traffic and sports data too
+\end_layout
+
+\begin_layout Standard
+\noindent
+A journalist may find raw data in a spreadsheet, ready for analysis, but
+ that's the best case.
+ Or the data source may have built an API so the data can be queried by
+ a developer.
+ More often, though, data will have been massaged to tell the story favoring
+ the data provider's point of view, formatted as a report in a PDF file,
+ or even scanned from a printed document.
+ And even access to the machine-readable data might require interaction
+ with an authentication scheme.
+\end_layout
+
+\begin_layout Standard
+\noindent
+So computational journalists need tools to collect data, tools to interface
+ with APIs if they've been provided, tools for extracting data from PDFs,
+ tools for interacting with and scraping web sites, and tools for cleaning
+ extracted data and massaging the variables and values into a format for
+ analysis.
+ Then, of course, come the tools for exploration and analysis of the data,
+ data management, digital media creation and storytelling.
+\end_layout
+
+\begin_layout Section
+\noindent
+What Is The Data Journalism Developer Studio?
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\emph on
+Data Journalism Developer Studio 2012LX
+\emph default
+ is a collection of tools for computational journalists and developers.
+ The tools are packaged as a
+\emph on
+ virtual appliance.
+
+\emph default
+ A virtual appliance is a collection of computer files, an image of the
+ processor, memory and disk storage of a real computer.
+ When hosted on a desktop or server virtualization platform, the appliance
+ behaves like the computer it images.
+ This has a number of benefits:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Since it is a collection of computer files, a virtual appliance can be stored
+ on any storage medium anywhere when it is not in use.
+ It requires a hosting platform only when it is in use.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+A virtual appliance can be transferred from one storage place to another
+ over the Internet.
+ In fact, some server virtualization platforms can do this while the appliance
+ is running with no interruption to the users!
+\end_layout
+
+\begin_layout Itemize
+\noindent
+The virtualization platform can save the state of the appliance using 
+\emph on
+snapshots
+\emph default
+.
+ If an appliance becomes corrupted, it can be quickly restored to a known
+ good condition.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Adding more processors, RAM or disk storage to an appliance requires only
+ changing some setting in the appliance, not purchase of new hardware.
+ The hosting virtualization platform manages these resources.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+A virtual appliance can be deployed as either a server or a workstation.
+\end_layout
+
+\begin_layout Standard
+\noindent
+The Data Journalism Developer Studio 2012LX appliance is constructed and
+ maintained using 
+\begin_inset CommandInset href
+LatexCommand href
+name "SUSE Studio"
+target "http://susestudio.com/"
+
+\end_inset
+
+.
+ SUSE Studio is a free service for appliance construction.
+\end_layout
+
+\begin_layout Standard
+\noindent
+The software in Data Journalism Developer Studio 2012LX is 100 percent open
+ source.
+ Included in the virtual machine are
+\end_layout
+
+\begin_layout Itemize
+\noindent
+The Linux operating system, based on openSUSE Linux 12.1,
+\end_layout
+
+\begin_layout Itemize
+\noindent
+End-user and developer tools for collecting, managing, analyzing and presenting
+ data, and
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Optional tools for
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\noindent
+word processing, spreadsheets, presentations, email
+\end_layout
+
+\begin_layout Itemize
+\noindent
+creating, editing and producing digital media
+\end_layout
+
+\begin_layout Itemize
+\noindent
+advanced numerical data visualization / exploration / presentation
+\end_layout
+
+\begin_layout Itemize
+\noindent
+advanced data collection / extraction / parsing / scraping
+\end_layout
+
+\begin_layout Itemize
+\noindent
+advanced finance / econometric / time series analysis
+\end_layout
+
+\begin_layout Itemize
+\noindent
+advanced server frameworks
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\noindent
+Why 100 Percent Open Source?
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Open source software is robust
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Open source software is low cost
+\end_layout
+
+\begin_layout Standard
+\noindent
+Although cost is certainly a consideration, the main reason for using 100
+ percent open source software is robustness.
+ The tools in Data Journalism Developer Studio 2012LX are proven technologies
+ in wide use around the world.
+ Open source software is crafted by highly-motivated self-regulated communities
+ of experts.
+ Security flaws, functionality defects and performance issues are rapidly
+ found and fixed.
+ And the peer review process yields software that is often more efficient
+ than commercial counterparts
+\end_layout
+
+\begin_layout Standard
+\noindent
+Duplicating the functionality in Data Journalism Developer Studio 2012LX
+ with commercial proprietary software would cost thousands of dollars in
+ licenses.
+ All the software in the appliance is freely downloadable without legal
+ restrictions.
+ The Data Journalism Developer Studio is 
+\emph on
+modular
+\emph default
+.
+ The base appliance provides end-user tools for basic data collection and
+ analysis and a browser-based desktop interface to cloud-based collaboration
+ suites.
+ Add-on installation scripts provide advanced tools for building desktop
+ or server applications.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Add-on installation scripts provide end-user desktop and advanced specialized
+ analysis tools building desktop or server applications
+\end_layout
+
+\begin_layout Section
+\noindent
+The Rest of the Story
+\end_layout
+
+\begin_layout Verse
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+I keep six honest serving-men
+\begin_inset Newline newline
+\end_inset
+
+(They taught me all I knew);
+\begin_inset Newline newline
+\end_inset
+
+Their names are What and Why and When
+\begin_inset Newline newline
+\end_inset
+
+And How and Where and Who.
+\end_layout
+
+\begin_layout Verse
+\noindent
+
+\emph on
+The Rest of the Story
+\begin_inset Newline newline
+\end_inset
+
+(Did you know there was more?)
+\end_layout
+
+\begin_layout Verse
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+I send them over land and sea,
+\begin_inset Newline newline
+\end_inset
+
+I send them east and west;
+\begin_inset Newline newline
+\end_inset
+
+But after they have worked for me,
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\emph on
+I
+\series default
+\emph default
+ give them all a rest.
+\end_layout
+
+\begin_layout Verse
+\noindent
+
+\series bold
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+I
+\series default
+\emph default
+ let them rest from nine till five,
+\begin_inset Newline newline
+\end_inset
+
+For I am busy then,
+\begin_inset Newline newline
+\end_inset
+
+As well as breakfast, lunch, and tea,
+\begin_inset Newline newline
+\end_inset
+
+For they are hungry men; 
+\end_layout
+
+\begin_layout Verse
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+But different folk have different views:
+\begin_inset Newline newline
+\end_inset
+
+I know a person small -
+\begin_inset Newline newline
+\end_inset
+
+She keeps ten million serving-men,
+\begin_inset Newline newline
+\end_inset
+
+Who get no rest at all!
+\end_layout
+
+\begin_layout Verse
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+She sends 'em abroad on her own affairs.
+\begin_inset Newline newline
+\end_inset
+
+From the second she opens her eyes -
+\begin_inset Newline newline
+\end_inset
+
+One million Hows, two million Wheres,
+\begin_inset Newline newline
+\end_inset
+
+And seven million Whys!
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Links
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "Support Data Journalism Developer Studio On Fundry"
+target "https://fundry.com/project/19-data-journalism-developer-studio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "Download Data Journalism Developer Studio 2012LX From SUSE Gallery"
+target "http://j.mp/DJDS2012LX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "Data Journalism Developer Studo 2012LX On Github"
+target "https://github.com/znmeb/Data-Journalism-Developer-Studio-2.0"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "Borasky Research Journal"
+target "http://borasky-research.net/about-data-journalism-developer-studio-pricing-survey/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Recommended Reading
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "Communications of the ACM, October 2011: \"Computational Journalism\""
+target "http://cacm.acm.org/magazines/2011/10/131400-computational-journalism/fulltext"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "'Facts are Sacred: The power of data (Guardian Shorts)' by Simon Rogers"
+target "http://www.amazon.com/gp/product/B006PI9PQG?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B006PI9PQG"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "'Multimedia Journalism: A Practical Guide' by Andy Bull"
+target "http://www.amazon.com/gp/product/B003FC9QNC?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003FC9QNC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "'R Through Excel' by Richard M. Heiberger"
+target "http://www.amazon.com/gp/product/B003VYBPH4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003VYBPH4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "'Crafting Digital Media' by Daniel James"
+target "http://www.amazon.com/gp/product/B003U890V4?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B003U890V4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "'ggplot2: Elegant Graphics for Data Analysis (Use R)' by Hadley Wickham"
+target "http://www.amazon.com/gp/product/B0041KLFRW?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B0041KLFRW"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\begin_inset CommandInset href
+LatexCommand href
+name "'Interactive and Dynamic Graphics for Data Analysis' by Dianne Cook"
+target "http://www.amazon.com/gp/product/B00192UM2O?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00192UM2O"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+Recommended Reading - Advanced
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Finance: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Asset Price Dynamics, Volatility, and Prediction' by Stephen J. Taylor"
+target "http://www.amazon.com/gp/product/B004QOB424?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B004QOB424"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Geospatial: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Applied Spatial Data Analysis with R (Use R!)' by Roger Bivand"
+target "http://www.amazon.com/gp/product/0387781706?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0387781706"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Natural Language Processing: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Natural Language Processing with Python' by Steven Bird"
+target "http://www.amazon.com/gp/product/0596516495?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=0596516495"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Machine Learning: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'The Elements of Statistical Learning' by Jerome Friedman"
+target "http://www.amazon.com/gp/product/B00475AS2E?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B00475AS2E"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Web Data Mining: 
+\begin_inset CommandInset href
+LatexCommand href
+name "'Web Data Mining' by Bing Liu"
+target "http://www.amazon.com/gp/product/B000SEPGWK?ie=UTF8&tag=boraskyresear-20&linkCode=shr&camp=213733&creative=393177&creativeASIN=B000SEPGWK"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
