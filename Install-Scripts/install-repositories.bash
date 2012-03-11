@@ -6,8 +6,5 @@ sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/devel:
 sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.1/Documentation:Tools.repo # Tesseract and Calibre
 sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/X11:/lxde/openSUSE_12.1/X11:lxde.repo # LXDE
 sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/server:/database:/postgresql/openSUSE_12.1/server:database:postgresql.repo # PostgreSQL
-sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/multimedia:/apps/openSUSE_12.1/multimedia:apps.repo
-sudo zypper --quiet addrepo -cf http://download.opensuse.org/repositories/multimedia:/libs/openSUSE_12.1/multimedia:libs.repo
 
 sudo zypper --quiet --no-recommends update
-sudo zypper --quiet --no-recommends dist-upgrade
