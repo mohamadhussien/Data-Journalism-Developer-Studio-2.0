@@ -1,7 +1,7 @@
 #! /bin/bash -v
 
 # run the export from the command line
-lyx -e xhtml Data-Journalism-Developer-Studio-2012LX.lyx
+lyx -e xhtml Data*lyx
 
 # make folder with exported xhtml
 rm -fr xhtml; mkdir -p xhtml
