@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-        <dc:identifier opf:scheme="calibre" id="calibre_id">8</dc:identifier>
-        <dc:identifier opf:scheme="uuid" id="uuid_id">55ab78cc-309a-4bf4-b5bc-f397f7d4349e</dc:identifier>
+        <dc:identifier opf:scheme="calibre" id="calibre_id">10</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">b7fe5154-28f8-458e-a36e-77e312cea335</dc:identifier>
         <dc:title>Data Journalism Developer Studio Manual</dc:title>
         <dc:creator opf:file-as="Borasky, M. Edward" opf:role="aut">M. Edward (Ed) Borasky</dc:creator>
         <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.8.41) [http://calibre-ebook.com]</dc:contributor>
-        <dc:date>2012-03-12T02:17:05+00:00</dc:date>
+        <dc:date>2012-03-12T05:42:13+00:00</dc:date>
         <dc:publisher>M. Edward (Ed) Borasky</dc:publisher>
         <dc:language>eng</dc:language>
-        <dc:subject>Data Journalism</dc:subject>
-        <dc:subject>Computational Journalism</dc:subject>
         <meta content="{&quot;M. Edward (Ed) Borasky&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
         <meta content="0" name="calibre:rating"/>
-        <meta content="2012-03-12T02:17:05+00:00" name="calibre:timestamp"/>
+        <meta content="2012-03-12T05:42:13+00:00" name="calibre:timestamp"/>
         <meta content="Data Journalism Developer Studio Manual" name="calibre:title_sort"/>
     </metadata>
     <guide>
