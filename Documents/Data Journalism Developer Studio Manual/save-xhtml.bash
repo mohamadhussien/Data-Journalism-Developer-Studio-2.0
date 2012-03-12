@@ -34,3 +34,4 @@ rm Data*epub
 rm -fr xhtml
 rm *.lyx~
 git status
+calibre # can remove the ebook from Calibre now
