@@ -86,20 +86,6 @@ M.
 
 \begin_layout Standard
 \noindent
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
 \begin_inset CommandInset include
 LatexCommand include
 filename "AboutTheAuthor.lyx"
