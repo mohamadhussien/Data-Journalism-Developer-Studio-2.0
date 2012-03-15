@@ -31,3 +31,13 @@ sudo zypper --quiet install --no-recommends -y texlive-xmltex
 sudo zypper --quiet install --no-recommends -y texmaker
 sudo zypper --quiet install --no-recommends -y texworks
 sudo zypper --quiet install --no-recommends -y vim-plugin-latex
+sudo zypper --quiet install --no-recomments -y OpenPrintingPPDs-ghostscript
+sudo zypper --quiet install --no-recomments -y ghostscript-cjk
+sudo zypper --quiet install --no-recomments -y ghostscript-fonts-other
+sudo zypper --quiet install --no-recomments -y ghostscript-fonts-rus
+sudo zypper --quiet install --no-recomments -y ghostscript-fonts-std
+sudo zypper --quiet install --no-recomments -y ghostscript-library
+sudo zypper --quiet install --no-recomments -y ghostscript-x11
+sudo zypper --quiet install --no-recomments -y ghostview
+sudo zypper --quiet install --no-recomments -y pdf2svg rsvg-view
+sudo zypper --quiet install --no-recomments -y sgmltool
