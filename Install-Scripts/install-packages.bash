@@ -83,6 +83,7 @@ sudo zypper --quiet install --no-recommends -y PackageKit
 sudo zypper --quiet install --no-recommends -y parcellite
 sudo zypper --quiet install --no-recommends -y pcmanfm
 sudo zypper --quiet install --no-recommends -y pdfminer
+sudo zypper --quiet install --no-recommends -y perl-AnyEvent-Twitter-Stream
 sudo zypper --quiet install --no-recommends -y perl-Browser-Open
 sudo zypper --quiet install --no-recommends -y perl-DBD-Pg
 sudo zypper --quiet install --no-recommends -y perl-DBD-SQLite
