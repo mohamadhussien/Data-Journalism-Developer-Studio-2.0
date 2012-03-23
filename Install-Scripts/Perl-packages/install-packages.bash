@@ -4,7 +4,6 @@ source ~/.bashrc
 
 for i in \
   Sys::Statistics::Linux \
-  AnyEvent::Twitter::Stream \
   YAML::XS \
   Hash::Flatten
 do
