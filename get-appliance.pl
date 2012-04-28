@@ -2,8 +2,10 @@
 my ($link) = @ARGV;
 print "Fetching ${link}\n";
 my @fields = split /\//, $link;
-my $md5sum = "${fields[4]}  ${fields[5]}\n";
-system "echo \'${md5sum}\' | head -n 1 > ${fields[5]}.md5";
-system "curl ${link} > ${fields[5]}";
-system "md5sum -c ${fields[5]}.md5";
+my $name = ${fields[5]};
+my $sum = ${fields[4]};
+my $md5sum = "${sum}  ${name}\n";
+system "echo \'${md5sum}\' | head -n 1 > md5";
+system "curl -s ${link} > ${name}";
+system "md5sum -c md5";
 exit;
