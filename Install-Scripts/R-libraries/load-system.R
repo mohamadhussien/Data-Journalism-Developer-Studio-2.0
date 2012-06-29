@@ -10,6 +10,7 @@ install.packages(c(
   'R.rsp',
   'sm',
   'odfWeave',
+  'knitr',
   'brew',
   'reshape2',
   'ggplot2',
